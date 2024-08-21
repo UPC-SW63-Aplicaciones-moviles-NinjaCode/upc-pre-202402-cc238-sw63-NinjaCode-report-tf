@@ -787,6 +787,10 @@ Enlace User Persona Médico: https://drive.google.com/file/d/1XPcrQL0Lfm-PvvzwE2
 
 ### 2.3.2.   **User Task Matrix.** 
 
+
+La User Task Matrix es una herramienta que permite identificar y analizar las tareas clave que los usuarios realizan en un proyecto, así como la frecuencia e importancia de estas tareas para cada usuario específico. Este cuadro ayuda a entender mejor las necesidades y prioridades de los diferentes usuarios, lo que facilita la toma de decisiones y la optimización de las funciones del proyecto para mejorar la experiencia de todos los involucrados.
+
+
 |**Task Matrix**|**Dr. Luis Chinchihualpa<br><br>Frecuencia    Importancia**|**Dr. Ricardo Durand<br><br>Frecuencia    Importancia**|**Dra. Roxana<br><br>Frecuencia    Importancia**|<p>**Joaquin Benavides**</p><p><br>**Frecuencia    Importancia**</p>|**Arnold Castrejón<br><br>Frecuencia    Importancia**|**Alicia Garrido<br><br>Frecuencia    Importancia**||
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :- |
 |**Registrar información médica personal.**|A veces Alta|A veces Alta|A veces Alta|A veces Alta|A veces Alta|A veces Alta||
