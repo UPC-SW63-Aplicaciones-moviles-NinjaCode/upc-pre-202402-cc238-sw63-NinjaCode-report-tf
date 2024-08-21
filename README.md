@@ -123,64 +123,7 @@
 
 [2.4.4. Product Backlog](#product-backlog)
 
-### [Capítulo III: Arquitectura](#capítulo-iii-arquitectura)
-
-[3.1. Product design](#product-design)
-
-[3.1.1. Style Guidelines](#style-guidelines)
-
-[3.1.1.1. General Style Guidelines](#general-style-guidelines)
-
-[3.1.2. Information Architecture](#information-architecture)
-
-[3.1.2.1. Organization Systems](#organization-systems)
-
-[3.1.2.2. Labeling Systems](#labeling-systems)
-
-[3.1.2.3. SEO Tags and Meta Tags](#seo-tags-and-meta-tags)
-
-[3.1.2.4. Searching Systems](#searching-systems)
-
-[3.1.2.5. Navigation Systems](#navigation-systems)
-
-[3.1.3. Landing Page UI Design](#landing-page-ui-design)
-
-[3.1.3.1. Landing Page Wireframe](#landing-page-wireframe)
-
-[3.1.3.2. Landing Page Mock-up](#landing-page-mock-up)
-
-[3.1.4. Mobile Applications UX/UI Design](#mobile-applications-uxui-design)
-
-[3.1.4.1. Mobile Applications Wireframes](#mobile-applications-wireframes)
-
-[3.1.4.2. Mobile Applications Wireflow Diagrams](#mobile-applications-wireflow-diagrams)
-
-[3.1.4.3. Mobile Applications Mock-ups](#mobile-applications-mock-ups)
-
-[3.1.4.4. Mobile Applications User Flow Diagrams](#mobile-applications-user-flow-diagrams)
-
-[3.1.4.5. Mobile Applications Prototyping](#mobile-applications-prototyping)
-
-[3.2. Architecture Overview](#architecture-overview)
-
-[3.2.1. Domain-Driven Software Architecture](#domain-driven-software-architecture)
-
-[3.2.1.1. Software Architecture Context Level Diagram](#software-architecture-context-level-diagram)
-
-[3.2.1.2. Software Architecture Container Level Diagrams](#software-architecture-container-level-diagrams)
-
-[3.2.1.3. Software Architecture Components Diagrams](#software-architecture-components-diagrams)
-
-[3.2.2. Software Object-Oriented Design](#software-object-oriented-design)
-
-[3.2.2.1. Class Diagrams](#class-diagrams)
-
-[3.2.2.2. Class Dictionary](#class-dictionary)
-
-[3.2.2.3. Database Design](#database-design)
-
-[3.2.2.4. Database Diagram](#database-diagram)
-
+## [Referencias Bibliográficas](#referencias-bibliográficas)
 
 
 ## Student Outcome 
@@ -977,6 +920,7 @@ Para elaborar nuestro product backlog hemos utilizado la escala Fibonacci (1,2,3
 https://trello.com/invite/b/66EkeO8t/ATTI7681f5c932b9217761b0224c0051dd4cC0E965E5/product-backlog-hormonalcare
 
 
+## Referencias Bibliográficas
 
 * Abramo, L., Cecchini, S., & Ullmann, H.. (2020). Enfrentar las desigualdades en salud en América Latina: el rol de la protección 	social. Ciência & Saúde Coletiva, 25(5), 1587–1598. https://doi.org/10.1590/1413-81232020255.32802019
 
