@@ -348,6 +348,7 @@ En Lima, Perú, la gestión de enfermedades hormonales enfrenta desafíos signif
 
 Hormonal Care ha sido diseñado con el propósito de enfrentar estos desafíos. Nuestro objetivo es facilitar el acceso equitativo a servicios especializados, mejorar la adherencia al tratamiento y promover el autocuidado entre los pacientes con enfermedades hormonales. Sin embargo, reconocemos que aún no hemos alcanzado completamente estos objetivos.
 
+Identificamos una oportunidad clave para diferenciarnos en el mercado mediante la optimización de Hormonal Care para superar las barreras tecnológicas, económicas y sociales. A diferencia de otras soluciones, nuestro enfoque se centra en la mejora del seguimiento médico a través de tecnologías accesibles y fáciles de usar.
 
    ##### 1.2.2.2.	Lean UX Assumptions.
 
