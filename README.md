@@ -38,27 +38,6 @@
 </div>
 
 
-# Índice
-
-1. [Introducción](#introducción)
-2. [Contenido Principal](#contenido-principal)
-3. [Conclusión](#conclusión)
-
----
-
-## Introducción
-
-Aquí va el texto de la introducción.
-
-## Contenido Principal
-
-Aquí va el contenido principal.
-
-## Conclusión
-
-Aquí va la conclusión.
-
-
 ## Registro de versiones del informe
 
 <div align="center">
@@ -69,7 +48,6 @@ Aquí va la conclusión.
 
 
 </div>
-
 
 
 
@@ -85,128 +63,124 @@ Aquí va la conclusión.
 
 ### [Capítulo I: Presentación](#capítulo-i-presentación)
 
-[1.1.	Startup Profile](#startup-profile)
+[1.1. Startup Profile](#startup-profile)
 
-[1.1.1.	Descripción de la Startup](#descripción-de-la-startup)
+[1.1.1. Descripción de la Startup](#descripción-de-la-startup)
 
-[1.1.2.	Perfiles de integrantes del equipo](#perfiles-de-integrantes-del-equipo)
+[1.1.2. Perfiles de integrantes del equipo](#perfiles-de-integrantes-del-equipo)
 
-[1.2.	Solution Profile](#)
+[1.2. Solution Profile](#solution-profile)
 
-[1.2.1.	Antecedentes y problemática](#)
+[1.2.1. Antecedentes y problemática](#antecedentes-y-problemática)
 
-[1.2.2.	Lean UX Process](#)
+[1.2.2. Lean UX Process](#lean-ux-process)
 
-[1.2.2.1.	Lean UX Problem Statements](#)
+[1.2.2.1. Lean UX Problem Statements](#lean-ux-problem-statements)
 
-[1.2.2.2.	Lean UX Assumptions](#)
+[1.2.2.2. Lean UX Assumptions](#lean-ux-assumptions)
 
-[1.2.2.3.	Lean UX Hypothesis Statements](#)
+[1.2.2.3. Lean UX Hypothesis Statements](#lean-ux-hypothesis-statements)
 
-[1.2.2.4.	Lean UX Canvas](#)
+[1.2.2.4. Lean UX Canvas](#lean-ux-canvas)
 
-[1.3.	Segmentos objetivo](#)
+[1.3. Segmentos objetivo](#segmentos-objetivo)
 
-### [Capítulo II: Needfinding](#)
+### [Capítulo II: Needfinding](#capítulo-ii-needfinding)
 
-[2.1. Competidores](#)
+[2.1. Competidores](#competidores)
 
-[2.1.1. Análisis competitivo](#)
+[2.1.1. Análisis competitivo](#análisis-competitivo)
 
-[2.1.2. Estrategias y tácticas frente a competidores](#)
+[2.1.2. Estrategias y tácticas frente a competidores](#estrategias-y-tácticas-frente-a-competidores)
 
-[2.2. Entrevistas](#)
+[2.2. Entrevistas](#entrevistas)
 
-[2.2.1.   Diseño de entrevistas](#)
+[2.2.1. Diseño de entrevistas](#diseño-de-entrevistas)
 
-[2.2.2.   Registro de entrevistas](#)
+[2.2.2. Registro de entrevistas](#registro-de-entrevistas)
 
-[2.2.3.   Análisis de entrevistas](#)
+[2.2.3. Análisis de entrevistas](#análisis-de-entrevistas)
 
-[2.3.      Needfinding](#)
+[2.3. Needfinding](#needfinding)
 
-[2.3.1.   User Personas](#)
+[2.3.1. User Personas](#user-personas)
 
-[2.3.2.   User Task Matrix](#)
+[2.3.2. User Task Matrix](#user-task-matrix)
 
-[2.3.3.   User Journey Mapping](#)
+[2.3.3. User Journey Mapping](#user-journey-mapping)
 
-[2.3.4.   Empathy Mapping](#)
+[2.3.4. Empathy Mapping](#empathy-mapping)
 
-[2.3.5.   As-is Scenario Mapping](#)
+[2.3.5. As-is Scenario Mapping](#as-is-scenario-mapping)
 
-[2.4.      Requirements Specification](#)
+[2.4. Requirements Specification](#requirements-specification)
 
-[2.4.1. To-Be Scenario Mapping](#)
+[2.4.1. To-Be Scenario Mapping](#to-be-scenario-mapping)
 
-[2.4.2. User Stories](#)
+[2.4.2. User Stories](#user-stories)
 
-[2.4.3. Impact Mapping](#)
+[2.4.3. Impact Mapping](#impact-mapping)
 
-[2.4.4. Product Backlog](#)
+[2.4.4. Product Backlog](#product-backlog)
 
-### [Capítulo III: Arquitectura](#)
+### [Capítulo III: Arquitectura](#capítulo-iii-arquitectura)
 
-[3.1.      Product design](#)
+[3.1. Product design](#product-design)
 
-[3.1.1      Style Guidelines](#)
+[3.1.1. Style Guidelines](#style-guidelines)
 
-[3.1.1.1.   General Style Guidelines](#)
+[3.1.1.1. General Style Guidelines](#general-style-guidelines)
 
-[3.1.2.      Information Architecture](#)
+[3.1.2. Information Architecture](#information-architecture)
 
-[3.1.2.1.   Organization Systems](#)
+[3.1.2.1. Organization Systems](#organization-systems)
 
-[3.1.2.2.   Labeling Systems](#)
+[3.1.2.2. Labeling Systems](#labeling-systems)
 
-[3.1.2.3.   SEO Tags and Meta Tags](#)
+[3.1.2.3. SEO Tags and Meta Tags](#seo-tags-and-meta-tags)
 
-[3.1.2.4.   Searching Systems](#)
+[3.1.2.4. Searching Systems](#searching-systems)
 
-[3.1.2.5.   Navigation Systems](#)
+[3.1.2.5. Navigation Systems](#navigation-systems)
 
-[3.1.3.      Landing Page UI Design](#)
+[3.1.3. Landing Page UI Design](#landing-page-ui-design)
 
-[3.1.3.1.   Landing Page Wireframe](#)
+[3.1.3.1. Landing Page Wireframe](#landing-page-wireframe)
 
-[3.1.3.2.   Landing Page Mock-up](#)
+[3.1.3.2. Landing Page Mock-up](#landing-page-mock-up)
 
-[3.1.4.      Mobile Applications UX/UI Design](#)
+[3.1.4. Mobile Applications UX/UI Design](#mobile-applications-uxui-design)
 
-[3.1.4.1.   Mobile Applications Wireframes](#)
+[3.1.4.1. Mobile Applications Wireframes](#mobile-applications-wireframes)
 
-[3.1.4.2.   Mobile Applications Wireflow Diagrams](#)
+[3.1.4.2. Mobile Applications Wireflow Diagrams](#mobile-applications-wireflow-diagrams)
 
-[3.1.4.3.   Mobile Applications Mock-ups](#)
+[3.1.4.3. Mobile Applications Mock-ups](#mobile-applications-mock-ups)
 
-[3.1.4.4.   Mobile Applications User Flow Diagrams](#)
+[3.1.4.4. Mobile Applications User Flow Diagrams](#mobile-applications-user-flow-diagrams)
 
-[3.1.4.5.   Mobile Applications Prototyping](#)
+[3.1.4.5. Mobile Applications Prototyping](#mobile-applications-prototyping)
 
-[3.2.   Architecture Overview](#)
+[3.2. Architecture Overview](#architecture-overview)
 
-[3.2.1.      Domain-Driven Software Architecture](#)
+[3.2.1. Domain-Driven Software Architecture](#domain-driven-software-architecture)
 
-[3.2.1.1.   Software Architecture Context Level Diagram](#)
+[3.2.1.1. Software Architecture Context Level Diagram](#software-architecture-context-level-diagram)
 
-[3.2.1.2.   Software Architecture Container Level Diagrams](#)
+[3.2.1.2. Software Architecture Container Level Diagrams](#software-architecture-container-level-diagrams)
 
-[3.2.1.3.   Software Architecture Components Diagrams](#)
+[3.2.1.3. Software Architecture Components Diagrams](#software-architecture-components-diagrams)
 
-[3.2.2.      Software Object-Oriented Design](#)
+[3.2.2. Software Object-Oriented Design](#software-object-oriented-design)
 
-[3.2.2.1.   Class Diagrams](#)
+[3.2.2.1. Class Diagrams](#class-diagrams)
 
-[3.2.2.2.   Class Dictionary](#)
+[3.2.2.2. Class Dictionary](#class-dictionary)
 
-[3.2.2.3.   Database Design](#)
+[3.2.2.3. Database Design](#database-design)
 
-[3.2.2.4.   Database Diagram](#)
+[3.2.2.4. Database Diagram](#database-diagram)
 
-
-[Bibliografía](#)
-
-[Anexos](#)
 
 
 ## Student Outcome 
