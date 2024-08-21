@@ -57,35 +57,35 @@
 
 ### [Contenido](#contenido)
 
-### [Student Outcome](#student-outcome)
+### [Student Outcome](#student-outcome-1)
 
-### [Objetivos SMART](#objetivos-smart)
+### [Objetivos SMART](#objetivos-smart-1)
 
 ### [Capítulo I: Presentación](#capítulo-i-presentación)
 
-[1.1. Startup Profile](#startup-profile)
+[1.1. Startup Profile](#11-startup-profile)
 
-[1.1.1. Descripción de la Startup](#descripción-de-la-startup)
+[1.1.1. Descripción de la Startup](#111descripción-de-la-startup)
 
-[1.1.2. Perfiles de integrantes del equipo](#perfiles-de-integrantes-del-equipo)
+[1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
 
-[1.2. Solution Profile](#solution-profile)
+[1.2. Solution Profile](#12-solution-profile)
 
-[1.2.1. Antecedentes y problemática](#antecedentes-y-problemática)
+[1.2.1. Antecedentes y problemática](#121--antecedentes-y-problemática)
 
-[1.2.2. Lean UX Process](#lean-ux-process)
+[1.2.2. Lean UX Process](#122lean-ux-process)
 
-[1.2.2.1. Lean UX Problem Statements](#lean-ux-problem-statements)
+[1.2.2.1. Lean UX Problem Statements](#1221lean-ux-problem-statements)
 
-[1.2.2.2. Lean UX Assumptions](#lean-ux-assumptions)
+[1.2.2.2. Lean UX Assumptions](#1222lean-ux-assumptions)
 
-[1.2.2.3. Lean UX Hypothesis Statements](#lean-ux-hypothesis-statements)
+[1.2.2.3. Lean UX Hypothesis Statements](#1223lean-ux-hypothesis-statements)
 
-[1.2.2.4. Lean UX Canvas](#lean-ux-canvas)
+[1.2.2.4. Lean UX Canvas](#1224lean-ux-canvas)
 
-[1.3. Segmentos objetivo](#segmentos-objetivo)
+[1.3. Segmentos objetivo](#13segmentos-objetivo)
 
-### [Capítulo II: Needfinding](#capítulo-ii-needfinding)
+### [Capítulo II: Needfinding](#capítulo-ii-needfinding-1)
 
 [2.1. Competidores](#competidores)
 
