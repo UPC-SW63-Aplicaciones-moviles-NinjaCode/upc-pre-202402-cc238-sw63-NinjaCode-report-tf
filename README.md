@@ -352,6 +352,8 @@ Identificamos una oportunidad clave para diferenciarnos en el mercado mediante l
 
 No obstante, debemos operar dentro de ciertas restricciones. Estas incluyen la limitación de recursos financieros para el desarrollo continuo de la plataforma, las barreras regulatorias en el sector salud en Perú, y la necesidad de garantizar que la tecnología utilizada sea accesible para la población objetivo, que en muchos casos tiene un acceso limitado a dispositivos avanzados.
 
+Por lo tanto, nuestro desafío principal es optimizar Hormonal Care para superar estas limitaciones, aprovechando la oportunidad de posicionarnos como una solución líder en la gestión de enfermedades hormonales en Lima, Perú. Nos enfocamos en mejorar el acceso a la atención médica especializada, aumentar la adherencia al tratamiento, y reducir las complicaciones y los costos de salud asociados, todo mientras navegamos por las restricciones mencionadas.
+
    ##### 1.2.2.2.	Lean UX Assumptions.
 
 
