@@ -350,6 +350,8 @@ Hormonal Care ha sido diseñado con el propósito de enfrentar estos desafíos. 
 
 Identificamos una oportunidad clave para diferenciarnos en el mercado mediante la optimización de Hormonal Care para superar las barreras tecnológicas, económicas y sociales. A diferencia de otras soluciones, nuestro enfoque se centra en la mejora del seguimiento médico a través de tecnologías accesibles y fáciles de usar.
 
+No obstante, debemos operar dentro de ciertas restricciones. Estas incluyen la limitación de recursos financieros para el desarrollo continuo de la plataforma, las barreras regulatorias en el sector salud en Perú, y la necesidad de garantizar que la tecnología utilizada sea accesible para la población objetivo, que en muchos casos tiene un acceso limitado a dispositivos avanzados.
+
    ##### 1.2.2.2.	Lean UX Assumptions.
 
 
