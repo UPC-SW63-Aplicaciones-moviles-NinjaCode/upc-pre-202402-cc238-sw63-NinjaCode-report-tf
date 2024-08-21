@@ -75,7 +75,7 @@ Aquí va la conclusión.
 
 ## Contenido
 
-### [Registro de versiones del informe](#)
+### [Registro de versiones del informe](#registro-de-versiones-del-informe)
 
 ### [Contenido](#)
 
