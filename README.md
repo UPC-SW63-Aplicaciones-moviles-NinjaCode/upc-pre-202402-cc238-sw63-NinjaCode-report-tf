@@ -57,130 +57,73 @@
 
 ### [Contenido](#contenido)
 
-### [Student Outcome](#student-outcome)
+### [Student Outcome](#student-outcome-1)
 
-### [Objetivos SMART](#objetivos-smart)
+### [Objetivos SMART](#objetivos-smart-1)
 
 ### [Capítulo I: Presentación](#capítulo-i-presentación)
 
-[1.1. Startup Profile](#startup-profile)
+[1.1. Startup Profile](#11-startup-profile)
 
-[1.1.1. Descripción de la Startup](#descripción-de-la-startup)
+[1.1.1. Descripción de la Startup](#111descripción-de-la-startup)
 
-[1.1.2. Perfiles de integrantes del equipo](#perfiles-de-integrantes-del-equipo)
+[1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
 
-[1.2. Solution Profile](#solution-profile)
+[1.2. Solution Profile](#12-solution-profile)
 
-[1.2.1. Antecedentes y problemática](#antecedentes-y-problemática)
+[1.2.1. Antecedentes y problemática](#121--antecedentes-y-problemática)
 
-[1.2.2. Lean UX Process](#lean-ux-process)
+[1.2.2. Lean UX Process](#122lean-ux-process)
 
-[1.2.2.1. Lean UX Problem Statements](#lean-ux-problem-statements)
+[1.2.2.1. Lean UX Problem Statements](#1221lean-ux-problem-statements)
 
-[1.2.2.2. Lean UX Assumptions](#lean-ux-assumptions)
+[1.2.2.2. Lean UX Assumptions](#1222lean-ux-assumptions)
 
-[1.2.2.3. Lean UX Hypothesis Statements](#lean-ux-hypothesis-statements)
+[1.2.2.3. Lean UX Hypothesis Statements](#1223lean-ux-hypothesis-statements)
 
-[1.2.2.4. Lean UX Canvas](#lean-ux-canvas)
+[1.2.2.4. Lean UX Canvas](#1224lean-ux-canvas)
 
-[1.3. Segmentos objetivo](#segmentos-objetivo)
+[1.3. Segmentos objetivo](#13segmentos-objetivo)
 
-### [Capítulo II: Needfinding](#capítulo-ii-needfinding)
+### [Capítulo II: Needfinding](#capítulo-ii-needfinding-1)
 
-[2.1. Competidores](#competidores)
+[2.1. Competidores](#21-competidores)
 
-[2.1.1. Análisis competitivo](#análisis-competitivo)
+[2.1.1. Análisis competitivo](#211-análisis-competitivo)
 
-[2.1.2. Estrategias y tácticas frente a competidores](#estrategias-y-tácticas-frente-a-competidores)
+[2.1.2. Estrategias y tácticas frente a competidores](#212---estrategias-y-tácticas-frente-a-competidores)
 
-[2.2. Entrevistas](#entrevistas)
+[2.2. Entrevistas](#22-entrevistas)
 
-[2.2.1. Diseño de entrevistas](#diseño-de-entrevistas)
+[2.2.1. Diseño de entrevistas](#221---diseño-de-entrevistas)
 
-[2.2.2. Registro de entrevistas](#registro-de-entrevistas)
+[2.2.2. Registro de entrevistas](#222---registro-de-entrevistas)
 
-[2.2.3. Análisis de entrevistas](#análisis-de-entrevistas)
+[2.2.3. Análisis de entrevistas](#223--análisis-de-entrevistas)
 
-[2.3. Needfinding](#needfinding)
+[2.3. Needfinding](#23------needfinding)
 
-[2.3.1. User Personas](#user-personas)
+[2.3.1. User Personas](#231------user-personas)
 
-[2.3.2. User Task Matrix](#user-task-matrix)
+[2.3.2. User Task Matrix](#232---user-task-matrix)
 
-[2.3.3. User Journey Mapping](#user-journey-mapping)
+[2.3.3. User Journey Mapping](#233---user-journey-mapping)
 
-[2.3.4. Empathy Mapping](#empathy-mapping)
+[2.3.4. Empathy Mapping](#234---empathy-mapping)
 
-[2.3.5. As-is Scenario Mapping](#as-is-scenario-mapping)
+[2.3.5. As-is Scenario Mapping](#235---as-is-scenario-mapping)
 
-[2.4. Requirements Specification](#requirements-specification)
+[2.4. Requirements Specification](#24------requirements-specification)
 
-[2.4.1. To-Be Scenario Mapping](#to-be-scenario-mapping)
+[2.4.1. To-Be Scenario Mapping](#241-to-be-scenario-mapping)
 
-[2.4.2. User Stories](#user-stories)
+[2.4.2. User Stories](#242-user-stories)
 
-[2.4.3. Impact Mapping](#impact-mapping)
+[2.4.3. Impact Mapping](#243-impact-mapping)
 
-[2.4.4. Product Backlog](#product-backlog)
+[2.4.4. Product Backlog](#244-product-backlog)
 
-### [Capítulo III: Arquitectura](#capítulo-iii-arquitectura)
-
-[3.1. Product design](#product-design)
-
-[3.1.1. Style Guidelines](#style-guidelines)
-
-[3.1.1.1. General Style Guidelines](#general-style-guidelines)
-
-[3.1.2. Information Architecture](#information-architecture)
-
-[3.1.2.1. Organization Systems](#organization-systems)
-
-[3.1.2.2. Labeling Systems](#labeling-systems)
-
-[3.1.2.3. SEO Tags and Meta Tags](#seo-tags-and-meta-tags)
-
-[3.1.2.4. Searching Systems](#searching-systems)
-
-[3.1.2.5. Navigation Systems](#navigation-systems)
-
-[3.1.3. Landing Page UI Design](#landing-page-ui-design)
-
-[3.1.3.1. Landing Page Wireframe](#landing-page-wireframe)
-
-[3.1.3.2. Landing Page Mock-up](#landing-page-mock-up)
-
-[3.1.4. Mobile Applications UX/UI Design](#mobile-applications-uxui-design)
-
-[3.1.4.1. Mobile Applications Wireframes](#mobile-applications-wireframes)
-
-[3.1.4.2. Mobile Applications Wireflow Diagrams](#mobile-applications-wireflow-diagrams)
-
-[3.1.4.3. Mobile Applications Mock-ups](#mobile-applications-mock-ups)
-
-[3.1.4.4. Mobile Applications User Flow Diagrams](#mobile-applications-user-flow-diagrams)
-
-[3.1.4.5. Mobile Applications Prototyping](#mobile-applications-prototyping)
-
-[3.2. Architecture Overview](#architecture-overview)
-
-[3.2.1. Domain-Driven Software Architecture](#domain-driven-software-architecture)
-
-[3.2.1.1. Software Architecture Context Level Diagram](#software-architecture-context-level-diagram)
-
-[3.2.1.2. Software Architecture Container Level Diagrams](#software-architecture-container-level-diagrams)
-
-[3.2.1.3. Software Architecture Components Diagrams](#software-architecture-components-diagrams)
-
-[3.2.2. Software Object-Oriented Design](#software-object-oriented-design)
-
-[3.2.2.1. Class Diagrams](#class-diagrams)
-
-[3.2.2.2. Class Dictionary](#class-dictionary)
-
-[3.2.2.3. Database Design](#database-design)
-
-[3.2.2.4. Database Diagram](#database-diagram)
-
+## [Referencias Bibliográficas](#referencias-bibliográficas-1)
 
 
 ## Student Outcome 
@@ -803,7 +746,9 @@ https://upcedupe-my.sharepoint.com/:i:/g/personal/u202218451_upc_edu_pe/ETzIplWr
 <img src="images/emphatyMedico.png">
 
 #### 2.3.5.   As-is Scenario Mapping.
-El proceso de elaboración del As Is scenario mapping para nuestros dos segmentos objetivos implicó una detallada preparación, incluyendo la definición de objetivos, la identificación de stakeholders y la recopilación de datos relevantes sobre el proceso actual de atención médica. Luego, mediante una lluvia de ideas individual, cada miembro del equipo identificó aspectos positivos, negativos y áreas de mejora en el proceso. Estos hallazgos se revisaron y se identificaron las fases clave del proceso como columnas en el mapa. Posteriormente, se elaboró el mapa "As Is” en la herramienta indicada para cada User Persona.
+
+El **As Is scenario mapping** es una herramienta que analiza y documenta el estado actual de un proceso para identificar fortalezas y áreas de mejora. En nuestro proyecto, este mapeo implicó definir objetivos, identificar stakeholders y recopilar datos clave sobre el proceso de atención médica. A través de una lluvia de ideas, cada miembro del equipo identificó aspectos relevantes, que se discutieron y se plasmaron en el mapa. Este gráfico refleja el estado actual del proceso para el User Persona: **Paciente**.
+
 **User Persona: Paciente**
 <img src="images/As is-paciente.png">
 **User Persona: Médico**
@@ -916,7 +861,8 @@ Impact Mapping es una técnica ágil que ayuda a visualizar cómo las acciones d
 <img src="images/impac mapping.png" alt="impac mapping">
 
 ### 2.4.4. Product Backlog.
-Para elaborar nuestro product backlog hemos utilizado la escala Fibonacci (1,2,3,5…). Además, la Historia de usuario base elegida por el grupo es US016, ya que consideramos que su nivel de complejidad, frecuencia y riesgo son intermedios.
+
+Para elaborar nuestro **product backlog**, utilizamos la escala Fibonacci (1, 2, 3, 5, ...), donde los **story points** asignados a cada historia de usuario representan la complejidad y el esfuerzo requerido. Las historias están ordenadas por prioridad, asegurando que las tareas más críticas se aborden primero. La historia de usuario base seleccionada por el grupo es la **US016**, ya que consideramos que su nivel de complejidad, frecuencia y riesgo es intermedio, lo que la convierte en una buena referencia para estimar otras historias.
 
 |#Orden|User Story Id|Titulo|Descripción|Story points (1/2/3/5/8)|
 | - | - | - | - | - |
@@ -985,6 +931,7 @@ Para elaborar nuestro product backlog hemos utilizado la escala Fibonacci (1,2,3
 https://trello.com/invite/b/66EkeO8t/ATTI7681f5c932b9217761b0224c0051dd4cC0E965E5/product-backlog-hormonalcare
 
 
+## Referencias Bibliográficas
 
 * Abramo, L., Cecchini, S., & Ullmann, H.. (2020). Enfrentar las desigualdades en salud en América Latina: el rol de la protección 	social. Ciência & Saúde Coletiva, 25(5), 1587–1598. https://doi.org/10.1590/1413-81232020255.32802019
 
