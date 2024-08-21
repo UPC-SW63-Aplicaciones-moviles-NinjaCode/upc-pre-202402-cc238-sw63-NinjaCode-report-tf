@@ -743,7 +743,9 @@ https://upcedupe-my.sharepoint.com/:i:/g/personal/u202218451_upc_edu_pe/ETzIplWr
 <img src="images/emphatyMedico.png">
 
 #### 2.3.5.   As-is Scenario Mapping.
-El proceso de elaboración del As Is scenario mapping para nuestros dos segmentos objetivos implicó una detallada preparación, incluyendo la definición de objetivos, la identificación de stakeholders y la recopilación de datos relevantes sobre el proceso actual de atención médica. Luego, mediante una lluvia de ideas individual, cada miembro del equipo identificó aspectos positivos, negativos y áreas de mejora en el proceso. Estos hallazgos se revisaron y se identificaron las fases clave del proceso como columnas en el mapa. Posteriormente, se elaboró el mapa "As Is” en la herramienta indicada para cada User Persona.
+
+El **As Is scenario mapping** es una herramienta que analiza y documenta el estado actual de un proceso para identificar fortalezas y áreas de mejora. En nuestro proyecto, este mapeo implicó definir objetivos, identificar stakeholders y recopilar datos clave sobre el proceso de atención médica. A través de una lluvia de ideas, cada miembro del equipo identificó aspectos relevantes, que se discutieron y se plasmaron en el mapa. Este gráfico refleja el estado actual del proceso para el User Persona: **Paciente**.
+
 **User Persona: Paciente**
 <img src="images/As is-paciente.png">
 **User Persona: Médico**
@@ -851,7 +853,8 @@ Impact Mapping es una técnica ágil que ayuda a visualizar cómo las acciones d
 <img src="images/impac mapping.png" alt="impac mapping">
 
 ### 2.4.4. Product Backlog.
-Para elaborar nuestro product backlog hemos utilizado la escala Fibonacci (1,2,3,5…). Además, la Historia de usuario base elegida por el grupo es US016, ya que consideramos que su nivel de complejidad, frecuencia y riesgo son intermedios.
+
+Para elaborar nuestro **product backlog**, utilizamos la escala Fibonacci (1, 2, 3, 5, ...), donde los **story points** asignados a cada historia de usuario representan la complejidad y el esfuerzo requerido. Las historias están ordenadas por prioridad, asegurando que las tareas más críticas se aborden primero. La historia de usuario base seleccionada por el grupo es la **US016**, ya que consideramos que su nivel de complejidad, frecuencia y riesgo es intermedio, lo que la convierte en una buena referencia para estimar otras historias.
 
 |#Orden|User Story Id|Titulo|Descripción|Story points (1/2/3/5/8)|
 | - | - | - | - | - |
