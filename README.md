@@ -344,7 +344,7 @@ La implementación de esta aplicación podría tener un impacto significativo en
 #### 1.2.2.	Lean UX Process.
    ##### 1.2.2.1.	Lean UX Problem Statements.
    
-
+En Lima, Perú, la gestión de enfermedades hormonales enfrenta desafíos significativos, principalmente debido a la falta de acceso a servicios especializados y la baja adherencia al tratamiento. Actualmente, los pacientes se encuentran con barreras tecnológicas y económicas que dificultan su acceso a un diagnóstico oportuno y a un tratamiento adecuado. A pesar de la existencia de algunas soluciones en el mercado, estas no logran abordar de manera efectiva las necesidades de la población, dejando un vacío en la atención personalizada y en el seguimiento continuo de los pacientes.
 
    ##### 1.2.2.2.	Lean UX Assumptions.
 
