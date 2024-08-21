@@ -77,19 +77,19 @@ Aquí va la conclusión.
 
 ### [Registro de versiones del informe](#registro-de-versiones-del-informe)
 
-### [Contenido](#)
+### [Contenido](#contenido)
 
-### [Student Outcome](#)
+### [Student Outcome](#student-outcome)
 
-### [Objetivos SMART](#)
+### [Objetivos SMART](#objetivos-smart)
 
-### [Capítulo I: Presentación](#)
+### [Capítulo I: Presentación](#capitulo-i-presentación)
 
-[1.1.	Startup Profile](#)
+[1.1.	Startup Profile](#startup-profile)
 
-[1.1.1.	Descripción de la Startup](#)
+[1.1.1.	Descripción de la Startup](#descripción-de-la-startup)
 
-[1.1.2.	Perfiles de integrantes del equipo](#)
+[1.1.2.	Perfiles de integrantes del equipo](#perfiles-de-integrantes-del-equipo)
 
 [1.2.	Solution Profile](#)
 
