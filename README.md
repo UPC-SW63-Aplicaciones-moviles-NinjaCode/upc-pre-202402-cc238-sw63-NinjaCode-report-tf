@@ -38,6 +38,25 @@
 </div>
 
 
+# Índice
+
+1. [Introducción](#introducción)
+2. [Contenido Principal](#contenido-principal)
+3. [Conclusión](#conclusión)
+
+---
+
+## Introducción
+
+Aquí va el texto de la introducción.
+
+## Contenido Principal
+
+Aquí va el contenido principal.
+
+## Conclusión
+
+Aquí va la conclusión.
 
 
 ## Registro de versiones del informe
