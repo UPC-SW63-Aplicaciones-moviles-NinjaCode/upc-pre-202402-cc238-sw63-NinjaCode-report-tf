@@ -779,12 +779,15 @@ La User Task Matrix es una herramienta que permite identificar y analizar las ta
 |**Compartir preocupaciones y cambios en la salud.**|A veces Alta|A veces Alta|A veces Alta|A veces Media|A veces Alta|A veces Alta||
 
 #### 2.3.3.   User Journey Mapping.
+
 **User persona: Paciente**
+
 Este User Journey Map sigue el viaje de un paciente que busca mejorar la gestión de su tratamiento hormonal a través de una aplicación especializada. Desde el descubrimiento de la aplicación hasta el seguimiento remoto de su progreso, exploraremos las experiencias, expectativas y desafíos que enfrenta el paciente a lo largo de su viaje para una atención médica más efectiva y personalizada.
 <img src="images/Customer journey map - Paciente (2).png">
 https://upcedupe-my.sharepoint.com/:i:/g/personal/u202218451_upc_edu_pe/EUt6YmBmmqBJhEAYMyU2sPoBD9v3z6-n6IC-Brbiz4juBA?e=3t796F
 
 **User persona: Médico**
+
 Este User Journey Map sigue el viaje de un médico endocrinólogo que integra una aplicación de gestión de tratamientos hormonales en su práctica clínica. Desde la evaluación y la integración de la aplicación hasta el seguimiento remoto del progreso del paciente, exploraremos cómo esta herramienta mejora la coordinación, la eficiencia y la calidad de la atención médica para pacientes con enfermedades hormonales.
 <img src="images/Customer journey map - Médico (1).png">
 https://upcedupe-my.sharepoint.com/:i:/g/personal/u202218451_upc_edu_pe/ETzIplWry45GpxiDIa5cCrkB4mnJmWMK7207a6WB_jAnnA?e=0eRKCh
@@ -809,11 +812,16 @@ https://miro.com/app/board/uXjVKaoDitI=/
 
 
 ### 2.4.      Requirements specification.
+
 ### 2.4.1. To-Be Scenario Mapping.
+
+To-Be Scenario Mapping es una técnica que ayuda a visualizar el futuro ideal de un proceso al identificar y planificar mejoras. Permite mapear cómo se resolverán los problemas actuales y cómo se implementarán nuevas soluciones para optimizar la eficiencia y la experiencia de los usuarios.
+
 Nuestro equipo, durante el proceso de elaboración del mapa "To Be" involucró la generación de ideas y propuestas de mejora mediante una lluvia de ideas individual. Se identificaron soluciones potenciales para abordar los desafíos y problemas identificados en el mapa "As Is". Luego, se definieron las fases del proceso como columnas en el mapa "To Be" y se representaron las mejoras propuestas para cada fase. Estas mejoras incluyeron la implementación de soluciones tecnológicas para agilizar la gestión de citas, mejorar el acceso a la información del paciente y facilitar la comunicación entre médicos y pacientes.
 
 **User Persona: Paciente**
 <img src="images/To be-medico.png">
+
 **User Persona: Médico**
 <img src="images/To be - paciente.png">
 https://miro.com/app/board/uXjVKaoDitI=/
