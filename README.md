@@ -346,6 +346,9 @@ La implementación de esta aplicación podría tener un impacto significativo en
    
 En Lima, Perú, la gestión de enfermedades hormonales enfrenta desafíos significativos, principalmente debido a la falta de acceso a servicios especializados y la baja adherencia al tratamiento. Actualmente, los pacientes se encuentran con barreras tecnológicas y económicas que dificultan su acceso a un diagnóstico oportuno y a un tratamiento adecuado. A pesar de la existencia de algunas soluciones en el mercado, estas no logran abordar de manera efectiva las necesidades de la población, dejando un vacío en la atención personalizada y en el seguimiento continuo de los pacientes.
 
+Hormonal Care ha sido diseñado con el propósito de enfrentar estos desafíos. Nuestro objetivo es facilitar el acceso equitativo a servicios especializados, mejorar la adherencia al tratamiento y promover el autocuidado entre los pacientes con enfermedades hormonales. Sin embargo, reconocemos que aún no hemos alcanzado completamente estos objetivos.
+
+
    ##### 1.2.2.2.	Lean UX Assumptions.
 
 
