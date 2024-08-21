@@ -83,7 +83,7 @@ Aquí va la conclusión.
 
 ### [Objetivos SMART](#objetivos-smart)
 
-### [Capítulo I: Presentación](#capitulo-i-presentación)
+### [Capítulo I: Presentación](#capítulo-i-presentación)
 
 [1.1.	Startup Profile](#startup-profile)
 
