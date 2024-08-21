@@ -60,7 +60,7 @@
 
 ### [Contenido](#)
 
-### [Student Outcome](#Student Outcome)
+### [Student Outcome](#)
 
 ### [Objetivos SMART](#)
 
