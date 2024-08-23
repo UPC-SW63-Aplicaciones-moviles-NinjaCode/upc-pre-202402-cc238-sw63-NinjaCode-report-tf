@@ -723,6 +723,9 @@ La User Task Matrix es una herramienta que permite identificar y analizar las ta
 
 #### 2.3.3.   User Journey Mapping.
 
+El User Journey Mapping es una herramienta esencial en nuestro proyecto que nos permite visualizar y entender el recorrido completo de nuestros usuarios, tanto médicos como pacientes, dentro de la aplicación. A través de este mapeo, desglosamos cada interacción y experiencia, desde el primer contacto hasta la consecución de sus objetivos. Esta visión nos ayuda a identificar puntos críticos para mejorar, garantizando que la aplicación sea intuitiva, eficiente y que responda a las necesidades emocionales y funcionales de ambos tipos de usuarios.
+
+
 **User persona: Paciente**
 
 Este User Journey Map sigue el viaje de un paciente que busca mejorar la gestión de su tratamiento hormonal a través de una aplicación especializada. Desde el descubrimiento de la aplicación hasta el seguimiento remoto de su progreso, exploraremos las experiencias, expectativas y desafíos que enfrenta el paciente a lo largo de su viaje para una atención médica más efectiva y personalizada.
