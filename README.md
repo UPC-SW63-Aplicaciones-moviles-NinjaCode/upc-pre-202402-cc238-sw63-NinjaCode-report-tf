@@ -178,7 +178,7 @@ Logo del Producto:
 | **JHERSON DAVID ASTUYAURI CALDERON** | <img src="https://media.licdn.com/dms/image/D4E03AQHTMJHATutOfg/profile-displayphoto-shrink_800_800/0/1702756801328?e=2147483647&v=beta&t=uW32VSpcK6u14QgAvYMOxeYWOo8ZNA06SbjiYtMmY0g" alt="Jherson Astuyauri">                                                    |
 | **INGENIERIA DE SOFTWARE**  |                                                              |
 | **U202218451**              |                                                              |
-| Qué tal, soy Jherson Astuyauri. Tengo 19 años, curso el quinto ciclo de la carrera de Ingeniería de Software. Escogí la carrera porque me interesan los efectos de la tecnología en la vida de las personas. Ahora mismo me gusta la inteligencia artificial, jugar videojuegos, ver series de anime, nadar y aprender sobre finanzas. Mis conocimientos técnicos con los que puedo contribuir al equipo son los que he adquirido a lo largo de mi estancia en la universidad. Además, considero que tengo una actitud proactiva y responsabilidad para cumplir con las tareas.  | 
+| Qué tal, soy Jherson Astuyauri. Tengo 19 años, curso el sexto ciclo de la carrera de Ingeniería de Software. Escogí la carrera porque me interesa la tecnología y sus efectos en el desarrollo de las personas. Actualmente, me gusta el hacking, pero también siento curiosidad por la IA y su evolución. Mis conocimientos técnicos con los que puedo contribuir al equipo son los que he adquirido en los cursos anteriores. Además de desarrollar trabajos en equipo con efectividad, actitud proactiva y reponsabilidad | 
 
 
 
