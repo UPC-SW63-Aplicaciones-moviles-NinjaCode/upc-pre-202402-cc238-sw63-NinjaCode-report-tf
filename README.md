@@ -866,7 +866,10 @@ En la siguiente tabla, se presentan las User Stories junto con sus criterios de 
 Impact Mapping es una técnica ágil que ayuda a visualizar cómo las acciones del proyecto contribuyen a los objetivos clave. Permite al equipo alinear su trabajo con los resultados esperados, asegurando que cada tarea tenga un impacto positivo en el éxito del proyecto.
 
 
-<img src="images/impac mapping.png" alt="impac mapping">
+<img src="images/nuevo-impact-mapping.jpg" alt="impac mapping">
+
+Enlace Impact Mapping: https://miro.com/welcomeonboard/MVB5ZGxBeFhzREJkNVNFUEI4RDdGbk56RE5uaXFNODcyZFRnYVgxOFpVOFpwbTFyQmhkb2FDUUtmUjRKRHBDWXwzNDU4NzY0NTIzMzkyNDIwOTIzfDI=?share_link_id=582763360215
+
 
 ### 2.4.4. Product Backlog.
 
