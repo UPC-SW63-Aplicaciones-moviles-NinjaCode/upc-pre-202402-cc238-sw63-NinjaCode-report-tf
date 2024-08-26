@@ -196,7 +196,7 @@ Logo del Producto:
 | **LUIS SEBASTIAN CHINCHIHUALPA SALDARRIAGA** | <img src="images/perfilLuis.jpg" width="700" height="150" alt="Luis Chinchihualpa">                                                 |
 | **INGENIERIA DE SOFTWARE**  |                                                              |
 | **U202212112**              |                                                              |
-| Soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas y actualmente estoy cursando el quinto ciclo. Sé programar en C++, Java y un poco de Python. Me considero una persona muy responsable, exigente y trabajadora. En el grupo del proyecto puedo aportar con mis conocimientos adquiridos en los cursos de Especificación y Análisis de Requerimientos, Algoritmos y Estructuras de Datos y Diseño y Patrones de Software.  | 
+| Soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas y actualmente estoy cursando el sexto ciclo. Sé programar en C++, Java y un poco de Python. Me considero una persona muy responsable, exigente y trabajadora. En el grupo del proyecto puedo aportar con mis conocimientos adquiridos en los cursos de Especificación y Análisis de Requerimientos, Algoritmos y Estructuras de Datos, Diseño y Patrones de Software y Desarrollo de Aplicaciones Open Source | 
 
 |                             |                                                              |
 |-----------------------------|--------------------------------------------------------------|
