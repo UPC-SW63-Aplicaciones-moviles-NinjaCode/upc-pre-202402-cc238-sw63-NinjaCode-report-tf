@@ -560,7 +560,7 @@ Propone un seguimiento remoto para reducir la necesidad de citas presenciales, e
 ***Paciente 3:***
 | Datos del paciente: | Entrevista |
 |---|---|
-|  <p>Nombres: Sebastian  </p> <p>Apellidos:</p> Chacayan<p> Edad: 20</p> <p> Localidad: Surco </p> <p> Timing:  </p> 24.42 <p> Duración: 4:10 </p> <p style="max-width: 350px;"> Link: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212112_upc_edu_pe/EZcAvGxH5d1DjTjYl8yHYjgBzB9foMkuORSMWEQZgMr8sA?] e=0M1zbd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D </p>| <img src="" width=400> |
+|  <p>Nombres: Sebastian  </p> <p>Apellidos: Chacayan</p> <p> Edad: 20</p> <p> Localidad: Surco </p> <p> Timing: 24.42 </p>  <p> Duración: 4:10 </p> <p style="max-width: 350px;"> Link: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212112_upc_edu_pe/EZcAvGxH5d1DjTjYl8yHYjgBzB9foMkuORSMWEQZgMr8sA?] e=0M1zbd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D </p>| <img src="" width=400> |
 | Resumen:<p> El entrevistado es una joven con hipertiroidismo diagnosticado hace aproximadamente 2 años. Enfrenta desafíos con los cambios constantes en sus niveles hormonales, que afectan su estado de ánimo y energía, y la dificultad de ajustar la medicación para controlar síntomas como ansiedad y fatiga. Visita a su endocrinólogo cada 3 meses. A veces le resulta complicado cumplir con el tratamiento debido a efectos secundarios y la interferencia de la rutina diaria. Le gustaría un sistema de recordatorios más efectivo y acceso a recursos educativos sobre su enfermedad. Ha tenido experiencias frustrantes con largos tiempos de espera y comunicación limitada con su médico. Utilizaría una aplicación móvil para llevar un registro médico y comunicarse con su médico, destacando la importancia de una interfaz fácil de usar, recordatorios personalizables y comunicación segura. Prefiere recibir notificaciones en su teléfono móvil y compartir información relevante con su médico a través de la aplicación. Se sentiría más seguro con la posibilidad de comunicarse remotamente con su médico y cree que una aplicación mejoraría significativamente su calidad de vida y control sobre su enfermedad hormonal.
 </p>| 
 
@@ -745,15 +745,22 @@ Este User Journey Map sigue el viaje de un médico endocrinólogo que integra un
 <img src="images/Customer journey map - Médico (1).png">
 https://upcedupe-my.sharepoint.com/:i:/g/personal/u202218451_upc_edu_pe/ETzIplWry45GpxiDIa5cCrkB4mnJmWMK7207a6WB_jAnnA?e=0eRKCh
 
+
 #### 2.3.4.   Empathy Mapping.
 
+El Empathy Mapping es una herramienta clave en nuestro proyecto que nos permite profundizar en la comprensión de nuestros usuarios, tanto pacientes como médicos, desde una perspectiva más emocional y cognitiva. A través de este mapeo, capturamos las percepciones, sentimientos, pensamientos y preocupaciones que experimentan al interactuar con nuestra aplicación. Esta visión nos ayuda a empatizar con ellos, identificando necesidades no evidentes y posibles frustraciones. Al integrar esta empatía en el proceso de diseño, buscamos crear una aplicación que no solo sea funcional, sino que también resuene emocionalmente con nuestros usuarios, asegurando una experiencia de uso más completa y satisfactoria.
 **Paciente:**
+
+El Empathy Map del paciente nos permite adentrarnos en el mundo emocional y cognitivo de aquellos que utilizan la aplicación para gestionar su tratamiento hormonal. Exploramos lo que el paciente piensa, siente, ve, dice, escucha y hace en relación con su tratamiento y el uso de la aplicación. Al comprender sus preocupaciones, frustraciones, deseos y motivaciones, podemos diseñar una experiencia que no solo aborde sus necesidades funcionales, sino que también brinde apoyo emocional en un proceso que, a menudo, es desafiante y cargado de incertidumbre.
 
 <img src="images/empathyPaciente.png">
 
 **Médico:**
 
+El Empathy Map del médico endocrinólogo nos ayuda a capturar las percepciones y emociones que experimentan los profesionales de la salud al integrar la aplicación en su práctica clínica. A través de este mapeo, identificamos lo que los médicos piensan y sienten en relación con la gestión de tratamientos hormonales, sus expectativas sobre la tecnología, y cómo estos factores influyen en su interacción con la aplicación. Esta comprensión nos permite desarrollar una herramienta que no solo sea eficiente y precisa, sino que también respalde al médico en su misión de ofrecer la mejor atención posible, aliviando sus posibles frustraciones y facilitando su flujo de trabajo.
+
 <img src="images/emphatyMedico.png">
+
 
 #### 2.3.5.   As-is Scenario Mapping.
 
