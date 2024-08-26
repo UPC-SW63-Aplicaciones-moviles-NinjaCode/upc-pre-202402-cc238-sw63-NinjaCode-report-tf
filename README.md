@@ -447,6 +447,8 @@ A continuación, vamos a incluir las estrategias y tácticas preliminares que nu
 ### 2.2. Entrevistas.
 #### 2.2.1.   Diseño de entrevistas.
 
+El diseño de entrevistas es una parte fundamental de nuestro enfoque para comprender a fondo las necesidades, expectativas y desafíos de nuestros usuarios, tanto pacientes como médicos endocrinólogos. A través de entrevistas bien estructuradas, buscamos obtener información directa y valiosa que nos permita validar nuestras hipótesis, descubrir nuevas perspectivas y adaptar el desarrollo de la aplicación para que realmente satisfaga las demandas del mundo real. Estas entrevistas están diseñadas para explorar tanto aspectos funcionales como emocionales, capturando experiencias personales y opiniones que serán esenciales para guiar las decisiones de diseño y desarrollo en las etapas posteriores del proyecto.
+
 **Para los médicos especialistas:**
 1.	¿Cuál es su especialidad médica y cuántos años lleva ejerciéndola?
 2.	¿Ejerce su práctica médica en el sector privado o público?
@@ -749,6 +751,7 @@ https://upcedupe-my.sharepoint.com/:i:/g/personal/u202218451_upc_edu_pe/ETzIplWr
 #### 2.3.4.   Empathy Mapping.
 
 El Empathy Mapping es una herramienta clave en nuestro proyecto que nos permite profundizar en la comprensión de nuestros usuarios, tanto pacientes como médicos, desde una perspectiva más emocional y cognitiva. A través de este mapeo, capturamos las percepciones, sentimientos, pensamientos y preocupaciones que experimentan al interactuar con nuestra aplicación. Esta visión nos ayuda a empatizar con ellos, identificando necesidades no evidentes y posibles frustraciones. Al integrar esta empatía en el proceso de diseño, buscamos crear una aplicación que no solo sea funcional, sino que también resuene emocionalmente con nuestros usuarios, asegurando una experiencia de uso más completa y satisfactoria.
+
 **Paciente:**
 
 El Empathy Map del paciente nos permite adentrarnos en el mundo emocional y cognitivo de aquellos que utilizan la aplicación para gestionar su tratamiento hormonal. Exploramos lo que el paciente piensa, siente, ve, dice, escucha y hace en relación con su tratamiento y el uso de la aplicación. Al comprender sus preocupaciones, frustraciones, deseos y motivaciones, podemos diseñar una experiencia que no solo aborde sus necesidades funcionales, sino que también brinde apoyo emocional en un proceso que, a menudo, es desafiante y cargado de incertidumbre.
