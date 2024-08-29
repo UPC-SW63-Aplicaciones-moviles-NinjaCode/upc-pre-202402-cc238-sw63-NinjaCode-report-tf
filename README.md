@@ -35,6 +35,7 @@
 
 <h3 align="center"><strong>Agosto 2024</strong></h3>
 
+<p align="center">Github: https://github.com/UPC-SW63-Aplicaciones-moviles-NinjaCode</p>
 </div>
 
 
@@ -44,7 +45,7 @@
 
 | Versión |    Fecha   |    Autor   |    Descripción de la modificación    |
 |:-----:|:--------:|:--------:|:--------:|
-| TB1  v.1   | -/08/2024 | NinjaCode | Para esta entrega se desarrollaron los capitulos I y II|
+| TB1  v.1   | 28/08/2024 | NinjaCode | Para esta entrega se desarrollaron los capitulos I y II|
 
 
 </div>
