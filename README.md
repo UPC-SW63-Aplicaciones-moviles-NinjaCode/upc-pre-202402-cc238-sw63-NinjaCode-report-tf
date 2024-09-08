@@ -954,6 +954,385 @@ Para elaborar nuestro **product backlog**, utilizamos la escala Fibonacci (1, 2,
 https://trello.com/invite/b/66EkeO8t/ATTI7681f5c932b9217761b0224c0051dd4cC0E965E5/product-backlog-hormonalcare
 
 
+## CAPÍTULO IV: BACKEND PRODUCT IMPLEMENTATION & VALIDATION
+
+### 4.1.      Software Configuration Management.
+
+Se detalla la importancia de la gestión de la configuración del software para asegurar la calidad y consistencia del producto a lo largo de su ciclo de vida.
+
+#### 4.1.1.   Software Development Environment Configuration.
+
+**Project Management:**
+
+Trello: Además de ser utilizado para la gestión de tareas, Trello sirvió como una herramienta integral de gestión de proyectos, permitiendo la asignación de tareas, la definición de fechas límite y el seguimiento del progreso de manera colaborativa. 
+
+https://trello.com/signup
+
+Structurizr: Empleado para crear diagramas de arquitectura de software y documentación de la arquitectura del sistema, lo cual puede ser útil para la gestión de aspectos técnicos del proyecto. 
+
+https://structurizr.com/
+
+Microsoft Stream (Videos): Utilizado para la publicación, almacenamiento y compartición de videos relacionados con el proyecto. Esta plataforma nos permite como equipo centralizar todos nuestros recursos visuales. 
+
+https://www.microsoft.com/en-us/microsoft-365/microsoft-stream
+
+Google Drive: Utilizado para el almacenamiento y colaboración de documentos, archivos y recursos del proyecto. 
+
+https://www.google.com/drive/
+
+GitHub Desktop: Utilizado para la gestión del control de versiones del código fuente, facilitando la colaboración entre el equipo de desarrollo. 
+
+https://desktop.github.com/
+
+Google Forms: Utilizamos Google Forms para recopilar retroalimentación y realizar encuestas de usuarios. Google Forms nos permitió recoger datos relevantes sobre la experiencia de los usuarios y las necesidades del cliente, lo que influyó en el diseño y desarrollo del producto. 
+
+https://www.google.com/forms/about/
+
+
+**Requirements Management:**
+
+Miro: Utilizamos Miro como herramienta principal para la gestión de requisitos. En Miro, creamos mapas mentales y diagramas que ayudaron a visualizar y organizar los requisitos del proyecto, incluyendo características, funcionalidades y objetivos clave. 
+
+https://miro.com/signup/
+
+Lucidchart: Además, utilizamos Lucidchart como herramienta para realizar diagramas y documentación. 
+
+https://www.lucidchart.com/users/register
+
+
+
+**Product UX/UI Design:** 
+
+Figma: Empleamos Figma para el diseño de la interfaz de usuario (UI) y la experiencia de usuario (UX) de la aplicación HormonalCare. Figma permitió la creación de prototipos, wireframes y diseños visuales que guiarán el desarrollo del producto final. 
+
+https://www.figma.com/signup
+
+UXPressia: Utilizamos UXPressia como herramienta especializada en la creación de mapas de experiencia de usuario, perfiles de clientes y otros elementos relacionados con el diseño de UX. UXPressia nos permitió visualizar y comprender la experiencia del usuario en profundidad, ayudando a mejorar la usabilidad y el diseño de la aplicación. 
+
+https://uxpressia.com
+
+Canva: Incorporamos Canva en la etapa de diseño para la creación de recursos gráficos adicionales, como imágenes, gráficos y presentaciones, que mejoró la estética y la presentación del producto. 
+
+https://www.canva.com/signup
+
+
+
+
+**Software Development:**
+
+IDE (Entorno de Desarrollo Integrado): 
+• Visual Studio Code: Utilizado como nuestro IDE para el desarrollo de la landing page, debido a su capacidad para facilitar el desarrollo web moderno y eficiente. 
+
+https://code.visualstudio.com/download
+
+• Android Studio: Usado como entorno de desarrollo integrado (IDE) principal para el desarrollo de nuestra aplicación móvil basada en Flutter. 
+
+https://developer.android.com/studio
+
+• IntelliJ IDEA: Utilizado para realizar el backend con Java, aprovechando sus características avanzadas para el desarrollo en este lenguaje. 
+
+https://www.jetbrains.com/idea/download/
+
+Control de Versiones: Git será fundamental para el control de versiones del código fuente. La integración nativa con sistemas de control de versiones como Git también es crucial para nuestra gestión de proyectos, lo cual, nos permitió un control preciso de nuestro código fuente y facilitando la colaboración entre el equipo de desarrollo. 
+
+https://git-scm.com/downloads
+
+Usamos Gradle para gestionar las dependencias del proyecto, incluyendo bibliotecas y paquetes necesarios para el desarrollo en Flutter.
+
+https://docs.gradle.org/current/userguide/userguide.html
+
+
+
+**Software Documentation:**
+
+GitHub: Empleamos GitHub como plataforma principal para la documentación del código y la colaboración en el desarrollo. Utilizamos el README.md para documentar el proceso de desarrollo. 
+
+https://github.com/join
+
+
+Structurizr: Empleado para crear diagramas de arquitectura de software y documentación de la arquitectura del sistema. 
+
+https://structurizr.com/
+
+
+  
+#### 4.1.2.   Source Code Management.
+
+Para garantizar la eficiencia y evitar conflictos en el desarrollo del proyecto, los productos de NinjaCode se gestionaron en una organización de GitHub.
+
+NinjaCode organization: https://github.com/UPC-SW63-Aplicaciones-moviles-NinjaCode
+
+Esta organización sirve como un espacio centralizado donde todos los miembros del equipo pueden acceder y contribuir al código del proyecto. Dentro de esta organización, se encuentran los repositorios correspondientes a cada aspecto del proyecto. Cada repositorio tiene un propósito específico y juntos forman la estructura completa del proyecto.
+
+A continuación, se presentan los repositorios:
+
+Project Report: Este repositorio contiene el informe del proyecto. En él se documentan todos los aspectos del proyecto, desde la concepción de la idea hasta la implementación final. Este informe es crucial para mantener a todos los miembros del equipo al tanto del progreso del proyecto y para proporcionar una referencia para futuras mejoras o modificaciones. 
+
+https://github.com/UPC-SW63-Aplicaciones-moviles-NinjaCode/upc-pre-202402-cc238-sw63-NinjaCode-report-tb1
+
+
+Landing Page: Este repositorio contiene el código fuente de la página de inicio del proyecto. La página de inicio es esencial para proporcionar a los usuarios una visión general de lo que ofrece el proyecto y para guiarlos a través de las diferentes características y funcionalidades disponibles.
+
+-
+
+
+Aplicación Móvil en Flutter: Este repositorio contiene el código fuente de la aplicación móvil principal del proyecto desarrollada en Flutter. Esta aplicación es el núcleo del proyecto y es donde los usuarios interactúan con las principales características y funcionalidades del mismo.
+
+https://github.com/UPC-SW63-Aplicaciones-moviles-NinjaCode/hormonal-care-frontend
+
+
+Como equipo, hemos dividido nuestro trabajo en varios repositorios para gestionar de manera más eficiente el código y facilitar la colaboración. Esta estructura nos permite centrarnos en tareas específicas sin interferir con el trabajo de los demás. Además, nos ayuda a seguir los cambios y a identificar problemas de manera eficaz, ya que cada cambio está asociado a una tarea específica en un repositorio determinado. Esta organización en GitHub es un reflejo de nuestro compromiso con la eficiencia, la colaboración y la calidad en nuestro proyecto.
+
+
+En relación al manejo del Gitflow en nuestro proyecto, se llevó a cabo de la siguiente manera:
+
+Durante el desarrollo del proyecto, establecimos una rama develop que sirvió como base para las versiones finales de cada feature que íbamos desarrollando. A partir de esta rama develop, creamos ramas individuales para cada feature específico.
+
+Nuestro flujo de trabajo se estructuró de la siguiente manera:
+
+Identificamos el bounded context en el que íbamos a trabajar.
+Definimos el feature del bounded context que íbamos a desarrollar.
+Nos desplazamos a la rama correspondiente a ese feature.
+Realizamos un merge para traer todo el contenido de develop a la rama del feature.
+Trabajamos en el desarrollo del feature, asegurándonos de que cada cambio o mejora se reflejara en él.
+Verificamos la correcta ejecución del feature, probando su funcionalidad y rendimiento.
+Una vez que el feature estaba correctamente desarrollado y probado, realizamos un merge para pasar todos los cambios (commits) a la rama develop.
+Este proceso se repitió para cada feature, permitiéndonos desarrollar nuestra aplicación web de manera eficiente y ordenada. Nos aseguramos de que cada feature se implementara correctamente antes de integrarlo en la versión principal.
+
+<img src="images/network.png">
+
+Además, para la organización de los sprints y la gestión del producto backlog, utilizamos la herramienta Trello. Esta nos permitió dividir el trabajo de manera eficiente. Cada miembro del equipo se encargó de una parte específica, avanzando en su respectiva área de acuerdo a los story points asignados. De esta manera, pudimos darle prioridad a las tareas más relevantes y asegurar un progreso constante en nuestro proyecto. Adicionalmente, realizamos revisiones grupales de manera periódica. Estas sesiones nos permitieron consolidar nuestro trabajo de la mejor manera posible.
+
+<img src="images/sprint2.png">
+Enlace: https://trello.com/invite/b/mSimNo04/ATTI125c821416efcad4fb8cb0bafc415bbdFFF7F7D5/sprint-2-hormonalcare
+
+
+#### 4.1.3.   Source Code Style Guide & Conventions.
+Nuestro equipo adoptó las siguientes convenciones y guías de estilo para garantizar un código fuente coherente, legible y mantenible en los diferentes lenguajes y tecnologías utilizados en nuestra solución:
+
+
+HTML: 
+• Se adoptó la “HTML Style Guide and Coding Conventions” para garantizar un código HTML coherente y legible. 
+• Se utilizó la nomenclatura en inglés para los nombres de las clases y los ID. 
+• Se utilizó etiquetas semánticas adecuadas para mejorar la accesibilidad y la comprensión del código. 
+
+CSS: 
+• Se adoptó la “Google HTML/CSS Style Guide” para garantizar un código CSS coherente y legible. 
+• Se prefirió el uso de abreviaturas y valores numéricos sin unidades cuando sea posible. 
+• Se aplicaron principios de diseño responsivo y accesibilidad en los estilos.
+
+JavaScript y TypeScript: 
+• Se adoptó la “Google TypeScript Style Guide” y el “Angular coding style guide” para garantizar un código JavaScript y TypeScript coherente y legible. 
+• Las declaraciones de variables se realizaron al principio de su ámbito. 
+• Se prefirió el uso de const y let sobre var. 
+• Se utilizó la notación de camelCase para nombrar variables y funciones. 
+
+Gherkin: 
+• Se adoptaron las “Gherkin Conventions for Readable Specifications”. 
+• Se utilizó un lenguaje claro para los escenarios y los pasos. 
+• Se utilizó la nomenclatura en inglés para los nombres de los escenarios y los pasos.
+
+
+
+#### 4.1.4.   Software Deployment Configuration.
+
+Landing Page: Utilizamos el servicio GitHub Pages para desplegar la landing page de NinjaCode. Este servicio nos permitió hospedar nuestra landing page directamente desde nuestro repositorio de GitHub.
+ 
+
+Los pasos que seguimos:
+
+1.	Después de haber integrado los cambios y nuevas versiones de la landing page en el repositorio, y de asegurarnos de que las ramas estén actualizadas, ingresaremos a la plataforma de GitHub y nos dirigiremos a nuestro repositorio del proyecto.
+2.	Dentro del repositorio, accedimos a la pestaña de "Settings" y buscamos la sección denominada "Pages" en el menú lateral.
+3.	En la sección "Pages", seleccionamos la rama main desde la cual se desplegará la landing page.
+4.	Después de haber seleccionado la rama, confirmamos los cambios realizados, y GitHub realizo el proceso de despliegue de la landing page.
+5.	Una vez que el proceso de despliegue finalizó, GitHub nos proporcionó el enlace para ver nuestra landing page publicada ([]()).
+
+
+Frontend Web Applications: Para desplegar las aplicaciones web de frontend, utilizaremos Vercel. Este servicio nos permitió  alojar nuestras aplicaciones directamente desde nuestro repositorio en GitHub. 
+
+
+Los pasos que seguimos:
+
+1. Tras integrar los cambios y las nuevas versiones de las aplicaciones en el repositorio, y asegurarnos de que las ramas estén actualizadas, ingresamos a la plataforma de Vercel y nos dirigimos a nuestro repositorio del proyecto.
+2.	Dentro del repositorio, accedemos a la pestaña “Settings” y buscamos la sección “Deploy” en el menú lateral.
+3.	En la sección “Deploy”, seleccionamos la rama main desde la cual se desplegará las aplicaciones.
+4.	Tras seleccionar la rama, confirmamos los cambios realizados, y Vercel realizo el proceso de despliegue de las aplicaciones.
+5.	Una vez finalizado el proceso de despliegue, Vercel nos proporcionó el enlace para ver nuestra frontend web applications publicadas ([]()).
+
+
+
+### 4.2. Software Development & Implementation
+
+Esta sección detalla el proceso de desarrollo e implementación del software, incluyendo las metodologías y herramientas utilizadas.
+
+#### 4.2.1.   Sprint 1
+
+Se describe el primer sprint del proyecto, abarcando las tareas planificadas, los objetivos a alcanzar y los resultados obtenidos.
+
+##### 4.2.1.1. Sprint Planning 1.
+#### En este sprint, el enfoque estará en desarrollar los servicios backend que permitirán la correcta interacción con la base de datos y el manejo de los datos requeridos por las funcionalidades de la aplicación móvil "HormonalCare". Los servicios serán diseñados para ser escalables y eficientes, empleando buenas prácticas de desarrollo.
+
+|Sprint #|Sprint 1|
+| - | - |
+|**Sprint Planning Background**||
+|Date|09-07-2024|
+|Time|9:00|
+|Location|Reunión realizada mediante Discord|
+|Prepared By|Lostaunau Pereira Estéfano Sebastián|
+|Attendees (to planning meeting)|Astuyauri Calderon Jherson David / Chinchihualpa Saldarriaga Luis Sebastian/Lostaunau Pereira Estéfano Sebastián	/Quispesivana Torres Claudio Sandro|
+|**Sprint Goal & User Stories**||
+|Sprint 1 Goal|Implementar los servicios backend necesarios para la interacción con la base de datos y las funcionalidades de la aplicación.|
+|Sprint 1 Velocity|15|
+|Sum of Story Points|13|
+
+
+##### 4.2.1.2. Sprint Backlog 1.
+#### En este sprint, el enfoque estará en desarrollar los servicios backend que permitirán la correcta interacción con la base de datos y el manejo de los datos requeridos por las funcionalidades de la aplicación móvil "HormonalCare". Los servicios serán diseñados para ser escalables y eficientes, empleando buenas prácticas de desarrollo.
+
+| ID   | User Story                           | Work-Item / Task                                 | Description                                                                                                           | Estimation (Hours) | Assigned To | Status   |
+|------|--------------------------------------|--------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|--------------------|-------------|----------|
+| US51 | Gestión de Medicamentos              | T01: Diseño del endpoint de medicamentos         | Diseñar el endpoint para la gestión de medicamentos, considerando operaciones de CRUD.                                | 4                  | Jherson   | Done     |
+|      |                                      | T02: Implementación del endpoint de medicamentos | Implementar el endpoint para agregar, obtener, actualizar y eliminar medicamentos en la base de datos.                | 10                 | Estefano   | Done     |
+|      |                                      | T03: Pruebas del endpoint de medicamentos        | Realizar pruebas para asegurar el correcto funcionamiento de las operaciones CRUD en el endpoint de medicamentos.     | 4                  | Jherson     | Done     |
+| US52 | Gestión de Receta Médica             | T01: Diseño del endpoint de receta médica        | Diseñar el endpoint para la gestión de recetas médicas , considerando operaciones de CRUD.                       | 4                  | Estefano    | Done     |
+|      |                                      | T02: Implementación del endpoint de receta médica  | Implementar el endpoint para agregar, obtener, actualizar y eliminar recetas médicas en la base de datos.       | 10                 | Jherson    | Done     |
+|      |                                      | T03: Pruebas del endpoint de receta médica        | Realizar pruebas para asegurar el correcto funcionamiento de las operaciones CRUD en el endpoint de recetas médicas.    | 4                  | Luis     | Done     |
+| US53 | Gestión de Tipos de Medicamentos     | T01: Diseño del endpoint de tipos de medicamentos | Diseñar el endpoint para la gestión de tipos de medicamentos, considerando operaciones de CRUD.                       | 4                  | Sandro      | Done     |
+|      |                                      | T02: Implementación del endpoint de tipos de medicamentos | Implementar el endpoint para agregar, obtener, actualizar y eliminar tipos de medicamentos en la base de datos.       | 10                 | Sandro      | Done     |
+|      |                                      | T03: Pruebas del endpoint de tipos de medicamentos | Realizar pruebas para asegurar el correcto funcionamiento de las operaciones CRUD en el endpoint de tipos de medicamentos. | 4                  | Jherson     | Done     |
+| US54 | Gestión de Razones de Consulta       | T01: Diseño del endpoint de razones de consulta  | Diseñar el endpoint para la gestión de razones de consulta, considerando operaciones de CRUD.                         | 4                  | Luis        | Done     |
+|      |                                      | T02: Implementación del endpoint de razones de consulta | Implementar el endpoint para agregar, obtener, actualizar y eliminar razones de consulta en la base de datos.         | 10                 | Luis        | Done     |
+|      |                                      | T03: Pruebas del endpoint de razones de consulta | Realizar pruebas para asegurar el correcto funcionamiento de las operaciones CRUD en el endpoint de razones de consulta. | 4                  | Jherson     | Done     |
+| US55 | Gestión de Tratamientos              | T01: Diseño del endpoint de tratamientos         | Diseñar el endpoint para la gestión de tratamientos médicos, considerando operaciones de CRUD.                        | 4                  | Estefano    | Done     |
+|      |                                      | T02: Implementación del endpoint de tratamientos | Implementar el endpoint para agregar, obtener, actualizar y eliminar tratamientos médicos en la base de datos.        | 10                 | Luis    | Done     |
+|      |                                      | T03: Pruebas del endpoint de tratamientos        | Realizar pruebas para asegurar el correcto funcionamiento de las operaciones CRUD en el endpoint de tratamientos.     | 4                  | Sandro     | Done     |
+|      |                                 | T03: Pruebas del endpoint de tratamientos           | Realizar pruebas para asegurar el correcto funcionamiento de las operaciones CRUD en el endpoint de tratamientos. | 4                  | Sandro     | Done   |
+| US56 | Gestión de Perfiles             | T01: Diseño del endpoint de perfiles               | Diseñar el endpoint para la gestión de perfiles de pacientes y doctores, considerando operaciones de CRUD.       | 4                  | Luis       | Done|
+|      |                                 | T02: Implementación del endpoint de perfiles       | Implementar el endpoint para agregar, obtener, actualizar y eliminar perfiles de pacientes y doctores.            | 10                 | Luis       | Pending|
+|      |                                 | T03: Pruebas del endpoint de perfiles              | Realizar pruebas para asegurar el correcto funcionamiento de las operaciones CRUD en el endpoint de perfiles.    | 4                  | Jherson    | Pending|
+| US57 | Gestión de Calendario          | T01: Diseño del endpoint de calendario             | Diseñar el endpoint para la gestión de eventos y citas médicas en el calendario, considerando operaciones de CRUD. | 4                  | Estefano   | Done|
+|      |                                 | T02: Implementación del endpoint de calendario     | Implementar el endpoint para agregar, obtener, actualizar y eliminar eventos y citas médicas en el calendario.  | 10                 | Jherson  | Done|
+|      |                                 | T03: Pruebas del endpoint de calendario            | Realizar pruebas para asegurar el correcto funcionamiento de las operaciones CRUD en el endpoint de calendario.  | 4                  | Sandro  | Done|
+| US58 | Gestión de Identidad y Acceso  | T01: Diseño del endpoint de gestión de identidad y acceso | Diseñar el endpoint para la gestión de cuentas de usuario y permisos, considerando operaciones de CRUD.         | 4                  | Luis       | Done|
+|      |                                 | T02: Implementación del endpoint de gestión de identidad y acceso | Implementar el endpoint para agregar, obtener, actualizar y eliminar cuentas de usuario y permisos.            | 10                 | Sandro       | Pending|
+|      |                                 | T03: Pruebas del endpoint de gestión de identidad y acceso | Realizar pruebas para asegurar el correcto funcionamiento de las operaciones CRUD en el endpoint de gestión de identidad y acceso. | 4                  | Jherson    | Pending|
+
+***Además, se incluye en la herramienta recomendada que es Trello.***
+<img src="images/sprint3.png">
+
+#### <a name="_toc163674911"></a>Enlace: <https://trello.com/invite/b/Ka4aLfV6/ATTI1d0cf2279a00877795baf1227e4b3fc339D6E351/sprint3hormonalcare>
+
+##### 4.2.1.3. Development Evidence for Sprint Review.
+
+A medida que avanzamos en el desarrollo del backend, aquí se documentan los commits relacionados con los servicios y funcionalidades implementadas. Los commits muestran avances en la creación de la API, la implementación de autenticación y la gestión de suscripciones.
+
+
+|Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on (Date)|
+| - | - | - | - | - | - |
+|hormonal-care-backend| Feature/medical-record-medication |3fad856|feat(medical-record-medication): added medication aggregate and value objects.|-|08/07/2024|
+|hormonal-care-backend| Feature/medical-record-medication |cac397c|feat(medical-record-medication): added interface MedicationCommandService|-|08/07/2024|
+|hormonal-care-backend| Feature/medical-record-reason-of-consultation |4f36c05|feat(ReasonOfConsultationQueryServiceImpl): added class that implements jpa repository and handle methods|-|08/07/2024|
+|hormonal-care-backend| Feature/medical-record-reason-of-consultation|997c7e9|feat(ReasonOfConsultationCommandService): added a new method in the interface to update information with a command |-|08/07/2024|
+|hormonal-care-backend| Feature/medical-record-treatment |1db2495|feat(UpdateTreatmentCommandFromResourceAssembler): creating UpdateTreatmentCommandFromResourceAssembler|Introduce MedicalExams component to display patient's medical examination results|08/07/2024|
+
+
+##### 4.2.1.4. Testing Suite Evidence for Sprint Review.
+
+Para esta entrega se realizaron pruebas unitarias en los servicios de usuarios, autenticación y suscripciones. Las pruebas verificaron el correcto manejo de datos y la seguridad de las funcionalidades de autenticación.
+
+|Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on (Date)|
+| - | - | - | - | - | - |
+|Acceptance-Test| US51.feature |474174b|Create US51.feature|-|09/07/2024|
+|Acceptance-Test| US52.feature |0e9f7b0|Create US52.feature|-|09/07/2024|
+|Acceptance-Test| US53.feature |cc368d1|Create US53.feature|-|09/07/2024|
+|Acceptance-Test| US54.feature|18a6135|Create US54.feature|-|09/07/2024|
+|Acceptance-Test| US55.feature |0dae3bc|Create US55.feature|-|09/07/2024|
+|Acceptance-Test| US56.feature |b067c80|Create US56.feature|-|09/07/2024|
+|Acceptance-Test| US57.feature|b61b43b|Create US57.feature |-|09/07/2024|
+|Acceptance-Test| US58.feature |6d60a64|Create US58.feature|-|09/07/2024|
+
+##### 4.2.1.5. Execution Evidence for Sprint Review.
+En este Sprint, nuestro equipo se enfocó en la implementación del backend de la aplicación Hormonal Care. Hemos desarrollado los principales endpoints necesarios para la funcionalidad de la aplicación, permitiendo la gestión de historia medica con, registro de medicación, tipos de medicamentos, receta medica, razones de consulta, tratamientos médicos, exámenes médicos y sus tipos y perfiles como doctor y paciente. A continuación, se presentan los endpoints implementados:
+
+
+### Capturas de Pantalla
+A continuación se presentan capturas de pantalla de las principales vistas implementadas:
+
+***-reason-of-consultation***
+<img src = "images/postman1.png">
+<img src = "images/postman2.png">
+<img src = "images/postman3.png">
+<img src = "images/deploy1.png">
+
+***-medications***
+<img src = "images/postman4.png">
+<img src = "images/postman6.png">
+<img src = "images/postman9.png">
+<img src = "images/deploy2.png">
+<img src = "images/deploy3.png">
+<img src = "images/deploy4.png">
+
+***-medical-exams***
+<img src = "images/postman10.png">
+<img src = "images/deploy5.png">
+
+***-treatments***
+<img src = "images/postman14.png">
+<img src = "images/postman15.png">
+<img src = "images/deploy8.png">
+
+
+Link del video: [https://youtu.be/yPg2IT_mdNY] (https://youtu.be/yPg2IT_mdNY)
+<img src = "images/execution-spring3.png">
+
+##### 4.2.1.6. Services Documentation Evidence for Sprint Review.
+
+En este tercer Sprint tenemos los siguientes servicios:
+
+| EndPoint                      | Detalles                                                                                      |
+|-------------------------------|-----------------------------------------------------------------------------------------------|
+| /profiles                     | En esta ruta se gestionan los perfiles.                                                       |
+| /medications                  | En esta ruta se gestionan los registros de medicación (agregar, obtener, actualizar, eliminar).|
+| /medications/{id}             | Obtiene, actualiza o elimina un registro de medicación específico.                            |
+| /prescriptions                | En esta ruta se gestionan las inscripciones médicas (agregar, obtener, actualizar, eliminar).  |
+| /prescriptions/{id}           | Obtiene, actualiza o elimina una inscripción médica específica.                               |
+| /medicationTypes              | En esta ruta se gestionan los tipos de medicamentos (agregar, obtener, actualizar, eliminar).  |
+| /medicationTypes/{id}         | Obtiene, actualiza o elimina un tipo de medicamento específico.                               |
+| /reasonOfConsultation         | En esta ruta se gestionan las razones de consulta (agregar, obtener, actualizar, eliminar).    |
+| /reasonOfConsultation/{id}    | Obtiene, actualiza o elimina una razón de consulta específica.                                |
+| /treatments                   | En esta ruta se gestionan los tratamientos médicos (agregar, obtener, actualizar, eliminar).   |
+| /treatments/{id}              | Obtiene, actualiza o elimina un tratamiento médico específico.                                 |
+
+Además, con respecto a los métodos HTTP permitidos, algunos endpoints podrían no tener todos los métodos debido a la lógica del negocio.
+- **GET**: Utilizado para obtener información. Todos los endpoints deben admitir este método.
+- **POST**: Utilizado para agregar nuevos registros.
+- **PUT/PATCH**: Utilizado para actualizar información existente. Algunos endpoints podrían no admitir PUT, pero sí admitir PATCH si solo necesitan actualizaciones parciales.
+- **DELETE**: Utilizado para eliminar registros existentes. Algunos endpoints podrían no admitir este método por razones de seguridad o integridad de los datos.
+  
+##### 4.2.1.7. Software Deployment Evidence for Sprint Review.
+
+Para llevar a cabo la implementación del despliegue automático de nuestra aplicación HormonalCare, utilizamos las siguientes herramientas:
+
+Para el despliegue del Back-End, hemos utilizado Railway, donde subimos el repositorio del backend y configuramos MySQL.
+##### A continuación se muestran las evidencias: 
+<img src = "images/evidence1.png">
+<img src = "images/evidence2.png">
+<img src = "images/evidence3.png">
+<img src = "images/evidence4.png">
+
+**-Prueba de API Rest desplegada usando rail way para el endpoint medications:**
+
+<img src = "images/deploy2.png">
+[https://hormonal-care-backend.up.railway.app/api/v1/medical-record/medications]
+
+##### 4.2.1.8. Team Collaboration Insights during Sprint.
+Durante este sprint, la colaboración se realizó a través de Git y GitHub. Se realizaron commits y revisiones constantes para asegurar que los servicios implementados cumplan con los estándares del equipo.
+En la presente entrega, se llevaron a cabo avances del backend de la aplicación móvil usando como software al IDE IntelliJ Idea. De las misma forma que en entregas anteriores, se dividió las partes del bounded context de Medical Record entre los integrantes del grupo. Se creó el repositorio dentro de la organización NinjaCode en donde cada alumno creó su rama para trabajar en el feature asignado. Una vez que sus implementaciones estaban realizadas de forma correcta, cada participante llevaba los commits de su rama a la rama Develop.
+<img src="images/evidenceSprint31.png" width=400>
+
+<img src="images/evidenceSprint32.png" width=400>
+
+
 ## Referencias Bibliográficas
 
 * Abramo, L., Cecchini, S., & Ullmann, H.. (2020). Enfrentar las desigualdades en salud en América Latina: el rol de la protección 	social. Ciência & Saúde Coletiva, 25(5), 1587–1598. https://doi.org/10.1590/1413-81232020255.32802019
