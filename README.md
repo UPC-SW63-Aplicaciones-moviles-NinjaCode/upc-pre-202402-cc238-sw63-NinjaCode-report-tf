@@ -1234,59 +1234,48 @@ Pie de página:
 ##### 3.2.1.1. Software Architecture Context Level Diagram
 **Diagrama de contexto:**
 <img src="images/contextnew.png">
-[https://www.structurizr.com/review/19557cff-9ff7-4352-acd2-cee057c4057b](https://www.structurizr.com/review/19557cff-9ff7-4352-acd2-cee057c4057b)
 
 ##### 3.2.1.1. Software Architecture Container Level Diagram
 **Diagrama de contenedores:**
 
 <img src="images/containernew.png">
-[https://www.structurizr.com/review/c43f8e83-d949-4d6b-b8ee-3f70aa276c20](https://www.structurizr.com/review/c43f8e83-d949-4d6b-b8ee-3f70aa276c20)
 
 ##### 3.2.1.1. Software Architecture Components Diagram
 **API REST component diagram:**
 
 <img src="images/apirestnew.png">
-[https://www.structurizr.com/review/1325a0cb-c9a1-4102-9ef0-b12aca7b74f8](https://www.structurizr.com/review/1325a0cb-c9a1-4102-9ef0-b12aca7b74f8)
 
 **Medical Appointment BC Component Diagram:**
 
 <img src="images/medicalappointmentnew.png">
-[https://www.structurizr.com/review/2436e06b-8eba-4d7f-b70c-eef4dce61081](https://www.structurizr.com/review/2436e06b-8eba-4d7f-b70c-eef4dce61081)
 
 **Calendar BC Component Diagram:**
 
 <img src="images/calendarnew.png">
-[https://www.structurizr.com/review/a1e4a198-0d42-4050-a179-6e55a91873be](https://www.structurizr.com/review/a1e4a198-0d42-4050-a179-6e55a91873be)
 
 **History Medical BC Component Diagram:**
 
 <img src="images/History medical component diagram.png">
-[https://structurizr.com/review/620c16a6-df93-409c-a657-0efb2572a59c](https://structurizr.com/review/620c16a6-df93-409c-a657-0efb2572a59c)
 
 **Notification BC Component Diagram:**
 
-<img src="images/notification component diagram.png">
-[https://structurizr.com/review/79b22862-a261-4dd5-a5de-766efe361ce8](https://structurizr.com/review/79b22862-a261-4dd5-a5de-766efe361ce8)
+<img src="images/notificationnew.png">
 
 **Indentity & Access BC Component Diagram:**
 
 <img src="images/indentity-and-access.png">
-[https://structurizr.com/review/bf8600f3-0d8a-454f-a7a0-eaff9c48c8f6](https://structurizr.com/review/bf8600f3-0d8a-454f-a7a0-eaff9c48c8f6)
 
 **Profile BC Component Diagram:**
 
 <img src="images/profiles-component.png">
-[https://structurizr.com/review/996dd845-d120-4fed-b371-b97a0751d2a2](https://structurizr.com/review/996dd845-d120-4fed-b371-b97a0751d2a2)
 
 **Communication BC Component Diagram:**
 
 <img src="images/communicationnew.png">
-[https://www.structurizr.com/review/5ff41647-b9bb-4125-89cf-572a103c400c](https://www.structurizr.com/review/5ff41647-b9bb-4125-89cf-572a103c400c)
 
 **Subscription and Payments BC Component Diagram:**
 
 <img src="images/subscription-and-payments.png">
-[https://structurizr.com/review/1dfebd9b-b248-4592-ad74-59585f1e1b08](https://structurizr.com/review/1dfebd9b-b248-4592-ad74-59585f1e1b08)
 
 #### 3.2.2. Software Object-Oriented Design
 ##### 3.2.2.1. Class Diagrams
