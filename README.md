@@ -1016,29 +1016,211 @@ https://trello.com/invite/b/66EkeO8t/ATTI7681f5c932b9217761b0224c0051dd4cC0E965E
 ## CAPÍTULO III: ARCHITECTURE
 
 ### 3.1. Product design
-
 #### 3.1.1. Style Guidelines
 
+En esta sección presentaremos los diversos elementos que hemos seleccionado para la aplicación móvil y página web de nuestro producto. Estos han sido escogidos no únicamente para brindarles una interfaz estética y práctica a nuestros usuarios, sino también para poder transmitirles a nuestros usuarios las emociones y valores positivos que deseamos lograr mediante los recursos visuales empleados.
+
 ##### 3.1.1.1. General Style Guidelines
+
+**Colors:**
+Para nuestra paleta de colores inicial hemos decidido emplear una escala de lilas de tono pastel. El motivo es porque son tonos suaves, que son gentiles a la vista y que además serán capaces de transmitir y producir al usuario una sensación de tranquilidad, sobre todo a quienes recién debutan con alguna enfermedad.
+
+<div align="center"><img src="images/Style Guidelines/GeneralColors.png"></div>
+
+**Tipografía:**
+
+**Escala**
+
+Base: 16px
+
+Tipografía: Open-Sans
+
+interlineado:1,15
+
+
+**Peso**
+
+Light
+
+Regular 
+
+Medium
+
+SemiBold
+
+Bold
+
+ExtraBold
+
+Black
+
+**Nomenclatura**
+
+<div align="center"><img src="images/Style Guidelines/nomenclatura.png"></div>
+
+
+**Branding:**
+
+El logo de la aplicación "Hormonal Care" combina colores azul, verde y blanco, y una tipografía sans-serif para transmitir confianza, profesionalidad y accesibilidad a médicos y pacientes. El nombre es claro, conciso y describe el objetivo de la aplicación. El logo busca crear una imagen familiar y confiable, similar a otras aplicaciones de salud.
+
+<div align="center"><img src="images/Style Guidelines/logo hormonal.png"></div>
 
 
 #### 3.1.2. Information Architecture
 
 ##### 3.1.2.1. Organization Systems
 
+En nuestra aplicación móvil, seguimos una estructura jerárquica en el diseño visual. Al entrar como usuario, los elementos más destacados conforman el primer nivel, que incluye el logo, tarjetas y botones. En el segundo nivel, estan aquellos componentes que complementan al primer nivel, estos pueden ser descripciones, subtítulos y campos donde ingresar informacion. En el último nivel, se encuentran componentes como los íconos . De esta manera, se garantiza una experiencia  para el usuario clara y organizada, facilitando la navegación y la interacción con la aplicación. 
+
 ##### 3.1.2.2. Labelling Systems
+
+#### Landing Page
+| Etiqueta | Descripcion | 
+|----------|----------|
+| Features | En esta etiqueta se muestran todas las funcionalidades y características de nuestra aplicación.    | 
+| Pricing     | En este apartado, se muestran cuáles son los planes que nuestra aplicación maneja, se muestran sus precios y características.    | 
+| Contact Us     | Esta etiqueta, se muestra el interfaz de inicio de sesión para que el usuario pueda ingresar a la aplicación.   |
+
+#### Aplicación
+| Etiqueta | Descripcion | 
+|----------|----------|
+| Perfil del usuario  | Esta etiqueta proporciona acceso al perfil personal, donde pueden ver y editar su información personal, así     | 
+| Notificaciones y Recordatorios      | En esta etiqueta se encuentran las notificaciones importantes para los pacientes, como recordatorios de citas médicas, alertas de medicación y avisos sobre cambios en el tratamiento.     | 
+| Inicio      | En esta etiqueta, se muestra la interfaz principal del usuario, de forma customizada, para atender sus necesidades dependiendo de que tipo de usuario sea. Esta etiqueta se muestra al iniciar sesión.    |
+| Medicos disponibles       | En esta sección se muestra los médicos disponibles para el usuario paciente.     |
+| Calendario        | En esta sección se muestra un calendario con la información relevante personalizada para cada tipo de usuario.      |
+| Mensajes         | En esta sección se muestran los mensajes entre los usuarios de la aplicación.      |
+
 
 ##### 3.1.2.3. SEO Tags and Meta Tags
 
+A continuación, se mostrarán las etiquetas que representan el contenido que se va a mostrar en nuestra aplicación móvil, como en nuestra landing page. De esta manera, se podrá encontrar a HormonalCare en los buscadores. 
+
+**Sitio web estatico**: 
+
+Title: HormonalCare 
+
+Description: HormonalCare – NinjaCode Oficial Landing Page 
+
+Keywords: selfcare, medical, tracking, telemedicine, hormonaldisorder 
+
+Authors: NinjaCode 
+
+**Aplicacion web**: 
+
+Title: HormonalCare 
+
+Description: HormonalCare – NinjaCode Oficial Web Site 
+
+Keywords: selfcare, medical, tracking, telemedicine, hormonaldisorder
+
+Authors: NinjaCode 
+
+
 ##### 3.1.2.4. Searching Systems
+
+Para HormonalCare, un sistema de búsqueda podría permitir a médicos y pacientes encontrar rápidamente información relevante dentro de la aplicación. En el contexto de nuestro proyecto, contamos con dos diferentes métodos de búsqueda por tipo de usuario, estos son: 
+
+**Usuario Paciente:** 
+
+Búsqueda de médicos disponibles: Los usuarios de tipo paciente, podrán buscar diferentes médicos que, atiendan a sus necesidades y preferencias, mediante el uso de filtros como: Rangos de precio, género y subespecialidades. 
+
+Calendario: El usuario podrá realizar una búsqueda de cuando tiene reunión, tomar su medicación o exámenes pendientes, mediante un filtrado de estos, el usuario podra seleccionar cuales quiere que se muestren en su calendario. 
+
+**Usuario Medico:** 
+
+Búsqueda de pacientes: Cuando se encuentre en su perfil principal, el médico mediante una barra de búsqueda, podrá buscar a sus pacientes de su portafolio mediante su nombre o correo electrónico. 
+
+Mensajería: El usuario podrá realizar la búsqueda de sus diferentes pacientes o colegas mediante la selección de estos por botones, donde se muestran sus nombres. 
+
+Información clínica: Al acceder a la información clínica del paciente, el medico podrá filtrar su información accediendo a diferentes interfaces donde se almacenan información del paciente. Esta información se accede mediante botones. 
+
 
 ##### 3.1.2.5. Navigation Systems
 
-#### 3.1.3. Landing Page UI Design
+HormonalCare ha sido diseñado con un sistema de navegación intuitivo y claro para facilitar la experiencia del usuario. Los usuarios pueden explorar fácilmente las distintas secciones de la aplicación mediante un menú de navegación ubicado en la parte superior de la interfaz.  
 
+
+#### 3.1.3. Landing Page UI Design
 ##### 3.1.3.1. Landing Page Wireframes
 
+Los wireframes de la landing page se considero lo siguiente.
+
+Encabezado:
+<div align="center"><img src="images/Wireframes desktop/welcome.png"></div>
+Slider de los beneficios:
+<div align="center"><img src="images/Wireframes desktop/Feature1.png"></div>
+<div align="center"><img src="images/Wireframes desktop/Feature2.png"></div>
+<div align="center"><img src="images/Wireframes desktop/Feature3.png"></div>
+<div align="center"><img src="images/Wireframes desktop/Feature4.png"></div>
+Sección de los precios:
+<div align="center"><img src="images/Wireframes desktop/Pricing.png"></div>
+Sección de contacto:
+<div align="center"><img src="images/Wireframes desktop/Conctact us.png"></div>
+Sección de About us:
+<div align="center"><img src="images/Wireframes desktop/About us.png"></div>
+Pie de página:
+<div align="center"><img src="images/Wireframes desktop/Pie de pagina.png"></div>
+
+
+Para un navegador web en mobile.
+Encabezado:
+<div align="center"><img src="images/Wireframes mobile/WelcometoHormonalCare.png"></div>
+Slider de los beneficios:
+<div align="center"><img src="images/Wireframes mobile/Feature1.png"></div>
+<div align="center"><img src="images/Wireframes mobile/Feature2.png"></div>
+<div align="center"><img src="images/Wireframes mobile/Feature3.png"></div>
+<div align="center"><img src="images/Wireframes mobile/Feature4.png"></div>
+Slider de los precios:
+<div align="center"><img src="images/Wireframes mobile/Pricing1.png"></div>
+<div align="center"><img src="images/Wireframes mobile/Pricing2.png"></div>
+<div align="center"><img src="images/Wireframes mobile/Pricing3.png"></div>
+Sección de contacto:
+<div align="center"><img src="images/Wireframes mobile/Conctact Us.png"></div>
+Sección de About us:
+<div align="center"><img src="images/Wireframes mobile/AboutUs.png"></div>
+Pie de página:
+<div align="center"><img src="images/Wireframes mobile/PiePagina.png"></div>
+
 ##### 3.1.3.2. Landing Page Mock-up
+
+Para el diseño Mock-up version 1.0 de la landing page se considero lo siguiente.
+
+Encabezado:
+<div align="center"><img src="images/MockUp desktop/WelcometoHormonalCare.png"></div>
+Slider de los beneficios:
+<div align="center"><img src="images/MockUp desktop/Feature1.png"></div>
+<div align="center"><img src="images/MockUp desktop/Feature2.png"></div>
+<div align="center"><img src="images/MockUp desktop/Feature3.png"></div>
+<div align="center"><img src="images/MockUp desktop/Feature4.png"></div>
+Slider de los precios:
+<div align="center"><img src="images/MockUp desktop/Pricing.png"></div>
+Sección de contacto:
+<div align="center"><img src="images/MockUp desktop/ContactUs.png"></div>
+Sección de About us:
+<div align="center"><img src="images/MockUp desktop/AboutUs.png"></div>
+Pie de página:
+<div align="center"><img src="images/MockUp desktop/piedepagina.png"></div>
+
+Para el diseño Mock-up version 1.0 mobile se considero lo siguiente.
+
+Encabezado:
+<div align="center"><img src="images/MockUp mobile/WelcometoHormonalCare.png"></div>
+Slider de los beneficios:
+<div align="center"><img src="images/MockUp mobile/Feature1.png"></div>
+<div align="center"><img src="images/MockUp mobile/Feature2.png"></div>
+<div align="center"><img src="images/MockUp mobile/Feature3.png"></div>
+<div align="center"><img src="images/MockUp mobile/Feature4.png"></div>
+Slider de los precios:
+<div align="center"><img src="images/MockUp mobile/Pricing1.png"></div>
+<div align="center"><img src="images/MockUp mobile/Pricing2.png"></div>
+<div align="center"><img src="images/MockUp mobile/Pricing3.png"></div>
+Sección de contacto:
+<div align="center"><img src="images/MockUp mobile/ContactUs.png"></div>
+Sección de About us:
+<div align="center"><img src="images/MockUp mobile/AboutUs.png"></div>
+Pie de página:
+<div align="center"><img src="images/MockUp mobile/piedepagina.png"></div>
 
 #### 3.1.4. Mobile Applications UX/UI Design
 ##### 3.1.4.1. Mobile Applications Wireframes
@@ -1050,8 +1232,62 @@ https://trello.com/invite/b/66EkeO8t/ATTI7681f5c932b9217761b0224c0051dd4cC0E965E
 ### 3.2. Architecture Overview
 #### 3.2.1. Domain-Driven Software Architecture
 ##### 3.2.1.1. Software Architecture Context Level Diagram
+**Diagrama de contexto:**
+<img src="images/context diagram.png">
+[https://structurizr.com/review/53553f42-3e09-4c86-adac-c1eb6cfb5546](https://structurizr.com/review/53553f42-3e09-4c86-adac-c1eb6cfb5546)
+
 ##### 3.2.1.1. Software Architecture Container Level Diagram
+**Diagrama de contenedores:**
+
+<img src="images/container-diagram.png">
+[https://structurizr.com/review/655bac62-3716-4d0f-a793-cf94abfe0ff5](https://structurizr.com/review/655bac62-3716-4d0f-a793-cf94abfe0ff5)
+
 ##### 3.2.1.1. Software Architecture Components Diagram
+**API REST component diagram:**
+
+<img src="images/api-component-diagram-part1.png">
+<img src="images/api-component-diagram-part2.png">
+[https://structurizr.com/review/c4694a1b-0399-4e90-8f21-e7af13ddd579](https://structurizr.com/review/c4694a1b-0399-4e90-8f21-e7af13ddd579)
+
+**Medical Appointment BC Component Diagram:**
+
+<img src="images/MedicalAppointment component diagram.png">
+[https://structurizr.com/review/fda0c708-4e86-43d5-ac76-086b20a0f82b](https://structurizr.com/review/fda0c708-4e86-43d5-ac76-086b20a0f82b)
+
+**Calendar BC Component Diagram:**
+
+<img src="images/calendar component diagram.png">
+[https://structurizr.com/review/d51cf89a-ed30-4c9c-8a2f-609c81a902d3](https://structurizr.com/review/d51cf89a-ed30-4c9c-8a2f-609c81a902d3)
+
+**History Medical BC Component Diagram:**
+
+<img src="images/History medical component diagram.png">
+[https://structurizr.com/review/620c16a6-df93-409c-a657-0efb2572a59c](https://structurizr.com/review/620c16a6-df93-409c-a657-0efb2572a59c)
+
+**Notification BC Component Diagram:**
+
+<img src="images/notification component diagram.png">
+[https://structurizr.com/review/79b22862-a261-4dd5-a5de-766efe361ce8](https://structurizr.com/review/79b22862-a261-4dd5-a5de-766efe361ce8)
+
+**Indentity & Access BC Component Diagram:**
+
+<img src="images/indentity-and-access.png">
+[https://structurizr.com/review/bf8600f3-0d8a-454f-a7a0-eaff9c48c8f6](https://structurizr.com/review/bf8600f3-0d8a-454f-a7a0-eaff9c48c8f6)
+
+**Profile BC Component Diagram:**
+
+<img src="images/profiles-component.png">
+[https://structurizr.com/review/996dd845-d120-4fed-b371-b97a0751d2a2](https://structurizr.com/review/996dd845-d120-4fed-b371-b97a0751d2a2)
+
+**Communication BC Component Diagram:**
+
+<img src="images/communications.png">
+[https://structurizr.com/review/559d55a9-e201-422f-bb56-c4ee7ddc217a](https://structurizr.com/review/559d55a9-e201-422f-bb56-c4ee7ddc217a)
+
+**Subscription and Payments BC Component Diagram:**
+
+<img src="images/subscription-and-payments.png">
+[https://structurizr.com/review/1dfebd9b-b248-4592-ad74-59585f1e1b08](https://structurizr.com/review/1dfebd9b-b248-4592-ad74-59585f1e1b08)
 
 #### 3.2.2. Software Object-Oriented Design
 ##### 3.2.2.1. Class Diagrams
