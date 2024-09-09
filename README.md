@@ -1233,31 +1233,30 @@ Pie de página:
 #### 3.2.1. Domain-Driven Software Architecture
 ##### 3.2.1.1. Software Architecture Context Level Diagram
 **Diagrama de contexto:**
-<img src="images/context diagram.png">
-[https://structurizr.com/review/53553f42-3e09-4c86-adac-c1eb6cfb5546](https://structurizr.com/review/53553f42-3e09-4c86-adac-c1eb6cfb5546)
+<img src="images/contextnew.png">
+[https://www.structurizr.com/review/19557cff-9ff7-4352-acd2-cee057c4057b](https://www.structurizr.com/review/19557cff-9ff7-4352-acd2-cee057c4057b)
 
 ##### 3.2.1.1. Software Architecture Container Level Diagram
 **Diagrama de contenedores:**
 
-<img src="images/container-diagram.png">
-[https://structurizr.com/review/655bac62-3716-4d0f-a793-cf94abfe0ff5](https://structurizr.com/review/655bac62-3716-4d0f-a793-cf94abfe0ff5)
+<img src="images/containernew.png">
+[https://www.structurizr.com/review/c43f8e83-d949-4d6b-b8ee-3f70aa276c20](https://www.structurizr.com/review/c43f8e83-d949-4d6b-b8ee-3f70aa276c20)
 
 ##### 3.2.1.1. Software Architecture Components Diagram
 **API REST component diagram:**
 
-<img src="images/api-component-diagram-part1.png">
-<img src="images/api-component-diagram-part2.png">
-[https://structurizr.com/review/c4694a1b-0399-4e90-8f21-e7af13ddd579](https://structurizr.com/review/c4694a1b-0399-4e90-8f21-e7af13ddd579)
+<img src="images/apirestnew.png">
+[https://www.structurizr.com/review/1325a0cb-c9a1-4102-9ef0-b12aca7b74f8](https://www.structurizr.com/review/1325a0cb-c9a1-4102-9ef0-b12aca7b74f8)
 
 **Medical Appointment BC Component Diagram:**
 
-<img src="images/MedicalAppointment component diagram.png">
-[https://structurizr.com/review/fda0c708-4e86-43d5-ac76-086b20a0f82b](https://structurizr.com/review/fda0c708-4e86-43d5-ac76-086b20a0f82b)
+<img src="images/medicalappointmentnew.png">
+[https://www.structurizr.com/review/2436e06b-8eba-4d7f-b70c-eef4dce61081](https://www.structurizr.com/review/2436e06b-8eba-4d7f-b70c-eef4dce61081)
 
 **Calendar BC Component Diagram:**
 
-<img src="images/calendar component diagram.png">
-[https://structurizr.com/review/d51cf89a-ed30-4c9c-8a2f-609c81a902d3](https://structurizr.com/review/d51cf89a-ed30-4c9c-8a2f-609c81a902d3)
+<img src="images/calendarnew.png">
+[https://www.structurizr.com/review/a1e4a198-0d42-4050-a179-6e55a91873be](https://www.structurizr.com/review/a1e4a198-0d42-4050-a179-6e55a91873be)
 
 **History Medical BC Component Diagram:**
 
@@ -1281,8 +1280,8 @@ Pie de página:
 
 **Communication BC Component Diagram:**
 
-<img src="images/communications.png">
-[https://structurizr.com/review/559d55a9-e201-422f-bb56-c4ee7ddc217a](https://structurizr.com/review/559d55a9-e201-422f-bb56-c4ee7ddc217a)
+<img src="images/communicationnew.png">
+[https://www.structurizr.com/review/5ff41647-b9bb-4125-89cf-572a103c400c](https://www.structurizr.com/review/5ff41647-b9bb-4125-89cf-572a103c400c)
 
 **Subscription and Payments BC Component Diagram:**
 
