@@ -1573,12 +1573,12 @@ A continuación, se presentan los repositorios:
 
 Project Report: Este repositorio contiene el informe del proyecto. En él se documentan todos los aspectos del proyecto, desde la concepción de la idea hasta la implementación final. Este informe es crucial para mantener a todos los miembros del equipo al tanto del progreso del proyecto y para proporcionar una referencia para futuras mejoras o modificaciones. 
 
-https://github.com/UPC-SW63-Aplicaciones-moviles-NinjaCode/upc-pre-202402-cc238-sw63-NinjaCode-report-tb1
+https://github.com/UPC-SW63-Aplicaciones-moviles-NinjaCode/upc-pre-202402-cc238-sw63-NinjaCode-report-tb2
 
 
 Landing Page: Este repositorio contiene el código fuente de la página de inicio del proyecto. La página de inicio es esencial para proporcionar a los usuarios una visión general de lo que ofrece el proyecto y para guiarlos a través de las diferentes características y funcionalidades disponibles.
 
--
+https://github.com/UPC-SW63-Aplicaciones-moviles-NinjaCode/hormonal-landing-page
 
 
 Aplicación Móvil en Flutter: Este repositorio contiene el código fuente de la aplicación móvil principal del proyecto desarrollada en Flutter. Esta aplicación es el núcleo del proyecto y es donde los usuarios interactúan con las principales características y funcionalidades del mismo.
@@ -1828,7 +1828,8 @@ Para el despliegue del Back-End, hemos utilizado Railway, donde subimos el repos
 **-Prueba de API Rest desplegada usando rail way para el endpoint medications:**
 
 <img src = "images/deploy2.png">
-[https://hormonal-care-backend.up.railway.app/api/v1/medical-record/medications]
+Deploy:
+[]
 
 ##### 4.2.1.8. Team Collaboration Insights during Sprint.
 Durante este sprint, la colaboración se realizó a través de Git y GitHub. Se realizaron commits y revisiones constantes para asegurar que los servicios implementados cumplan con los estándares del equipo.
