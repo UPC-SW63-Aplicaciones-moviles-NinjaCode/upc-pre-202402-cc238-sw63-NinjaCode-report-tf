@@ -1025,7 +1025,7 @@ En esta sección presentaremos los diversos elementos que hemos seleccionado par
 **Colors:**
 Para nuestra paleta de colores inicial hemos decidido emplear una escala de lilas de tono pastel. El motivo es porque son tonos suaves, que son gentiles a la vista y que además serán capaces de transmitir y producir al usuario una sensación de tranquilidad, sobre todo a quienes recién debutan con alguna enfermedad.
 
-<div align="center"><img src="images/Style Guidelines/GeneralColors.png"></div>
+<div align="center"><img src="images/style guidelines nuevo.png"></div>
 
 **Tipografía:**
 
@@ -1033,9 +1033,9 @@ Para nuestra paleta de colores inicial hemos decidido emplear una escala de lila
 
 Base: 16px
 
-Tipografía: Open-Sans
+Tipografía: Inria Sans
 
-interlineado:1,15
+interlineado: 1,00
 
 
 **Peso**
@@ -1187,40 +1187,42 @@ Pie de página:
 Para el diseño Mock-up version 1.0 de la landing page se considero lo siguiente.
 
 Encabezado:
-<div align="center"><img src="images/MockUp desktop/WelcometoHormonalCare.png"></div>
+<div align="center"><img src="images/mockup desktop welcome to hormonalcare nuevo.png"></div>
 Slider de los beneficios:
 <div align="center"><img src="images/MockUp desktop/Feature1.png"></div>
 <div align="center"><img src="images/MockUp desktop/Feature2.png"></div>
 <div align="center"><img src="images/MockUp desktop/Feature3.png"></div>
 <div align="center"><img src="images/MockUp desktop/Feature4.png"></div>
 Slider de los precios:
-<div align="center"><img src="images/MockUp desktop/Pricing.png"></div>
+<div align="center"><img src="images/mockup desktop prices.png"></div>
 Sección de contacto:
-<div align="center"><img src="images/MockUp desktop/ContactUs.png"></div>
+<div align="center"><img src="images/mockup desktop contact us.png"></div>
 Sección de About us:
 <div align="center"><img src="images/MockUp desktop/AboutUs.png"></div>
 Pie de página:
-<div align="center"><img src="images/MockUp desktop/piedepagina.png"></div>
+<div align="center"><img src="images/mockup desktop pie de pagina.png"></div>
 
 Para el diseño Mock-up version 1.0 mobile se considero lo siguiente.
 
+
+
 Encabezado:
-<div align="center"><img src="images/MockUp mobile/WelcometoHormonalCare.png"></div>
+<div align="center"><img src="images/mockup mobile welcome to hormonalcare.png"></div>
 Slider de los beneficios:
 <div align="center"><img src="images/MockUp mobile/Feature1.png"></div>
 <div align="center"><img src="images/MockUp mobile/Feature2.png"></div>
 <div align="center"><img src="images/MockUp mobile/Feature3.png"></div>
 <div align="center"><img src="images/MockUp mobile/Feature4.png"></div>
 Slider de los precios:
-<div align="center"><img src="images/MockUp mobile/Pricing1.png"></div>
-<div align="center"><img src="images/MockUp mobile/Pricing2.png"></div>
-<div align="center"><img src="images/MockUp mobile/Pricing3.png"></div>
+<div align="center"><img src="images/mockup mobile pricing 1.png"></div>
+<div align="center"><img src="images/mockup mobile pricing 2.png"></div>
+<div align="center"><img src="images/mockup mobile pricing 3.png"></div>
 Sección de contacto:
-<div align="center"><img src="images/MockUp mobile/ContactUs.png"></div>
+<div align="center"><img src="images/mockup mobile contact us .png"></div>
 Sección de About us:
 <div align="center"><img src="images/MockUp mobile/AboutUs.png"></div>
 Pie de página:
-<div align="center"><img src="images/MockUp mobile/piedepagina.png"></div>
+<div align="center"><img src="images/mockup mobile pie de pagina.png"></div>
 
 #### 3.1.4. Mobile Applications UX/UI Design
 ##### 3.1.4.1. Mobile Applications Wireframes
