@@ -1224,10 +1224,130 @@ Pie de página:
 
 #### 3.1.4. Mobile Applications UX/UI Design
 ##### 3.1.4.1. Mobile Applications Wireframes
+
+<div align="center"><img src="images/wireframes.png"></div>
+
+Enlace: https://www.figma.com/design/DwwZyc2C4j2rgwIkTgo60g/HormonalCare?node-id=67-160&t=QFXZu1AiNXIuTlrO-1
+
+
 ##### 3.1.4.2. Mobile Applications Wireflow Diagrams
+
+Para la realización de los Wireflow Diagrams hemos separado cada diagrama por User Goals y User Personas correspondientes a nuestro proyecto.
+
+
+**Pacientes**:
+
+1. User Goal: Como paciente deseo registrarme para ingresar a la aplicación.
+
+El paciente primero hace clic en la opción "Paciente" en la pantalla de selección de tipo de usuario, lo que lo lleva a un formulario de registro donde ingresa sus datos personales y, tras completarlo, accede a la pantalla principal de la aplicación con información sobre su medicación, próxima cita y posibles exámenes pendientes.
+
+<div align="center"><img src="images/wireflow paciente user goal 1.png"></div>
+
+
+2. User Goal: Como paciente deseo iniciar sesión con mis credenciales para ingresar a la aplicación.
+
+El paciente ingresa su nombre de usuario y contraseña en los campos correspondientes de la pantalla de inicio de sesión y luego hace clic en el botón "Enter" para acceder a la pantalla principal que muestra su medicación, próxima cita y exámenes pendientes.
+
+<div align="center"><img src="images/wireflow paciente user goal 2.png"></div>
+
+3. User Goal: Como paciente deseo acceder a mi cita médica para poder recibir mi tratamiento.
+
+El paciente accede a la sección "Next appointment" en la pantalla principal para ver los detalles de su próxima cita con el Dr. Juan Lopez e iniciar una videollamada para recibir su tratamiento.
+
+<div align="center"><img src="images/wireflow paciente user goal 3.png"></div>
+
+4. User Goal: Como paciente deseo acceder a un calendario para poder visualizar mis próximas citas.
+
+El paciente podría necesitar navegar a una sección de calendario (posiblemente a través de un icono en la barra de navegación inferior) para visualizar todas sus próximas citas, ya que la pantalla actual solo muestra la siguiente cita.
+
+<div align="center"><img src="images/wireflow paciente user goal 4.png"></div>
+
+5. User Goal: Como paciente deseo acceder a las notificaciones para mantenerme al tanto de las actualizaciones de mi tratamiento.
+
+El paciente haría clic en el ícono de la campana en la barra de navegación inferior para acceder a sus notificaciones y mantenerse al tanto de recordatorios de medicamentos, próximas citas y actualizaciones de su tratamiento.
+
+<div align="center"><img src="images/wireflow paciente user goal 5.png"></div>
+
+6. User Goal: Como paciente deseo subir mis exámenes pendientes para poder continuar con mi tratamiento.
+El paciente haría clic en la sección "Pending" (Pendiente) y luego en "External reports" (Informes externos) para acceder a la funcionalidad de subida de archivos y cargar sus exámenes pendientes.
+
+<div align="center"><img src="images/wireflow paciente user goal 6.png"></div>
+
+7. User Goal: Como usuario deseo editar los datos de mi perfil.
+El usuario haría clic en el ícono de perfil en la barra de navegación inferior, luego en el ícono de edición en la pantalla de "Account" (Cuenta), realizaría los cambios necesarios en sus datos y finalmente haría clic en "Save" (Guardar) para actualizar su perfil.
+
+<div align="center"><img src="images/wireflow paciente user goal 7.png"></div>
+
+Enlace: https://lucid.app/lucidchart/03ddb43d-dedb-4c92-848d-97ebe10e66ad/edit?viewport_loc=2382%2C4872%2C3328%2C1626%2C0_0&invitationId=inv_7a66bc52-e1a1-44e3-91ab-5c22a944b548
+
+
+**Médicos:**
+
+1. User Goal: Como médico deseo incluir en el historial médico del paciente la razón de su consulta en relación a sus síntomas para llevar un mejor control de mis pacientes.
+
+El médico seleccionaría al paciente de la lista en "Today's patients", luego en la pantalla de "Consultation" (Consulta), ingresaría la razón de la consulta y los síntomas del paciente en la sección correspondiente para registrarlos en su historial médico.
+
+<div align="center"><img src="images/wireflow medico user goal 1.png"></div>
+
+2. User Goal: Como médico deseo anotar el pasado historico de mis pacientes para tener información detallada del origen de su enfermedad hormonal.
+
+El médico accedería a la lista de pacientes, seleccionaría el perfil del paciente deseado, navegaría a la sección de "Historial Médico" y dentro de esta, a la pestaña "Patient History" (Historia del Paciente) para registrar o editar la información relevante sobre el historial médico y el origen de la enfermedad hormonal.
+
+<div align="center"><img src="images/wireflow medico user goal 2.png"></div>
+
+3. User Goal: Como médico deseo recibir los resultados de laboratorio de mis pacientes para analizar el estado actual de su enfermedad hormonal.
+
+El médico navegaría a la sección "Medical record" (Historial Médico) del paciente, y dentro de esa sección, buscaría y accedería a la pestaña o sección específica donde se muestran los resultados de laboratorio para analizar el estado actual de la enfermedad hormonal del paciente.
+
+<div align="center"><img src="images/wireflow medico user goal 3.png"></div>
+
+4. User Goal: Como médico deseo incluir los diagnosticos de mis pacientes para llevar un control de como a ido evulucionando su enfermedad hormonal.
+
+El médico seleccionaría al paciente desde la lista en "Today's patients", luego en la pantalla de "Consultation" (Consulta), ingresaría o editaría los diagnósticos en la sección correspondiente (posiblemente bajo "Treatment" o en una sección dedicada a "Diagnosis") para mantener un registro de la evolución de la enfermedad hormonal del paciente.
+
+<div align="center"><img src="images/wireflow medico user goal 4.png"></div>
+
+5. User Goal: Como médico deseo incluir el tratamiento de cada paciente para que sepan como deben llevar su vida cotidiana de ahora en adelante con los medicamentes que se les fue asignado.
+
+El médico seleccionaría al paciente de la lista en "Today's patients", luego en la pantalla de "Consultation" (Consulta), ingresaría o editaría el tratamiento y las recomendaciones sobre el estilo de vida en la sección correspondiente (probablemente bajo "Treatment" o en una sección específica llamada "Lifestyle recommendations") para que el paciente tenga acceso a esta información y sepa cómo manejar su vida diaria con el tratamiento asignado.
+
+<div align="center"><img src="images/wireflow medico user goal 5.png"></div>
+
+
+6. User Goal: Como médico deseo anotar la medicación que adquirirá el paciente junto con sus medidas adecuadas para que el paciente pueda llevar su tratamiento sin complicaciones.
+
+El médico, tras seleccionar al paciente en "Today's patients" y acceder a la pantalla de "Consultation", iría a la sección de "Medication" (Medicación) y añadiría o modificaría la medicación prescrita, incluyendo la dosis y frecuencia, así como cualquier instrucción o precaución relevante en la sección de "Observations" (Observaciones) para asegurar que el paciente siga el tratamiento correctamente y sin complicaciones.
+
+<div align="center"><img src="images/wireflow medico user goal 6.png"></div>
+
+
+7. User Goal: Como médico deseo configurar mi calendario para que pueda añadir a un paciente a una determinada hora.
+
+El médico accedería a la sección de calendario (posiblemente a través de un ícono en la barra de navegación inferior o desde la pantalla de "Today's patients"), seleccionaría la fecha y hora deseadas, llenaría los detalles de la cita en la pantalla de "Medical Appointment" (incluyendo el nombre del paciente o su correo electrónico), y finalmente haría clic en "Create event" (Crear evento) para agendar la cita en su calendario.
+
+<div align="center"><img src="images/wireflow medico user goal 7.png"></div>
+
+Enlace: https://lucid.app/lucidchart/3ceafd1f-2ef3-4273-8327-11e3e0a9ff9b/edit?viewport_loc=2092%2C4549%2C3096%2C1340%2C0_0&invitationId=inv_c0a7e01b-18fc-4e29-bede-1ee8e07f5e5c
+
 ##### 3.1.4.3. Mobile Applications Mock-up
+
+<div align="center"><img src="images/mockup .png"></div>
+
+Enlace: https://www.figma.com/design/DwwZyc2C4j2rgwIkTgo60g/HormonalCare?node-id=0-1&t=QFXZu1AiNXIuTlrO-1
+
+
 ##### 3.1.4.4. Mobile Applications User Flow Diagrams
+
+
 ##### 3.1.4.5. Mobile Applications Prototyping
+
+Prototipos de UI para Mobile app:
+
+<div align="center"><img src="images/mockup .png"></div>
+
+Enlace: https://www.figma.com/proto/DwwZyc2C4j2rgwIkTgo60g/HormonalCare?node-id=184-3354&node-type=canvas&t=QFXZu1AiNXIuTlrO-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1
+
+
 
 ### 3.2. Architecture Overview
 #### 3.2.1. Domain-Driven Software Architecture
