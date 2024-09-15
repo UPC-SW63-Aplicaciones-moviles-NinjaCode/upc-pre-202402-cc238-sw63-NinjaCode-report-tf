@@ -1338,12 +1338,66 @@ Enlace: https://www.figma.com/design/DwwZyc2C4j2rgwIkTgo60g/HormonalCare?node-id
 
 ##### 3.1.4.4. Mobile Applications User Flow Diagrams
 
+**Doctor:**
+
+User Goal 1: Médico endocrinólogo desea registrarse por primera vez en HormonalCare.
+
+El médico se encuentra en la pantalla de inicio de HormonalCare, selecciona el tipo de usuario "Endocrinólogo", completa el formulario de registro y accede a la vista de pacientes.
+
+<div align="center"><img src="images/user flow diagram goal 1.png"></div>
+
+**Paciente:**
+
+User Goal 2: Como paciente deseo registrarme para ingresar a la aplicación.
+
+El paciente, al ingresar a la aplicación HormonalCare, elige el tipo de usuario "Paciente", completa el formulario de registro con sus datos personales y accede a la pantalla principal que muestra su medicación, próxima cita y pendientes.
+
+<div align="center"><img src="images/user flow diagram goal 2.png"></div>
+
+
+User Goal 3: Como paciente deseo iniciar sesión con mis credenciales para ingresar a la aplicación.
+
+En la pantalla de bienvenida de HormonalCare, el paciente ingresa su correo electrónico y contraseña en los campos correspondientes y hace clic en "Enter" para iniciar sesión y acceder a la pantalla principal con su información de medicación, próxima cita y pendientes.
+
+<div align="center"><img src="images/user flow diagram goal 3.png"></div>
+
+
+User Goal 4: Como paciente deseo acceder a un calendario para poder visualizar mis próximas citas.
+
+En la pantalla principal, el paciente ubica la sección "Next appointment" donde se muestra su próxima cita y hace clic en el botón o enlace "Ver todas las citas" para acceder a la sección con el detalle de sus próximas citas.
+
+<div align="center"><img src="images/user flow diagram goal 4.png"></div>
+
+
+User Goal 5: Como paciente deseo acceder a las notificaciones para mantenerme al tanto de las actualizaciones de mi tratamiento.
+
+En la pantalla principal, el paciente toca el ícono de la campana de notificaciones para acceder a la lista de notificaciones y mantenerse informado sobre actualizaciones de su tratamiento, como nuevas citas, resultados de laboratorio y recordatorios de seguimiento.
+
+<div align="center"><img src="images/user flow diagram goal 5.png"></div>
+
+
+User Goal 6: Como paciente deseo subir mis exámenes pendientes para poder continuar con mi tratamiento.
+
+En la pantalla principal, el paciente identifica la sección "Pending" donde se listan los exámenes pendientes, selecciona la opción "Glucose test" y luego utiliza el botón o enlace provisto para subir los resultados de sus exámenes.
+
+<div align="center"><img src="images/user flow diagram goal 6.png"></div>
+
+
+User Goal 7: Como usuario deseo editar los datos de mi perfil.
+
+El usuario accede a su perfil tocando el ícono de la persona en la barra de navegación, luego toca el ícono de edición en la pantalla de perfil, modifica los datos necesarios y guarda los cambios tocando el botón "Guardar".
+
+<div align="center"><img src="images/user flow diagram goal 7.png"></div>
+
+
+Enlace: https://lucid.app/lucidchart/6a57cfed-5781-4ab5-8fa5-fd5e2eccf192/edit?viewport_loc=-442%2C-1778%2C16350%2C7988%2C0_0&invitationId=inv_191ff193-f14b-46ed-91f9-b7db73f8a5f1
+
 
 ##### 3.1.4.5. Mobile Applications Prototyping
 
 Prototipos de UI para Mobile app:
 
-<div align="center"><img src="images/mockup .png"></div>
+<div align="center"><img src="images/mockup def.png"></div>
 
 Enlace: https://www.figma.com/proto/DwwZyc2C4j2rgwIkTgo60g/HormonalCare?node-id=184-3354&node-type=canvas&t=QFXZu1AiNXIuTlrO-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1
 
