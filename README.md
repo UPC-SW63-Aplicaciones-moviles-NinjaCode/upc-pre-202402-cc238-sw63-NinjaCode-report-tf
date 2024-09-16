@@ -1864,7 +1864,7 @@ Para el despliegue del Back-End, hemos utilizado Railway, donde subimos el repos
 
 <img src = "images/deploy2.png">
 Deploy:
-[]
+[https://hormonal-care-backend-production.up.railway.app/api/v1/medical-record/medications/medicationTypes] - puede esta desactivado para ahorrar creditos en railway.
 
 ##### 4.2.1.8. Team Collaboration Insights during Sprint.
 Durante este sprint, la colaboración se realizó a través de Git y GitHub. Se realizaron commits y revisiones constantes para asegurar que los servicios implementados cumplan con los estándares del equipo.
