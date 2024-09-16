@@ -1455,7 +1455,10 @@ Enlace: https://www.figma.com/proto/DwwZyc2C4j2rgwIkTgo60g/HormonalCare?node-id=
 
 #### 3.2.2. Software Object-Oriented Design
 ##### 3.2.2.1. Class Diagrams
-##### 3.2.2.1. Class Dictionary
+<div align="center"><img src="images/classDiagram.png"></div>
+
+
+##### 3.2.2.2. Class Dictionary
 
 |Class|Description|
 | :- | :- |
@@ -1478,7 +1481,17 @@ Enlace: https://www.figma.com/proto/DwwZyc2C4j2rgwIkTgo60g/HormonalCare?node-id=
 
 ##### 3.2.2.1. Database Design
 ##### 3.2.2.1. Database Diagram
+Profile Diagram
+<div align="center"><img src="images/profileclassdiagram.png"></div>
 
+Appointment Diagram
+<div align="center"><img src="images/appointmentClassDiagram.png"></div>
+
+Medical Record Diagram
+<div align="center"><img src="images/medicalRecordClassDiagram.png"></div>
+
+Database Diagram
+<div align="center"><img src="images/databaseDiagram.png"></div>
 
 
 ## CAPÍTULO IV: BACKEND PRODUCT IMPLEMENTATION & VALIDATION
