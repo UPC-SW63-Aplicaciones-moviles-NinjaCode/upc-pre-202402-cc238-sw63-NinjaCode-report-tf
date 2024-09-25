@@ -47,7 +47,7 @@
 |:-----:|:--------:|:--------:|:--------:|
 | TB1  v.1   | 28/08/2024 | NinjaCode | Para esta entrega se desarrollaron los capitulos I y II|
 | TB2  v.1   | 08/09/2024 | NinjaCode | Al momento de esta entrega se avanzaron la mayoría de los puntos de los capítulos III y IV.|
-
+| TP  | 26/09/2024 | NinjaCode | Se avanzó una parte del frontend de la aplicacióon movil y se integró algunas funcionalidades del frontend con el backend.|
 </div>
 
 
