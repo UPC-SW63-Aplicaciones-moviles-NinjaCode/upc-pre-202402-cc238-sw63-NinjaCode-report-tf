@@ -1874,6 +1874,28 @@ En la presente entrega, se llevaron a cabo avances del backend de la aplicación
 <img src="images/evidenceSprint32.png" width=400>
 
 
+
+
+#### 4.2.2. Sprint 2
+
+##### 4.2.2.1. Sprint Planning 2.
+
+##### 4.2.2.2. Sprint Backlog 2.
+
+##### 4.2.2.3. nDevelopment Evidence for Sprint Review.
+
+##### 4.2.2.4. Testing Suite Evidence for Sprint Review.
+
+##### 4.2.2.5. Execution Evidence for Sprint Review.
+
+##### 4.2.2.6. Services Documentation Evidence for Sprint Review.
+
+##### 4.2.2.7. 1Software Deployment Evidence for Sprint Review.
+
+##### 4.2.2.8. Team Collaboration Insights during Sprint.
+
+
+
 ## Referencias Bibliográficas
 
 * Abramo, L., Cecchini, S., & Ullmann, H.. (2020). Enfrentar las desigualdades en salud en América Latina: el rol de la protección 	social. Ciência & Saúde Coletiva, 25(5), 1587–1598. https://doi.org/10.1590/1413-81232020255.32802019
