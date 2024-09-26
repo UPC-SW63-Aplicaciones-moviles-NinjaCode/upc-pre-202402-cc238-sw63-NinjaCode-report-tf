@@ -1880,6 +1880,22 @@ En la presente entrega, se llevaron a cabo avances del backend de la aplicación
 
 ##### 4.2.2.1. Sprint Planning 2.
 
+#### En este sprint, el enfoque estará en completar las funcionalidades clave relacionadas con la gestión de citas, notificaciones y la comunicación entre pacientes y médicos en la aplicación móvil “HormonalCare”. Se implementarán mejoras en la interacción del usuario con el calendario y la visualización de su medicación, asegurando que el sistema sea funcional y escalable, manteniendo las mejores prácticas de desarrollo para garantizar un rendimiento óptimo.
+
+|Sprint #|Sprint 2|
+| - | - |
+|**Sprint Planning Background**||
+|Date|09-17-2024|
+|Time|9:00|
+|Location|Reunión realizada mediante Discord|
+|Prepared By|Lostaunau Pereira Estéfano Sebastián|
+|Attendees (to planning meeting)|Astuyauri Calderon Jherson David / Chinchihualpa Saldarriaga Luis Sebastian/Lostaunau Pereira Estéfano Sebastián	/Quispesivana Torres Claudio Sandro|
+|**Sprint Goal & User Stories**||
+|Sprint 2 Goal|Completar la implementación de las funcionalidades de citas, notificaciones y gestión de pacientes para mejorar la experiencia del usuario en la aplicación.|
+|Sprint 2 Velocity|15|
+|Sum of Story Points|15|
+
+
 ##### 4.2.2.2. Sprint Backlog 2.
 
 ##### 4.2.2.3. nDevelopment Evidence for Sprint Review.
