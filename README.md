@@ -1948,6 +1948,18 @@ En la presente entrega, se llevaron a cabo avances del backend de la aplicación
 
 ##### 4.2.2.3. nDevelopment Evidence for Sprint Review.
 
+|Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on (Date)|
+| - | - | - | - | - | - |
+|hormonal-care-frontend| develop |978e47968e2331eba18e748752823dd9456a6074|feat(auth): create sign in and sign up components in the same view|-|17/09/2024|
+|hormonal-care-frontend| develop |f56100e38237c63c116781f8e1e3661899cd3b49|feat: Added patient list and appointment form.|-|17/09/2024|
+|hormonal-care-frontend| develop |1d0cc9c8963f227a1cb9b05d785b99431c7b2011|feat: Added profile screen.|-|19/09/2024|
+|hormonal-care-frontend| develop |d7dee148e031052519554766dbd5f4812ac71de9|feat: Added consultation screen.|-|23/09/2024|
+|hormonal-care-frontend| develop |472811691cae442ead8bf26a6e4aadd9a826dc9a|feat: Added connection with jwt token in sign-in and sign-up.|24/09/2024|
+|hormonal-care-frontend| develop |b3a9bc2ab0737ad8d408dac75c584a1fc275c7a0|feat: Added medical appointment connection.|-|25/09/2024| |hormonal-care-backend| develop |978e47968e2331eba18e748752823dd9456a6074|fix: patient and doctor new attributes|-|17/09/2024|
+|hormonal-care-backend| develop |f56100e38237c63c116781f8e1e3661899cd3b49|fix(web securityconfiguration): jwt activado|-|17/09/2024|
+|hormonal-care-backend| develop |1d0cc9c8963f227a1cb9b05d785b99431c7b2011|feat: doctor updated information|-|18/09/2024|
+|hormonal-care-backend| develop |d7dee148e031052519554766dbd5f4812ac71de9|feat: patient has update all its information and personal and family history included.|-|18/09/2024|
+
 ##### 4.2.2.4. Testing Suite Evidence for Sprint Review.
 
 ##### 4.2.2.5. Execution Evidence for Sprint Review.
