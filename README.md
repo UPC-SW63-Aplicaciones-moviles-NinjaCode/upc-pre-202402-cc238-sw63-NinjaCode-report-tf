@@ -1880,7 +1880,7 @@ En la presente entrega, se llevaron a cabo avances del backend de la aplicación
 
 ##### 4.2.2.1. Sprint Planning 2.
 
-#### En este sprint, el enfoque estará en completar las funcionalidades clave relacionadas con la gestión de citas, notificaciones y la comunicación entre pacientes y médicos en la aplicación móvil “HormonalCare”. Se implementarán mejoras en la interacción del usuario con el calendario y la visualización de su medicación, asegurando que el sistema sea funcional y escalable, manteniendo las mejores prácticas de desarrollo para garantizar un rendimiento óptimo.
+En este sprint, el enfoque estará en completar las funcionalidades clave relacionadas con la gestión de citas, notificaciones y la comunicación entre pacientes y médicos en la aplicación móvil “HormonalCare”. Se implementarán mejoras en la interacción del usuario con el calendario y la visualización de su medicación, asegurando que el sistema sea funcional y escalable, manteniendo las mejores prácticas de desarrollo para garantizar un rendimiento óptimo.
 
 |Sprint #|Sprint 2|
 | - | - |
@@ -1897,6 +1897,9 @@ En la presente entrega, se llevaron a cabo avances del backend de la aplicación
 
 
 ##### 4.2.2.2. Sprint Backlog 2.
+
+En este sprint, el enfoque principal es la implementación de funcionalidades críticas relacionadas con la gestión de usuarios, citas médicas y la interacción entre doctores y pacientes en la aplicación. Esto incluye el desarrollo de endpoints clave para el manejo de autenticación, perfiles, citas médicas, historiales de pacientes, y tratamientos, asegurando que cada uno de estos módulos permita las operaciones esenciales de creación, consulta y actualización de datos. Además, se prioriza la mejora de la interfaz para facilitar una experiencia de usuario fluida, particularmente para doctores, con el objetivo de optimizar la navegación entre los perfiles de pacientes y la programación de citas.
+
 
 | ID   | User Story                                | Work-Item / Task                              | Description                                                                             | Estimation (Hours) | Assigned To | Status    |
 |------|-------------------------------------------|-----------------------------------------------|-----------------------------------------------------------------------------------------|-------------------|-------------|-----------|
@@ -1946,7 +1949,10 @@ En la presente entrega, se llevaron a cabo avances del backend de la aplicación
 |       |                                            | T02: Desarrollo del endpoint de recetas          | Implementar las operaciones CRUD en el endpoint para la gestión de recetas médicas        | 7                 | Luis        | Pending   |
 |       |                                            | T03: Pruebas del endpoint de recetas             | Realizar pruebas unitarias e integradas para asegurar el correcto manejo de las recetas   | 4                 | Jherson     | Pending   |
 
-##### 4.2.2.3. nDevelopment Evidence for Sprint Review.
+##### 4.2.2.3. Development Evidence for Sprint Review.
+
+A medida que avanzamos en el desarrollo del backend y frontend, aquí se documentan los commits relacionados con los servicios y funcionalidades implementadas. Los commits muestran avances en la creación de la API, la implementación de autenticación y la gestión de suscripciones.
+
 
 |Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on (Date)|
 | - | - | - | - | - | - |
@@ -1962,13 +1968,89 @@ En la presente entrega, se llevaron a cabo avances del backend de la aplicación
 
 ##### 4.2.2.4. Testing Suite Evidence for Sprint Review.
 
+Para esta entrega se realizaron pruebas unitarias en los servicios de usuarios, autenticación y suscripciones. Las pruebas verificaron el correcto manejo de datos y la seguridad de las funcionalidades de autenticación.
+
+|Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on (Date)|
+| - | - | - | - | - | - |
+|Acceptance-Test| US51.feature |474174b|Create US51.feature|-|09/07/2024|
+|Acceptance-Test| US52.feature |0e9f7b0|Create US52.feature|-|09/07/2024|
+|Acceptance-Test| US53.feature |cc368d1|Create US53.feature|-|09/07/2024|
+|Acceptance-Test| US54.feature|18a6135|Create US54.feature|-|09/07/2024|
+|Acceptance-Test| US55.feature |0dae3bc|Create US55.feature|-|09/07/2024|
+|Acceptance-Test| US56.feature |b067c80|Create US56.feature|-|09/07/2024|
+|Acceptance-Test| US57.feature|b61b43b|Create US57.feature |-|09/07/2024|
+|Acceptance-Test| US58.feature |6d60a64|Create US58.feature|-|09/07/2024|
+
 ##### 4.2.2.5. Execution Evidence for Sprint Review.
+
+En este Sprint, nuestro equipo se enfocó en la unión del backend y frontend de la aplicación Hormonal Care. Hemos desarrollado los principales endpoints necesarios para la funcionalidad de la aplicación, iniciando con el diseño del front end del sign up y log in, luego el consumo de sus apis, home de doctor, creación de medical appointments y edición del perfil de doctor, ademas de poder acceder a su cartera de pacientes.
+
+
+**Capturas de Pantalla**
+
+A continuación se presentan capturas de pantalla de las principales vistas implementadas:
+
+**Sign up**
+
+<img src = "images/evidenceSignUp.png">
+<img src = "images/evidenceSignUp2.png">
+
+**Sign In**
+
+<img src = "images/evidenceFrontSignIn.png">
+
+**Front - Home Doctor**
+
+<img src = "images/evidenceFrontHomeDoctor.png">
+
+**Front - Medical Appointment Doctor**
+
+<img src = "images/evidenceFrontCreateMedicalAppointmentDoctor.png">
+
 
 ##### 4.2.2.6. Services Documentation Evidence for Sprint Review.
 
-##### 4.2.2.7. 1Software Deployment Evidence for Sprint Review.
+En este segundo Sprint tenemos los siguientes servicios:
+
+
+| EndPoint                                        | Detalles                                                                                      |
+|-------------------------------------------------|-----------------------------------------------------------------------------------------------|
+| /api/v1/authentication/sign-up                  | Permite registrar nuevos usuarios en la plataforma.                                            |
+| /api/v1/authentication/sign-in                  | Permite a los usuarios autenticarse y acceder a la plataforma.                                 |
+| /api/v1/profile/profile                         | Permite obtener, actualizar y gestionar el perfil del usuario.                                 |
+| /api/v1/medicalAppointment                      | En esta ruta se gestionan las citas médicas (agregar, obtener, actualizar).                    |
+| /api/v1/medicalAppointment/{id}                 | Obtiene o actualiza una cita médica específica.                                                |
+| /api/v1/medical-record/treatments               | En esta ruta se gestionan los tratamientos médicos (agregar, obtener, actualizar).             |
+| /api/v1/medical-record/treatments/{id}          | Obtiene o actualiza un tratamiento médico específico.                                          |
+| /api/v1/medical-record/patient                  | En esta ruta se gestionan los datos del paciente (obtener, actualizar).                        |
+| /api/v1/medical-record/patient/{id}             | Obtiene o actualiza la información médica específica de un paciente.                           |
+| /api/v1/doctor/doctor                           | En esta ruta se gestionan los datos de los doctores (obtener, actualizar).                     |
+| /api/v1/doctor/doctor/{id}                      | Obtiene o actualiza los datos de un doctor específico.                                         |
+
+Además, con respecto a los métodos HTTP permitidos, algunos endpoints podrían no tener todos los métodos debido a la lógica del negocio.
+- **GET**: Utilizado para obtener información. Todos los endpoints deben admitir este método.
+- **POST**: Utilizado para agregar nuevos registros.
+- **PUT/PATCH**: Utilizado para actualizar información existente. Algunos endpoints podrían no admitir PUT, pero sí admitir PATCH si solo necesitan actualizaciones parciales.
+- **DELETE**: Utilizado para eliminar registros existentes. Algunos endpoints podrían no admitir este método por razones de seguridad o integridad de los datos.
+
+##### 4.2.2.7. Software Deployment Evidence for Sprint Review.
+
+Para seguir con la implementación del despliegue automático de nuestra aplicación HormonalCare, seguimos urilizando las mismas herramientas del primer sprint:
+
+Para el despliegue del Back-End, seguimos utilizado Railway, donde subimos el repositorio del backend y configuramos MySQL.
+##### A continuación se muestran las evidencias: 
+<img src = "images/evidence1.png">
+<img src = "images/evidence2.png">
+<img src = "images/evidence3.png">
+<img src = "images/evidence4.png">
 
 ##### 4.2.2.8. Team Collaboration Insights during Sprint.
+
+Durante este sprint, la colaboración se realizó a través de Git y GitHub. Se realizaron commits y revisiones constantes para asegurar que los servicios implementados cumplan con los estándares del equipo. En la presente entrega, se llevaron a cabo avances del backend de la aplicación móvil usando como software al IDE IntelliJ Idea. De las misma forma que en entregas anteriores, se dividió las partes del bounded context de Medical Record entre los integrantes del grupo. Se siguió trbajao en el repositorio dentro de la organización NinjaCode en donde cada alumno creó su rama para trabajar en el feature asignado. Una vez que sus implementaciones estaban realizadas de forma correcta, cada participante llevaba los commits de su rama a la rama Develop. 
+
+<img src = "images/insights2.png">
+<img src = "images/Insights2.1.png">
+
 
 
 
