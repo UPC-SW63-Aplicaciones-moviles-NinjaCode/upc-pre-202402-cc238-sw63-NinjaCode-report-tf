@@ -15,7 +15,7 @@
 
 <p align="center"><strong>Profesor:</strong> Jorge Luis Mayta Guillermo</p>
 
-<h2 align="center"><strong>Informe de TB2</strong> </h2>
+<h2 align="center"><strong>Informe de TP</strong> </h2>
 
 <p align="center"><strong>Nombre del startup:</strong> NinjaCode</p>
 
