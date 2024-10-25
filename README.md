@@ -2125,9 +2125,73 @@ Durante este sprint, la colaboración se realizó a través de Git y GitHub. Se 
 
 ##### 4.2.3.1. Sprint Planning 3
 
+En este sprint, el enfoque se puso en terminar las funcionalidades clave del sprint 2, principal mente de front end, relacionadas con la gestión de citas, calendario, perfil, historia clínica, sign in y sign up de la parte del doctor en la aplicación móvil “HormonalCare”. Se implementarán mejoras en la interfaz de la aplicación mejorando así la interacción del usuario, asegurando que el sistema sea funcional y escalable, manteniendo las mejores prácticas de desarrollo para garantizar un rendimiento óptimo.
+
+|Sprint #|Sprint 3|
+| - | - |
+|**Sprint Planning Background**||
+|Date|10-01-2024|
+|Time|9:00|
+|Location|Reunión realizada mediante Discord|
+|Prepared By|Lostaunau Pereira Estéfano Sebastián|
+|Attendees (to planning meeting)|Astuyauri Calderon Jherson David / Chinchihualpa Saldarriaga Luis Sebastian/Lostaunau Pereira Estéfano Sebastián	/Quispesivana Torres Claudio Sandro|
+|**Sprint Goal & User Stories**||
+|Sprint 2 Goal|Completar la implementación de las funcionalidades relacionadas con la gestión de citas, calendario, perfil, historia clínica, sign in y sign up de la parte del doctor para mejorar la experiencia del usuario en la aplicación.|
+|Sprint 2 Velocity|15|
+|Sum of Story Points|15|
+
 ##### 4.2.3.2. Sprint Backlog 3
 
+Para el Sprint 3, el enfoque se centró en completar las interfaces de usuario y funcionalidades de frontend clave en la aplicación “HormonalCare”, particularmente aquellas que permiten una interacción más dinámica y accesible para el doctor. Esto incluyó la implementación de pantallas para la autenticación (sign-in y sign-up), el perfil de usuario, y la historia clínica del paciente, así como el desarrollo de vistas específicas como el Home del Doctor y la Cartera de Pacientes. Se mejoraron elementos de la interfaz como el calendario de citas y la organización de datos médicos en un formato de carrusel para facilitar la navegación. A través de este sprint, se busca asegurar que la aplicación sea funcional, intuitiva y optimizada para el flujo de trabajo del doctor, manteniendo la escalabilidad y las mejores prácticas de desarrollo.
+
+
+| ID   | User Story                                | Work-Item / Task                              | Description                                                                             | Estimation (Hours) | Assigned To | Status    |
+|------|-------------------------------------------|-----------------------------------------------|-----------------------------------------------------------------------------------------|--------------------|-------------|-----------|
+| US03 | Login del Usuario                         | T01: Implementación de la pantalla de login   | Implementar el diseño de la pantalla de login con campos para correo y contraseña       | 3                  | Jherson     | Done      |
+|      |                                           | T02: Validación de credenciales en frontend   | Añadir validación de formato para correo y contraseña en frontend                       | 2                  | Estefano    | Done      |
+|      |                                           | T03: Pruebas de flujo de login                | Realizar pruebas de flujo de login en diferentes navegadores y dispositivos             | 3                  | Sandro      | Done      |
+| US04 | Registro de Nuevos Usuarios (Sign Up)     | T01: Implementación de la pantalla de sign up | Crear pantalla de registro con campos requeridos y validación de datos en frontend      | 4                  | Sandro      | Done      |
+|      |                                           | T02: Pruebas del flujo de registro            | Realizar pruebas para verificar el correcto registro de usuarios desde el frontend      | 3                  | Jherson     | Done      |
+|      |                                           | T03: Retroalimentación visual en el registro  | Implementar mensajes visuales de error o éxito al completar el registro                | 2                  | Luis        | Done      |
+| US14 | Creación de Citas por parte del Doctor    | T01: Implementación de pantalla de citas      | Desarrollar interfaz donde el doctor puede ver y programar citas desde el calendario    | 6                  | Luis        | Done      |
+|      |                                           | T02: Interactividad en calendario             | Añadir interacciones como selección de fecha y hora en el calendario                   | 4                  | Estefano    | Done      |
+|      |                                           | T03: Pruebas de interactividad de citas       | Realizar pruebas de usabilidad y precisión en selección de citas                       | 4                  | Sandro      | Done      |
+| US24 | Home del Doctor                           | T01: Implementación de lista de pacientes del día | Mostrar lista de pacientes que tienen citas hoy en el home del doctor               | 5                  | Sandro      | Done      |
+|      |                                           | T02: Pruebas de visualización de pacientes    | Asegurar que la lista se actualiza dinámicamente al cargar la página                   | 3                  | Jherson     | Done      |
+|      |                                           | T03: Botón para acceder a historia clínica    | Añadir botón en cada paciente para que el doctor acceda a su historia clínica          | 4                  | Luis        | In Progress |
+| US25 | Cartera de Pacientes                      | T01: Implementación de grilla de pacientes    | Crear una grilla para la visualización de la cartera de pacientes en formato de tarjetas| 5                  | Estefano    | Done      |
+|      |                                           | T02: Implementación de botones en cada tarjeta| Añadir botones para ver historial de consultas y expediente médico                     | 6                  | Sandro      | In Progress |
+|      |                                           | T03: Pruebas de la grilla de pacientes        | Realizar pruebas para confirmar el funcionamiento de la grilla de pacientes            | 4                  | Jherson     | Pending   |
+| US26 | Perfil del Doctor                         | T01: Implementación de la pantalla de perfil  | Crear pantalla para mostrar perfil del doctor con datos relevantes (solo lectura)      | 4                  | Luis        | Done      |
+|      |                                           | T02: Pruebas de la visualización del perfil   | Verificar que los datos se muestren correctamente sin errores de formato               | 3                  | Estefano    | Done      |
+|      |                                           | T03: Diseño de edición para perfil del doctor | Desarrollar diseño preliminar para editar datos personales en el perfil del doctor     | 3                  | Sandro      | Pending   |
+| US27 | Historia Clínica del Paciente             | T01: Implementación de vista de historia clínica | Crear interfaz que permita visualizar la historia clínica del paciente en frontend | 5                  | Estefano    | In Progress |
+|      |                                           | T02: Carrusel de subpantallas en historia clínica | Desarrollar carrusel con secciones de medicación, reports, tratamientos y citas | 6                  | Luis        | In Progress |
+|      |                                           | T03: Pruebas del flujo en historia clínica    | Asegurar que el flujo entre secciones de historia clínica sea funcional y fluido       | 4                  | Jherson     | Pending   |
+| US28 | Calendario de Citas del Doctor            | T01: Implementación de la pantalla de calendario | Crear una vista donde el doctor pueda ver y gestionar sus citas en un calendario    | 6                  | Jherson     | Done      |
+|      |                                           | T02: Pruebas del calendario en frontend       | Verificar que el calendario muestre las citas y permite la interacción correcta        | 4                  | Sandro      | Done      |
+| US29 | Perfil del Paciente                       | T01: Implementación de pantalla de perfil del paciente | Crear pantalla de perfil en formato de lectura para los pacientes                | 5                  | Jherson     | Done      |
+|      |                                           | T02: Pruebas del perfil del paciente          | Realizar pruebas de visualización de datos para asegurar precisión                     | 3                  | Luis        | Done      |
+| US30 | Acceso a Informes Médicos                 | T01: Implementación de vista de informes médicos | Desarrollar interfaz para que el doctor acceda a informes médicos específicos      | 5                  | Estefano    | Pending   |
+|      |                                           | T02: Diseño de interacción en informes        | Añadir navegación y formato para mejorar la lectura de informes                       | 3                  | Jherson     | Pending   |
+|      |                                           | T03: Pruebas de accesibilidad en informes     | Realizar pruebas para asegurar la correcta visualización en dispositivos móviles       | 3                  | Sandro      | Pending   |
+| US31 | Subida de Exámenes Médicos                | T01: Diseño de interfaz para subida de exámenes | Diseñar una pantalla que permita a los pacientes cargar archivos médicos            | 4                  | Estefano    | Pending   |
+|      |                                           | T02: Implementación de visualización de archivos | Desarrollar funcionalidad que muestre el estado de carga y archivos subidos        | 5                  | Luis        | Pending   |
+|      |                                           | T03: Pruebas de carga de exámenes médicos     | Asegurar que los archivos se suben y se muestran correctamente en la aplicación       | 4                  | Jherson     | Pending   |
+
 ##### 4.2.3.3. Development Evidence for Sprint Review
+
+A medida que avanzamos en el desarrollo del backend y frontend, aquí se documentan los commits relacionados con los servicios y funcionalidades implementadas. Los commits muestran avances en la creación de la API, la implementación de autenticación y la gestión de suscripciones.
+
+
+|Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on (Date)|
+| - | - | - | - | - | - |
+|hormonal-care-frontend| develop |8f2f2e0bb22147e843da194d33e17586898db2ca|feat (medical-record): create medical record screens|-|05/10/2024|
+|hormonal-care-frontend| develop |091d20d1c86465da90f40e3dd596076dd5b4f1c7|feat: Added today's patients connection with database.|-|10/10/2024|
+|hormonal-care-frontend| develop |95f5d12805dc26a282bcda692669fabe467b307f|feat: Add timezone validation and close form on event creation|-|10/10/2024|
+|hormonal-care-frontend| develop |ab68a199194edbb0e40df66706f2b17810be5d46|feat (medical-record): add GET methods for a section of the medical record|-|13/10/2024|
+|hormonal-care-frontend| develop |44931c2b603b01f62068e300c4cc3c3565e906fc|feat(patients): update patients list to include doctor related patients|23/10/2024|
+|hormonal-care-frontend| develop |4aedb846e869258fec3239d485b684356cacba68|feat (profile, role management & log out): added patient profile screen, fixed doctor profile screen and log out implemented|-|23/10/2024| 
 
 ##### 4.2.3.4. Testing Suite Evidence for Sprint Review
 
