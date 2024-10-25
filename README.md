@@ -1,4 +1,4 @@
-<p align="center">
+<img width="914" alt="insight3" src="https://github.com/user-attachments/assets/240df6ed-a844-4385-8cdf-45c30c4863d9"><p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="Logo UPC">
 </p>
 
@@ -2190,18 +2190,99 @@ A medida que avanzamos en el desarrollo del backend y frontend, aquí se documen
 |hormonal-care-frontend| develop |091d20d1c86465da90f40e3dd596076dd5b4f1c7|feat: Added today's patients connection with database.|-|10/10/2024|
 |hormonal-care-frontend| develop |95f5d12805dc26a282bcda692669fabe467b307f|feat: Add timezone validation and close form on event creation|-|10/10/2024|
 |hormonal-care-frontend| develop |ab68a199194edbb0e40df66706f2b17810be5d46|feat (medical-record): add GET methods for a section of the medical record|-|13/10/2024|
-|hormonal-care-frontend| develop |44931c2b603b01f62068e300c4cc3c3565e906fc|feat(patients): update patients list to include doctor related patients|23/10/2024|
+|hormonal-care-frontend| develop |44931c2b603b01f62068e300c4cc3c3565e906fc|feat(patients): update patients list to include doctor related patients|-|23/10/2024|
 |hormonal-care-frontend| develop |4aedb846e869258fec3239d485b684356cacba68|feat (profile, role management & log out): added patient profile screen, fixed doctor profile screen and log out implemented|-|23/10/2024| 
 
 ##### 4.2.3.4. Testing Suite Evidence for Sprint Review
 
+Para esta entrega se realizaron pruebas unitarias en los servicios de usuarios, autenticación y suscripciones. Las pruebas verificaron el correcto manejo de datos y la seguridad de las funcionalidades de autenticación.
+
+|Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on (Date)|
+| - | - | - | - | - | - |
+|Acceptance-Test| US51.feature |474174b|Create US51.feature|-|20/10/2024|
+|Acceptance-Test| US52.feature |0e9f7b0|Create US52.feature|-|20/10/2024|
+|Acceptance-Test| US53.feature |cc368d1|Create US53.feature|-|20/10/2024|
+|Acceptance-Test| US54.feature|18a6135|Create US54.feature|-|20/10/2024|
+|Acceptance-Test| US55.feature |0dae3bc|Create US55.feature|-|20/10/2024|
+|Acceptance-Test| US56.feature |b067c80|Create US56.feature|-|20/10/2024|
+|Acceptance-Test| US57.feature|b61b43b|Create US57.feature |-|20/10/2024|
+|Acceptance-Test| US58.feature |6d60a64|Create US58.feature|-|20/10/2024|
+
+
 ##### 4.2.3.5. Execution Evidence for Sprint Review
+
+En este Sprint, el equipo centró sus esfuerzos en consolidar y mejorar el frontend de la aplicación “HormonalCare”. Se completaron las pantallas de sign-up y log-in con validaciones en frontend y conexión estable a las APIs de autenticación. Además, se desarrollaron vistas esenciales para el Home del Doctor, permitiendo ver los pacientes del día y acceder a sus historiales clínicos, así como la Cartera de Pacientes, con acceso a los perfiles y detalles médicos de cada paciente. También se avanzó en la interfaz del calendario para la creación y visualización de citas y en la implementación de la pantalla de perfil, que ahora permite obtener datos del doctor y del paciente. Este enfoque en el frontend asegura una experiencia de usuario coherente y efectiva, alineada con los objetivos funcionales de la aplicación.
+
+**Capturas de Pantalla**
+
+A continuación se presentan capturas de pantalla de las principales pantallas implementadas:
+
+**Home Doctor**
+<img src = "images/sprint3-evidence-todaysPatients.png">
+
+**Cartera de pacientes**
+<img src = "images/evidence3-2.png">
+
+**Crear nueva cita médica**
+<img src = "images/evidence3-3.png">
+
+**Historia Clínica**
+<img src = "images/evidence3-4.png">
+
+**Calendario**
+<img src = "images/evidence3-5.png">
+
+**Perfil**
+<img src = "images/evidence3-6.png">
 
 ##### 4.2.3.6. Services Documentation Evidence for Sprint Review
 
+En este tercer Sprint tenemos los siguientes servicios:
+
+| EndPoint                                        | Detalles                                                                                      |
+|-------------------------------------------------|-----------------------------------------------------------------------------------------------|
+| /api/v1/authentication/sign-up                  | Permite registrar nuevos usuarios en la plataforma.                                            |
+| /api/v1/authentication/sign-in                  | Permite a los usuarios autenticarse y acceder a la plataforma.                                 |
+| /api/v1/profile/profile                         | Permite obtener, actualizar y gestionar el perfil del usuario.                                 |
+| /api/v1/medicalAppointment                      | En esta ruta se gestionan las citas médicas (agregar, obtener, actualizar).                    |
+| /api/v1/medicalAppointment/{id}                 | Obtiene o actualiza una cita médica específica.                                                |
+| /api/v1/medical-record/treatments               | En esta ruta se gestionan los tratamientos médicos (agregar, obtener, actualizar).             |
+| /api/v1/medical-record/treatments/{id}          | Obtiene o actualiza un tratamiento médico específico.                                          |
+| /api/v1/medical-record/patient                  | En esta ruta se gestionan los datos del paciente (obtener, actualizar).                        |
+| /api/v1/medical-record/patient/{id}             | Obtiene o actualiza la información médica específica de un paciente.                           |
+| /api/v1/doctor/doctor                           | En esta ruta se gestionan los datos de los doctores (obtener, actualizar).                     |
+| /api/v1/doctor/doctor/{id}                      | Obtiene o actualiza los datos de un doctor específico.                                         |
+
+Además, con respecto a los métodos HTTP permitidos, algunos endpoints podrían no tener todos los métodos debido a la lógica del negocio.
+- **GET**: Utilizado para obtener información. Todos los endpoints deben admitir este método.
+- **POST**: Utilizado para agregar nuevos registros.
+- **PUT/PATCH**: Utilizado para actualizar información existente. Algunos endpoints podrían no admitir PUT, pero sí admitir PATCH si solo necesitan actualizaciones parciales.
+- **DELETE**: Utilizado para eliminar registros existentes. Algunos endpoints podrían no admitir este método por razones de seguridad o integridad de los datos.
+
+
 ##### 4.2.3.7. Software Deployment Evidence for Sprint Review
 
+Para seguir con la implementación del despliegue automático de nuestra aplicación HormonalCare, seguimos urilizando las mismas herramientas del segundo sprint:
+
+Para el despliegue del Back-End, seguimos utilizado Railway, donde subimos el repositorio del backend y configuramos MySQL.
+
+<img src = "images/deploy3-1.png">
+
+<img src = "images/deploy3-2.png">
+
+<img src = "images/deploy3-3.png">
+
+<img src = "images/deploy3-4.png">
+
+<img src = "images/deploy3-5.png">
+
 ##### 4.2.3.8. Team Collaboration Insights during Sprint
+
+Durante este sprint, la colaboración se realizó a través de Git y GitHub. Se realizaron commits y revisiones constantes para asegurar que los servicios implementados cumplan con los estándares del equipo. En la presente entrega, se llevaron a cabo avances del frontend de la aplicación móvil usando como software a Visual Studio Code. De las misma forma que en entregas anteriores, se dividió las partes del bounded context de Medical Record entre los integrantes del grupo. Se siguió trbajao en el repositorio dentro de la organización NinjaCode en donde cada alumno creó su rama para trabajar en el feature asignado. Una vez que sus implementaciones estaban realizadas de forma correcta, cada participante llevaba los commits de su rama a la rama Develop.
+
+<img src = "images/insight3.png">
+
+
 
 
 ## Referencias Bibliográficas
