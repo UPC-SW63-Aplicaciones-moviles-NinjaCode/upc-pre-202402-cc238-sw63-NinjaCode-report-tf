@@ -1,4 +1,5 @@
-  <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="Logo UPC">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="Logo UPC"><p align="center">
 </p>
 
 <h1 align="center">Universidad Peruana de Ciencias Aplicadas</h1>
