@@ -2242,21 +2242,31 @@ A continuación se presentan capturas de pantalla de las principales pantallas i
 
 ##### 4.2.3.6. Services Documentation Evidence for Sprint Review
 
-En este tercer Sprint tenemos los siguientes servicios:
+Para el sprint 3 se crearon algunos endpoints y otros fueron modificados:
 
-| EndPoint                                        | Detalles                                                                                      |
-|-------------------------------------------------|-----------------------------------------------------------------------------------------------|
-| /api/v1/authentication/sign-up                  | Permite registrar nuevos usuarios en la plataforma.                                            |
-| /api/v1/authentication/sign-in                  | Permite a los usuarios autenticarse y acceder a la plataforma.                                 |
-| /api/v1/profile/profile                         | Permite obtener, actualizar y gestionar el perfil del usuario.                                 |
-| /api/v1/medicalAppointment                      | En esta ruta se gestionan las citas médicas (agregar, obtener, actualizar).                    |
-| /api/v1/medicalAppointment/{id}                 | Obtiene o actualiza una cita médica específica.                                                |
-| /api/v1/medical-record/treatments               | En esta ruta se gestionan los tratamientos médicos (agregar, obtener, actualizar).             |
-| /api/v1/medical-record/treatments/{id}          | Obtiene o actualiza un tratamiento médico específico.                                          |
-| /api/v1/medical-record/patient                  | En esta ruta se gestionan los datos del paciente (obtener, actualizar).                        |
-| /api/v1/medical-record/patient/{id}             | Obtiene o actualiza la información médica específica de un paciente.                           |
-| /api/v1/doctor/doctor                           | En esta ruta se gestionan los datos de los doctores (obtener, actualizar).                     |
-| /api/v1/doctor/doctor/{id}                      | Obtiene o actualiza los datos de un doctor específico.                                         |
+| EndPoint                                                | Detalles                                                                                                             |
+|---------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+| /api/v1/authentication/sign-up                          | Permite registrar nuevos usuarios en la plataforma, con roles ROLE_PATIENT o ROLE_DOCTOR.                           |
+| /api/v1/authentication/sign-in                          | Permite a los usuarios autenticarse y acceder a la plataforma; ahora el response body incluye el rol del usuario.    |
+| /api/v1/profile/profile                                 | Permite obtener, actualizar y gestionar el perfil del usuario.                                                      |
+| /api/v1/profile/profile/{profileId}/full-update         | Endpoint para la edición completa de perfiles de usuario.                                                           |
+| /api/v1/profile/profile/userId/{userId}                 | Devuelve el perfil del usuario con el userId especificado.                                                          |
+| /api/v1/medicalAppointment                              | Gestiona las citas médicas (agregar, obtener, actualizar).                                                          |
+| /api/v1/medicalAppointment/{id}                         | Obtiene o actualiza una cita médica específica.                                                                     |
+| /api/v1/medicalAppointment/medicalAppointments/doctor/{doctorId} | Devuelve todas las citas médicas ordenadas asociadas a un doctor específico por doctorId.                           |
+| /api/v1/medical-record/treatments                       | Permite gestionar los tratamientos médicos (agregar, obtener, actualizar).                                          |
+| /api/v1/medical-record/treatments/{id}                  | Obtiene o actualiza un tratamiento médico específico.                                                               |
+| /api/v1/medical-record/patient                          | Gestiona los datos del paciente (obtener, actualizar).                                                              |
+| /api/v1/medical-record/patient/{id}                     | Obtiene o actualiza la información médica específica de un paciente.                                                |
+| /api/v1/medical-record/patient/doctor/{doctorId}        | Devuelve todos los pacientes que comparten el mismo doctorId.                                                       |
+| /api/v1/doctor/doctor                                   | Gestiona los datos de los doctores (obtener, actualizar).                                                           |
+| /api/v1/doctor/doctor/{id}                              | Obtiene o actualiza los datos de un doctor específico.                                                              |
+| /api/v1/medical-record/medications                      | Gestiona los registros de medicación (agregar, obtener, actualizar).                                                |
+| /api/v1/medical-record/medications/{id}                 | Obtiene o actualiza un registro de medicación específico.                                                           |
+| /api/v1/medical-record/appointments                     | Permite gestionar el historial de citas del paciente (agregar, obtener, actualizar).                                |
+| /api/v1/medical-record/appointments/{id}                | Obtiene o actualiza una cita específica en el historial de un paciente.                                             |
+| /api/v1/medical-record/consultations                    | Gestiona las consultas del historial médico de un paciente (agregar, obtener, actualizar).                          |
+| /api/v1/medical-record/consultations/{id}               | Obtiene o actualiza una consulta específica en el historial médico del paciente.                                    |
 
 Además, con respecto a los métodos HTTP permitidos, algunos endpoints podrían no tener todos los métodos debido a la lógica del negocio.
 - **GET**: Utilizado para obtener información. Todos los endpoints deben admitir este método.
