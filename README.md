@@ -1,4 +1,3 @@
-<img width="914" alt="insight3" src="https://github.com/user-attachments/assets/240df6ed-a844-4385-8cdf-45c30c4863d9"><p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="Logo UPC">
 </p>
 
