@@ -183,6 +183,75 @@
 
 [3.2.2.4. Database Diagram](#3224-database-diagram)
 
+### [CAPÍTULO IV: BACKEND PRODUCT IMPLEMENTATION & VALIDATION](#capítulo-iv-backend-product-implementation--validation)
+
+[4.1. Software Configuration Management](#41-software-configuration-management)
+
+[4.1.1. Software Development Environment Configuration](#411-software-development-environment-configuration)
+
+[4.1.2. Source Code Management](#412-source-code-management)
+
+[4.1.3. Source Code Style Guide & Conventions](#413-source-code-style-guide--conventions)
+
+[4.1.4. Software Deployment Configuration](#414-software-deployment-configuration)
+
+[4.2. Software Development & Implementation](#42-software-development--implementation)
+
+[4.2.1. Sprint 1](#421-sprint-1)
+
+[4.2.1.1. Sprint Planning 1](#4211-sprint-planning-1)
+
+[4.2.1.2. Sprint Backlog 1](#4212-sprint-backlog-1)
+
+[4.2.1.3. Development Evidence for Sprint Review](#4213-development-evidence-for-sprint-review)
+
+[4.2.1.4. Testing Suite Evidence for Sprint Review](#4214-testing-suite-evidence-for-sprint-review)
+
+[4.2.1.5. Execution Evidence for Sprint Review](#4215-execution-evidence-for-sprint-review)
+
+[4.2.1.6. Services Documentation Evidence for Sprint Review](#4216-services-documentation-evidence-for-sprint-review)
+
+[4.2.1.7. Software Deployment Evidence for Sprint Review](#4217-software-deployment-evidence-for-sprint-review)
+
+[4.2.1.8. Team Collaboration Insights during Sprint](#4218-team-collaboration-insights-during-sprint)
+
+[4.2.2. Sprint 2](#422-sprint-2)
+
+[4.2.2.1. Sprint Planning 2](#4221-sprint-planning-2)
+
+[4.2.2.2. Sprint Backlog 2](#4222-sprint-backlog-2)
+
+[4.2.2.3. Development Evidence for Sprint Review](#4223-development-evidence-for-sprint-review)
+
+[4.2.2.4. Testing Suite Evidence for Sprint Review](#4224-testing-suite-evidence-for-sprint-review)
+
+[4.2.2.5. Execution Evidence for Sprint Review](#4225-execution-evidence-for-sprint-review)
+
+[4.2.2.6. Services Documentation Evidence for Sprint Review](#4226-services-documentation-evidence-for-sprint-review)
+
+[4.2.2.7. Software Deployment Evidence for Sprint Review](#4227-software-deployment-evidence-for-sprint-review)
+
+[4.2.2.8. Team Collaboration Insights during Sprint](#4228-team-collaboration-insights-during-sprint)
+
+[4.2.3. Sprint 3](#423-sprint-3)
+
+[4.2.3.1. Sprint Planning 3](#4231-sprint-planning-3)
+
+[4.2.3.2. Sprint Backlog 3](#4232-sprint-backlog-3)
+
+[4.2.3.3. Development Evidence for Sprint Review](#4233-development-evidence-for-sprint-review)
+
+[4.2.3.4. Testing Suite Evidence for Sprint Review](#4234-testing-suite-evidence-for-sprint-review)
+
+[4.2.3.5. Execution Evidence for Sprint Review](#4235-execution-evidence-for-sprint-review)
+
+[4.2.3.6. Services Documentation Evidence for Sprint Review](#4236-services-documentation-evidence-for-sprint-review)
+
+[4.2.3.7. Software Deployment Evidence for Sprint Review](#4237-software-deployment-evidence-for-sprint-review)
+
+[4.2.3.8. Team Collaboration Insights during Sprint](#4238-team-collaboration-insights-during-sprint)
+
+
 ## [Referencias Bibliográficas](#referencias-bibliográficas-1)
 
 
@@ -2052,7 +2121,23 @@ Durante este sprint, la colaboración se realizó a través de Git y GitHub. Se 
 <img src = "images/insights2.png">
 <img src = "images/Insights2.1.png">
 
+#### 4.2.3. Sprint 3
 
+##### 4.2.3.1. Sprint Planning 3
+
+##### 4.2.3.2. Sprint Backlog 3
+
+##### 4.2.3.3. Development Evidence for Sprint Review
+
+##### 4.2.3.4. Testing Suite Evidence for Sprint Review
+
+##### 4.2.3.5. Execution Evidence for Sprint Review
+
+##### 4.2.3.6. Services Documentation Evidence for Sprint Review
+
+##### 4.2.3.7. Software Deployment Evidence for Sprint Review
+
+##### 4.2.3.8. Team Collaboration Insights during Sprint
 
 
 ## Referencias Bibliográficas
