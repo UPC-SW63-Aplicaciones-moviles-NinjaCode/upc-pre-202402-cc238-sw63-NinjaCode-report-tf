@@ -2063,19 +2063,27 @@ A continuación se presentan capturas de pantalla de las principales vistas impl
 **Sign up**
 
 <img src = "images/evidenceSignUp.png">
+<p></p>
 <img src = "images/evidenceSignUp2.png">
+<p></p>
 
 **Sign In**
+<p></p>
 
 <img src = "images/evidenceFrontSignIn.png">
+<p></p>
 
 **Front - Home Doctor**
+<p></p>
 
 <img src = "images/evidenceFrontHomeDoctor.png">
+<p></p>
 
 **Front - Medical Appointment Doctor**
+<p></p>
 
 <img src = "images/evidenceFrontCreateMedicalAppointmentDoctor.png">
+<p></p>
 
 
 ##### 4.2.2.6. Services Documentation Evidence for Sprint Review.
