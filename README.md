@@ -2226,26 +2226,32 @@ En este Sprint, el equipo centró sus esfuerzos en consolidar y mejorar el front
 A continuación se presentan capturas de pantalla de las principales pantallas implementadas:
 
 **Home Doctor**
+
 <img src = "images/sprint3-evidence-todaysPatients.png">
 <p> </p>
 
 **Cartera de pacientes**
+
 <img src = "images/evidence3-2.png">
 <p> </p>
 
 **Crear nueva cita médica**
+
 <img src = "images/evidence3-3.png">
 <p> </p>
 
 **Historia Clínica**
+
 <img src = "images/evidence3-4.png">
 <p> </p>
 
 **Calendario**
+
 <img src = "images/evidence3-5.png">
 <p> </p>
 
 **Perfil**
+
 <img src = "images/evidence3-6.png">
 
 ##### 4.2.3.6. Services Documentation Evidence for Sprint Review
