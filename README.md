@@ -15,7 +15,7 @@
 
 <p align="center"><strong>Profesor:</strong> Jorge Luis Mayta Guillermo</p>
 
-<h2 align="center"><strong>Informe de TP</strong> </h2>
+<h2 align="center"><strong>Informe de TB4</strong> </h2>
 
 <p align="center"><strong>Nombre del startup:</strong> NinjaCode</p>
 
@@ -49,6 +49,8 @@
 | TB2  v.1   | 08/09/2024 | NinjaCode | Al momento de esta entrega se avanzaron la mayoría de los puntos de los capítulos III y IV.|
 | TP  | 26/09/2024 | NinjaCode | Se avanzó una parte del frontend de la aplicacióon movil y se integró algunas funcionalidades del frontend con el backend.|
 | TB3  v.1   | 25/10/2024 | NinjaCode | Se desarrollo mejoras en cuanto al funcionamiento de la aplicacion movil la cual se ve reflejada en el sprint 3|
+| TB4  v.1   | 06/11/2024 | NinjaCode | Se desarrollo mejoras y nuevas secciones en cuanto al funcionamiento de la aplicacion movil la cual se ve reflejada en el sprint 4|
+
 </div>
 
 
