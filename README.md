@@ -2314,6 +2314,104 @@ Durante este sprint, la colaboración se realizó a través de Git y GitHub. Se 
 <img src = "images/insight3.png">
 
 
+#### 4.2.4. Sprint 4
+
+##### 4.2.4.1. Sprint Planning 4
+
+##### 4.2.4.2. Sprint Backlog 4
+
+En este sprint, el objetivo principal es implementar y mejorar funcionalidades que faciliten la planificación y registro de información médica en la aplicación. Esto incluye mejorar las secciones anteriores, gestionar el registro y seguimiento de pacientes por parte de los médicos, y asegurar que se puedan añadir y visualizar diagnósticos, tratamientos, y recordatorios. 
+He actualizado el sprint para reflejar los cambios solicitados. Aquí está el nuevo desglose con la eliminación de US06 y la adición de US40:
+
+| ID   | User Story                                 | Work-Item / Task                                   | Description                                                                                  | Estimation (Hours) | Assigned To | Status       |
+|------|--------------------------------------------|----------------------------------------------------|----------------------------------------------------------------------------------------------|-------------------|-------------|--------------|
+| US08 | Integración de Google Calendar             | T01: Configuración de Google Calendar en backend   | Integrar Google Calendar para visualizar citas y horarios de medicación en la app            | 5                 | Estefano    | Pending      |
+|      |                                            | T02: Implementación de la API de Google Calendar   | Crear la API para sincronizar citas médicas y horarios de medicación con Google Calendar     | 6                 | Jherson     | Pending      |
+|      |                                            | T03: Pruebas de integración de Google Calendar     | Verificar que los eventos en Google Calendar se reflejan correctamente en la aplicación      | 4                 | Luis        | Pending      |
+| US16 | Registro con código de médico              | T01: Implementación del campo de código            | Crear el campo para ingresar el código de registro proporcionado por el médico               | 3                 | Sandro      | In Progress         |
+|      |                                            | T02: Validación del código de registro             | Verificar que el código ingresado sea válido y esté asociado a un médico registrado          | 5                 | Estefano    | In Progress         |
+|      |                                            | T03: Pruebas de registro con código                | Realizar pruebas para confirmar que el registro con código funciona correctamente            | 3                 | Jherson     | Pending         |
+| US29 | Ver historial médico                       | T01: Creación de la vista de historial             | Diseñar la vista donde el doctor pueda ver el historial médico del paciente                  | 4                 | Luis        | Done         |
+|      |                                            | T02: Implementación de la API de historial médico  | Crear la API que permita al doctor acceder al historial completo del paciente                | 6                 | Estefano    | Done         |
+|      |                                            | T03: Pruebas del historial médico                  | Verificar que el historial médico se muestra y actualiza correctamente                       | 3                 | Sandro      | Pending      |
+| US44 | Enlace de videoconferencias                | T01: Integración de enlace de videollamada         | Configurar el enlace de videollamada para que el doctor pueda acceder en el momento adecuado | 5                 | Sandro      | Pending      |
+|      |                                            | T02: Implementación del botón de videollamada      | Añadir un botón en la interfaz para acceder a la videollamada directamente                   | 4                 | Jherson     | Pending      |
+|      |                                            | T03: Pruebas del enlace de videollamada            | Realizar pruebas para asegurar que el enlace de videollamada funciona correctamente          | 3                 | Luis        | Pending      |
+| US50 | Añadir medicación                          | T01: Diseño de la vista de receta médica           | Crear una vista donde el doctor pueda añadir y especificar la receta médica del paciente     | 3                 | Estefano    | Done         |
+|      |                                            | T02: Implementación de la funcionalidad de receta  | Permitir al doctor añadir y editar medicación en el perfil del paciente                      | 4                 | Sandro      | Done         |
+|      |                                            | T03: Pruebas de la funcionalidad de receta         | Verificar que la receta médica se añade y se muestra correctamente                           | 2                 | Jherson     | Pending      |
+| US42 | Ver recordatorios de hoy                   | T01: Diseño de la vista de recordatorios           | Diseñar la interfaz para que el paciente pueda ver sus recordatorios de hoy                  | 3                 | Luis        | In Progress  |
+|      |                                            | T02: Implementación de recordatorios               | Desarrollar la funcionalidad para mostrar los recordatorios programados del día             | 4                 | Estefano    | In Progress  |
+|      |                                            | T03: Pruebas de recordatorios                      | Realizar pruebas para asegurar que los recordatorios del día se muestran correctamente       | 2                 | Sandro      | Pending      |
+| US49 | Diagnóstico y tratamiento                  | T01: Diseño de la vista de diagnóstico             | Crear una vista para que el doctor pueda añadir y ver diagnósticos y tratamientos            | 3                 | Jherson     | Done         |
+|      |                                            | T02: Implementación de diagnóstico y tratamiento   | Desarrollar la funcionalidad para agregar diagnósticos y tratamientos en el perfil del paciente | 5              | Luis        | Done         |
+|      |                                            | T03: Pruebas de diagnóstico y tratamiento          | Verificar que el diagnóstico y tratamiento se añade y se muestra correctamente               | 3                 | Estefano    | Done         |
+| US40 | Paciente accede a su perfil de usuario     | T01: Creación de la vista de perfil                | Diseñar la vista para que el paciente pueda ver y editar su información médica               | 4                 | Jherson     | Done      |
+|      |                                            | T02: Implementación de funcionalidad de perfil     | Permitir que el paciente edite su perfil médico de manera segura                             | 5                 | Sandro      | Done      |
+|      |                                            | T03: Pruebas de perfil de usuario                  | Realizar pruebas para confirmar que el perfil de usuario se visualiza y edita correctamente  | 3                 | Estefano    | Done      |
+
+##### 4.2.4.3. Development Evidence for Sprint Review
+
+##### 4.2.4.4. Testing Suite Evidence for Sprint Review
+##### 4.2.4.5. Execution Evidence for Sprint Review
+En este Sprint, el equipo se enfocó en mejorar el frontend y las conexiones con el backedn de la aplicacion móvil "HormonalCare". A continuación se detallan los logros clave de este Sprint:
+
+Pantalla de perfil: Se mejoró la pantalla de perfil de usuario en el modo de doctor.
+
+Interfaz de Calendario: Se realizaron mejoras en la interfaz del calendario, que permite la creación y visualización de citas médicas, facilitando la gestión de horarios para los doctores.
+
+Mejoras en la sección de "Pacientes del Día": En la sección "Pacientes del Día", se añadió información adicional para cada cita médica, permitiendo a los doctores una mejor preparación previa a cada consulta.
+
+
+Capturas de Pantalla
+
+A continuación se presentan capturas de pantalla de las principales pantallas implementadas en este Sprint:
+
+Home del Doctor
+
+<img src="images/sprint3-evidence-todaysPatients.png" alt="Pacientes del Día">
+Cartera de Pacientes
+
+<img src="images/evidence4-1.png" alt="Cartera de Pacientes">
+Crear Nueva Cita Médica
+
+<img src="images/evidence4-2.png" alt="Crear Nueva Cita Médica">
+Historia Clínica
+
+<img src="images/evidence4-3.png" alt="Historia Clínica">
+Interfaz de Calendario
+
+<img src="images/evidence4-4.png" alt="Interfaz de Calendario">
+Pantalla de Perfil
+
+<img src="images/evidence4-5.png" alt="Pantalla de Perfil">
+
+##### 4.2.4.6. Services Documentation Evidence for Sprint Review
+
+##### 4.2.4.7. Software Deployment Evidence for Sprint Review
+### 4.2.3.6. Evidencia de Despliegue Automático para el Sprint 4
+
+Para asegurar la continuidad en la implementación del despliegue automático de nuestra aplicación "HormonalCare", seguimos utilizando las mismas herramientas. En este Sprint, se continuó con el despliegue del backend utilizando Railway.
+
+**Despliegue del Backend en Railway**
+
+- **Railway**: Subimos el repositorio del backend a Railway, donde se configuró la base de datos MySQL necesaria para la aplicación. Este despliegue permite que la aplicación esté disponible para pruebas y evaluaciones continuas, optimizando el flujo de trabajo y la velocidad de implementación de nuevas funcionalidades.
+
+A continuación, se presentan capturas de pantalla del proceso de despliegue:
+
+<img src="images/deploy4-1.png">
+  
+<img src="images/deploy4-2.png" >
+  
+<img src="images/deploy4-3.png" >
+  
+<img src="images/deploy4-4.png" >
+  
+<img src="images/deploy4-5.png" >
+
+##### 4.2.4.8. Team Collaboration Insights during Sprint
+
+
 
 
 ## Referencias Bibliográficas
