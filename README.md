@@ -2395,24 +2395,13 @@ Capturas de Pantalla
 
 A continuación se presentan capturas de pantalla de las principales pantallas implementadas en este Sprint:
 
-Home del Doctor
 
-<img src="images/sprint3-evidence-todaysPatients.png" alt="Pacientes del Día">
-Cartera de Pacientes
 
-<img src="images/evidence4-1.png" alt="Cartera de Pacientes">
-Crear Nueva Cita Médica
+<img src="images/home_execution_4_1.png" >
+<img src="images/inf_execution_4_1.png" >
+<img src="images/medical_record_execution_4_1.png" >
+<img src="images/profile_execution_4_1.png" >
 
-<img src="images/evidence4-2.png" alt="Crear Nueva Cita Médica">
-Historia Clínica
-
-<img src="images/evidence4-3.png" alt="Historia Clínica">
-Interfaz de Calendario
-
-<img src="images/evidence4-4.png" alt="Interfaz de Calendario">
-Pantalla de Perfil
-
-<img src="images/evidence4-5.png" alt="Pantalla de Perfil">
 
 ##### 4.2.4.6. Services Documentation Evidence for Sprint Review
 Para el sprint 4 se crearon algunos endpoints y otros fueron modificados:
