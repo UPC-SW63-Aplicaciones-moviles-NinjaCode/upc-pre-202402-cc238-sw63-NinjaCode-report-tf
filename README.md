@@ -2460,15 +2460,15 @@ Para asegurar la continuidad en la implementación del despliegue automático de
 
 A continuación, se presentan capturas de pantalla del proceso de despliegue:
 
-<img src="images/deploy4-1.png">
+<img src="images/deploy4_1.png">
   
-<img src="images/deploy4-2.png" >
+<img src="images/deploy4_2.png" >
   
-<img src="images/deploy4-3.png" >
+<img src="images/deploy4_3.png" >
   
-<img src="images/deploy4-4.png" >
+<img src="images/deploy4_4.png" >
   
-<img src="images/deploy4-5.png" >
+<img src="images/deploy4_5.png" >
 
 ##### 4.2.4.8. Team Collaboration Insights during Sprint
 
