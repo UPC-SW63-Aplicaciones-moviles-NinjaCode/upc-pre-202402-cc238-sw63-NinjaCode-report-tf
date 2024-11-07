@@ -253,6 +253,19 @@
 
 [4.2.3.8. Team Collaboration Insights during Sprint](#4238-team-collaboration-insights-during-sprint)
 
+[4.2.4.2. Sprint Backlog 4](#4242-sprint-backlog-4)
+
+[4.2.4.3. Development Evidence for Sprint Review](#4243-development-evidence-for-sprint-review)
+
+[4.2.4.4. Testing Suite Evidence for Sprint Review](#4244-testing-suite-evidence-for-sprint-review)
+
+[4.2.4.5. Execution Evidence for Sprint Review](#4245-execution-evidence-for-sprint-review)
+
+[4.2.4.6. Services Documentation Evidence for Sprint Review](#4246-services-documentation-evidence-for-sprint-review)
+
+[4.2.4.7. Software Deployment Evidence for Sprint Review](#4247-software-deployment-evidence-for-sprint-review)
+
+[4.2.4.8. Team Collaboration Insights during Sprint](#4248-team-collaboration-insights-during-sprint)
 
 ## [Referencias Bibliográficas](#referencias-bibliográficas-1)
 
