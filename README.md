@@ -2439,8 +2439,6 @@ Además, con respecto a los métodos HTTP permitidos, algunos endpoints podrían
 
 
 ##### 4.2.4.7. Software Deployment Evidence for Sprint Review
-### 4.2.3.6. Evidencia de Despliegue Automático para el Sprint 4
-
 Para asegurar la continuidad en la implementación del despliegue automático de nuestra aplicación "HormonalCare", seguimos utilizando las mismas herramientas. En este Sprint, se continuó con el despliegue del backend utilizando Railway.
 
 **Despliegue del Backend en Railway**
