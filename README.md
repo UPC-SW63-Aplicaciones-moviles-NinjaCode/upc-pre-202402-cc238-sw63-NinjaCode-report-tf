@@ -2472,8 +2472,9 @@ A continuación, se presentan capturas de pantalla del proceso de despliegue:
 
 ##### 4.2.4.8. Team Collaboration Insights during Sprint
 
+Durante este sprint, la colaboración se gestionó mediante Git y GitHub, con commits y revisiones continuas para garantizar que los servicios implementados cumplieran con los estándares establecidos por el equipo. En esta entrega, se avanzó en el desarrollo del frontend de la aplicación móvil utilizando Visual Studio Code. Al igual que en entregas anteriores, el trabajo se organizó dividiendo el bounded context de Medical Record y Medical Appointment entre los miembros del equipo. Se continuó trabajando en el repositorio de la organización NinjaCode, donde cada miembro creó su propia rama para desarrollar la funcionalidad asignada. Una vez que las implementaciones fueron completadas y validadas, cada participante integró sus cambios desde su rama a la rama Develop.
 
-
+<img src="images/teamcollaborationinsight4.png" >
 
 ## Referencias Bibliográficas
 
