@@ -2394,6 +2394,20 @@ A medida que avanzamos en el desarrollo del backend y frontend, aquí se documen
 
 
 ##### 4.2.4.4. Testing Suite Evidence for Sprint Review
+
+Para esta entrega se realizaron pruebas unitarias en , autenticación y suscripciones. Las pruebas verificaron el correcto manejo de datos y la seguridad de las funcionalidades de autenticación.
+
+|Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on (Date)|
+| - | - | - | - | - | - |
+|hormonal-care-frontend| develop |9472526377ac7937c6a2c4c45232c44d9c256b37|fix: _HomePatientsScreenState fixed|-|07/11/2024|
+|hormonal-care-frontend| develop |f9f97e75e7b9cf18f4a040a9595ff08263d9457b|feat: update and delete added|-|07/11/2024|
+|hormonal-care-frontend| develop |2ec93481510e4326ecf7fc3a5eb1358cb70d386a|feat: put appointment service|-|07/11/2024|
+|hormonal-care-frontend| develop |c8677c342efcc6510d7c68fe0036dc57c9152197|feat: added detailed appointment info dialog|-|01/11/2024|
+|hormonal-care-frontend| develop |3dcd9e31f0ba8864616a9eedd48c78f38b92f07a|feat: add POST methods for treatment, prescription, and medication|-|01/11/2024|
+|hormonal-care-frontend| develop |da200d57fb18784bec5e84a74798f3304f50ecc3|feat(profile screen): added put methods for patient and doctor profiles|-|01/11/2024|
+|hormonal-care-frontend| develop |586e26880a80235373cedb65cf0c005913b122f0|feat: tamanio del calendario|-|24/10/2024|
+
+
 ##### 4.2.4.5. Execution Evidence for Sprint Review
 En este Sprint, el equipo se enfocó en mejorar el frontend y las conexiones con el backedn de la aplicacion móvil "HormonalCare". A continuación se detallan los logros clave de este Sprint:
 
