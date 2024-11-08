@@ -2413,7 +2413,7 @@ En este Sprint, el equipo se enfocó en mejorar el frontend y las conexiones con
 
 Pantalla de perfil: Se mejoró la pantalla de perfil de usuario en el modo de doctor.
 
-Interfaz de Calendario: Se realizaron mejoras en la interfaz del calendario, que permite la creación y visualización de citas médicas, facilitando la gestión de horarios para los doctores.
+Interfaz de Calendario: Se realizaron mejoras en la interfaz del calendario, que permite añadir color, editar y eliminar un evento.
 
 Mejoras en la sección de "Pacientes del Día": En la sección "Pacientes del Día", se añadió información adicional para cada cita médica, permitiendo a los doctores una mejor preparación previa a cada consulta.
 
@@ -2425,10 +2425,18 @@ A continuación se presentan capturas de pantalla de las principales pantallas i
 
 
 <img src="images/home_execution_4_1.png" >
+
 <img src="images/inf_execution_4_1.png" >
+
 <img src="images/medical_record_execution_4_1.png" >
+
 <img src="images/profile_execution_4_1.png" >
 
+<img src="images/color event.png" >
+
+<img src="images/color event puesto.png" >
+
+<img src="images/editar event puesto.png" >
 
 ##### 4.2.4.6. Services Documentation Evidence for Sprint Review
 Para el sprint 4 se crearon algunos endpoints y otros fueron modificados:
