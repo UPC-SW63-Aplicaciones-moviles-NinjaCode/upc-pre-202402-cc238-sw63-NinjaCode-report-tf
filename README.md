@@ -2252,10 +2252,10 @@ En este sprint, el enfoque se puso en completar las funcionalidades clave de bac
 |Sprint #|Sprint 4|
 | - | - |
 |**Sprint Planning Background**||
-|Date|10-20-2024|
+|Date|11-15-2024|
 |Time|9:00|
 |Location|Reunión realizada mediante Discord|
-|Prepared By|Lostaunau Pereira Estéfano Sebastián|
+|Prepared By|Quispesivana Torres Claudio Sandro|
 |Attendees (to planning meeting)|Astuyauri Calderon Jherson David / Chinchihualpa Saldarriaga Luis Sebastian/Lostaunau Pereira Estéfano Sebastián	/Quispesivana Torres Claudio Sandro|
 |**Sprint Goal & User Stories**||
 |Sprint 4 Goal|Completar la implementación de las funcionalidades de backend para gestión de citas, calendario, perfil, historia clínica, sign in y sign up de la parte del doctor para mejorar la experiencia del usuario en la aplicación.|
@@ -2268,19 +2268,11 @@ En este sprint, el objetivo principal es implementar y mejorar las funcionalidad
 
 | ID   | User Story                                 | Work-Item / Task                                   | Description                                                                                  | Estimation (Hours) | Assigned To | Status       |
 |------|--------------------------------------------|----------------------------------------------------|----------------------------------------------------------------------------------------------|---------------------|-------------|--------------|
-| US29 | Ver historial médico                       | T01: Implementación de la API de historial médico  | Crear la API para permitir al doctor acceder al historial completo del paciente              | 6                   | Estefano    | Done         |
-|      |                                            | T02: Pruebas del historial médico                  | Verificar que el historial médico se muestra y actualiza correctamente                       | 3                   | Sandro      | Pending      |
-| US44 | Enlace de videoconferencias                | T01: Integración de enlace de videollamada         | Configurar el enlace de videollamada en el backend para el acceso en el momento adecuado     | 5                   | Sandro      | Pending      |
-|      |                                            | T02: Implementación de funcionalidad de videollamada| Añadir la funcionalidad para acceder a la videollamada                                       | 4                   | Jherson     | Pending      |
-|      |                                            | T03: Pruebas del enlace de videollamada            | Realizar pruebas para asegurar que el enlace de videollamada funciona correctamente          | 3                   | Luis        | Pending      |
-| US50 | Añadir medicación                          | T01: Implementación de la funcionalidad de receta  | Permitir al doctor añadir y editar medicación en el perfil del paciente                      | 4                   | Sandro      | Done         |
-|      |                                            | T02: Pruebas de la funcionalidad de receta         | Verificar que la receta médica se añade y se muestra correctamente                           | 2                   | Jherson     | Pending      |
-| US42 | Ver recordatorios de hoy                   | T01: Implementación de recordatorios               | Desarrollar la funcionalidad para mostrar los recordatorios programados del día              | 4                   | Estefano    | In Progress  |
-|      |                                            | T02: Pruebas de recordatorios                      | Realizar pruebas para asegurar que los recordatorios del día se muestran correctamente       | 2                   | Sandro      | Pending      |
-| US49 | Diagnóstico y tratamiento                  | T01: Implementación de diagnóstico y tratamiento   | Desarrollar la funcionalidad para agregar diagnósticos y tratamientos en el perfil del paciente | 5                | Luis        | Done         |
-|      |                                            | T02: Pruebas de diagnóstico y tratamiento          | Verificar que el diagnóstico y tratamiento se añade y se muestra correctamente               | 3                   | Estefano    | Done         |
-| US40 | Paciente accede a su perfil de usuario     | T01: Implementación de funcionalidad de perfil     | Permitir que el paciente edite su perfil médico de manera segura                             | 5                   | Sandro      | Done         |
-|      |                                            | T02: Pruebas de perfil de usuario                  | Realizar pruebas para confirmar que el perfil de usuario se visualiza y edita correctamente  | 3                   | Estefano    | Done         |
+| US42 | Ver recordatorios de hoy                   | T01: Implementación de notificaciones               | Desarrollar la funcionalidad para mostrar notificaciones             | 4                   | Sandro    | Done |
+|      |                                            | T02: Pruebas de notificaciones                      | Realizar pruebas para asegurar que las notificaciones se muestran correctamente       | 2                   | Sandro      | Done      |
+| US42 | Ver recordatorios de hoy                   | T01: Implementación de notificaciones               | Desarrollar la funcionalidad para mostrar notificaciones             | 4                   | Sandro    | Done |
+|      |                                            | T02: Pruebas de notificaciones                      | Realizar pruebas para asegurar que las notificaciones se muestran correctamente       | 2                   | Sandro      | Done      |
+| US14 | Creación de Citas por parte del Doctor    | T01: Implementación de atributo color    | Ingresar un atributo mas para guardar el color de los eventos                             | 6                  | Sandro        | Done      |
 
 ##### 4.2.4.3. Development Evidence for Sprint Review
 
@@ -2288,18 +2280,45 @@ A medida que avanzamos en el desarrollo del backend, aquí se documentan los com
 
 |Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on (Date)|
 | - | - | - | - | - | - |
-|hormonal-care-backend| develop |586e26880a80235373cedb65cf0c005913b122f0|feat: patient list created|-|24/10/2024|
-|hormonal-care-backend| develop |da200d57fb18784bec5e84a74798f3304f50ecc3|feat(profile screen): added put methods for patient and doctor profiles|-|01/11/2024|
-|hormonal-care-backend| develop |3dcd9e31f0ba8864616a9eedd48c78f38b92f07a|feat: add POST methods for treatment, prescription, and medication|-|01/11/2024|
-|hormonal-care-backend| develop |c8677c342efcc6510d7c68fe0036dc57c9152197|feat: added detailed appointment info dialog|-|01/11/2024|
-|hormonal-care-backend| develop |ca2fb89b81310880bc0dd0184b97e7de8e48a7bc|feat(sign-up): added select user type screen, patient and doctor sign up screen and functionality|-|03/11/2024|
+|hormonal-care-backend| develop3 |6da8a911796284be95352a53db2b3bcdda3be2e3|feat: color atribute and id in resourse added|-|07/11/2024|
+|hormonal-care-backend| develop3 |cf4025aaaf921a5a521752a434d32383efed844e|feat: notification created|-|15/11/2024|
+|hormonal-care-backend| develop3 |e70565af1e5dbd667cb25faa67a8dc81be5ef7d8|feat: update & get|-|15/11/2024|
 
 ##### 4.2.4.4. Testing Suite Evidence for Sprint Review
 
-Para esta entrega se realizaron pruebas unitarias en autenticación y perfiles. Las pruebas verificaron el correcto manejo de datos y la seguridad de las funcionalidades de autenticación.
+Para esta entrega se realizaron pruebas unitarias en notificationes y medial appointment. Las pruebas verificaron el correcto manejo de datos y la seguridad de las funcionalidades de autenticación.
+
+|Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on (Date)|
+| - | - | - | - | - | - |
+|hormonal-care-backend| develop3 |6da8a911796284be95352a53db2b3bcdda3be2e3|feat: color atribute and id in resourse added|-|07/11/2024|
+|hormonal-care-backend| develop3 |cf4025aaaf921a5a521752a434d32383efed844e|feat: notification created|-|15/11/2024|
+|hormonal-care-backend| develop3 |e70565af1e5dbd667cb25faa67a8dc81be5ef7d8|feat: update & get|-|15/11/2024|
+
 
 ##### 4.2.4.5. Execution Evidence for Sprint Review
 Este Sprint se enfocó en mejorar los servicios de backend de la aplicación móvil "HormonalCare".
+
+**Medical Appointment**
+<p></p>
+
+<img src = "images/Hormonalcare Cap4 Sprint3/medical appointment post.png">
+<p></p>
+
+**Notifications**
+<p></p>
+
+<img src = "images/Hormonalcare Cap4 Sprint4/notification POST.png">
+<p></p>
+
+<img src = "images/Hormonalcare Cap4 Sprint4/notification GET by recipent id.png">
+<p></p>
+
+<img src = "images/Hormonalcare Cap4 Sprint4/notification PUT state.png">
+<p></p>
+
+<img src = "images/Hormonalcare Cap4 Sprint4/notification DELETE .png">
+<p></p>
+
 
 ##### 4.2.4.6. Services Documentation Evidence for Sprint Review
 
@@ -2307,25 +2326,26 @@ Para el sprint 4 se crearon y modificaron endpoints:
 
 | EndPoint                                                | Detalles                                                                                                             |
 |---------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| /api/v1/authentication/sign-up                          | Permite registrar nuevos usuarios con roles ROLE_PATIENT o ROLE_DOCTOR.                                             |
-| /api/v1/authentication/sign-in                          | Permite a los usuarios autenticarse y ahora el response body incluye el rol del usuario.                            |
-| /api/v1/profile/profile                                 | Permite obtener, actualizar y gestionar el perfil del usuario.                                                      |
-| /api/v1/medicalAppointment                              | Gestiona las citas médicas (agregar, obtener, actualizar).                                                          |
-| /api/v1/medical-record/treatments                       | Permite gestionar los tratamientos médicos (agregar, obtener, actualizar).                                          |
-| /api/v1/medical-record/medications                      | Gestiona los registros de medicación (agregar, obtener, actualizar).                                                |
-| /api/v1/medical-record/consultations                    | Gestiona las consultas del historial médico de un paciente (agregar, obtener, actualizar).                          |
+| /api/v1/medicalAppointment                               | Gestiona las citas médicas (agregar, obtener, actualizar).                                                         |
+| /api/v1/notification                                          | Permite registrar nuevas notificaciones.                                             |
+| /api/v1/notification/{notificationId}/state                   | Permite actualizar el estado de las notificaciones.                          |
+| /api/v1/notification/notifications/recipient/{recipientId}    | Permite obtener notificaciones con el id del destinatario.                                                    |
+| /api/v1/notification/{notificationId}                         | Permite eliminar y obtener una notifiación sabiendo su Id.                                                          |
 
 ##### 4.2.4.7. Software Deployment Evidence for Sprint Review
 
 Para asegurar que el backend esté disponible, se implementó el despliegue en Railway:
 
-- HormonalCare Backend: Railway - Deployment date: 07/11/2024
+<img src = "images/deploy3-1.png">
+<img src = "images/deploy3-3.png">
+
 
 ##### 4.2.4.8. Team Collaboration Insights during Sprint
 
 Durante este sprint, la colaboración se gestionó mediante Git y GitHub, con commits y revisiones continuas para garantizar que los servicios implementados cumplieran con los estándares establecidos por el equipo. En esta entrega, se avanzó en el desarrollo del frontend de la aplicación móvil utilizando Visual Studio Code. Al igual que en entregas anteriores, el trabajo se organizó dividiendo el bounded context de Medical Record y Medical Appointment entre los miembros del equipo. Se continuó trabajando en el repositorio de la organización NinjaCode, donde cada miembro creó su propia rama para desarrollar la funcionalidad asignada. Una vez que las implementaciones fueron completadas y validadas, cada participante integró sus cambios desde su rama a la rama Develop.
 
-<img src="images/teamcollaborationinsight4.png" >
+<img src = "images/insights2.png">
+<img src = "images/Insights2.1.png">
 
 ## CAPÍTULO V: PRODUCT IMPLEMENTATION & VALIDATION
 
