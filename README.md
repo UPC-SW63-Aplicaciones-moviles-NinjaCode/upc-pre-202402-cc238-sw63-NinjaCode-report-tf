@@ -2350,10 +2350,147 @@ Durante este sprint, la colaboración se gestionó mediante Git y GitHub, con co
 ## CAPÍTULO V: PRODUCT IMPLEMENTATION & VALIDATION
 
 ### 5.1. Software Configuration Management
+Este apartado detalla la importancia de la gestión de la configuración del software para asegurar la calidad y consistencia del desarrollo de una aplicación móvil utilizando Flutter a lo largo de su ciclo de vida.
+
+
 #### 5.1.1. Software Development Environment Configuration
+
+**Project Management:**
+
+- **Trello:** Utilizado para la gestión de tareas y proyectos. Facilitó la asignación de tareas, el seguimiento de avances y la definición de prioridades de forma colaborativa.  
+  https://trello.com/signup
+
+- **Miro:** Usado para la planificación visual del proyecto, incluyendo mapas mentales y diagramas de flujo para organizar ideas y procesos.  
+  https://miro.com/signup
+
+- **Google Drive:** Utilizado para el almacenamiento y colaboración de documentos, archivos y recursos relacionados con el proyecto.  
+  https://www.google.com/drive/
+
+- **GitHub Desktop:** Permitió la gestión de versiones del código fuente de manera eficiente, asegurando la colaboración fluida entre los miembros del equipo.  
+  https://desktop.github.com/
+
+**Requirements Management:**
+
+- **Lucidchart:** Usado para diagramar flujos y procesos relacionados con los requisitos de la aplicación Flutter.  
+  https://www.lucidchart.com/users/register
+
+- **Google Forms:** Utilizado para recolectar retroalimentación y realizar encuestas que ayudaron a capturar necesidades de los usuarios y del cliente.  
+  https://www.google.com/forms/about/
+
+**Product UX/UI Design:**
+
+- **Figma:** Herramienta clave para el diseño de la interfaz de usuario y experiencia de usuario de la aplicación móvil. Se crearon prototipos y wireframes que guiaron el desarrollo en Flutter.  
+  https://www.figma.com/signup
+
+- **Canva:** Usado para generar elementos gráficos adicionales como íconos, banners y otros recursos visuales complementarios.  
+  https://www.canva.com/signup
+
+**Software Development:**
+
+- **Entorno de Desarrollo Integrado (IDE):**  
+  - **Visual Studio Code:** Principal herramienta para el desarrollo del código Flutter. Su capacidad de extensibilidad y soporte para Flutter y Dart lo convirtieron en la opción ideal.  
+    https://code.visualstudio.com/download  
+  - **Android Studio:** Usado para emulación y pruebas en dispositivos Android. También sirvió para configurar gradle y las dependencias necesarias.  
+    https://developer.android.com/studio
+
+- **Control de Versiones:** Git se empleó como sistema principal de control de versiones, con integración directa a GitHub para colaborar y gestionar ramas y merges.  
+  https://git-scm.com/downloads
+
+- **Gestión de Dependencias:**  
+  - **Flutter Pub:** Usado para gestionar paquetes y bibliotecas en el proyecto Flutter.  
+    https://pub.dev/
+
+- **Herramientas de Construcción:**  
+  - **Gradle:** Utilizado para la construcción y empaquetado de la aplicación Flutter.  
+    https://docs.gradle.org/current/userguide/userguide.html
+
+**Software Documentation:**
+
+- **GitHub:** Utilizado para documentar los procesos de desarrollo mediante archivos README.md en cada repositorio.  
+  https://github.com/join
+- **Structurizr:** Herramienta empleada para documentar la arquitectura de la solución técnica.  
+  https://structurizr.com/
+
+
+
 #### 5.1.2. Source Code Management
+
+El proyecto se gestionó en una organización centralizada en GitHub:  
+https://github.com/UPC-SW63-Aplicaciones-moviles-NinjaCode
+
+Los repositorios principales son:
+
+- **Project Report:** Contiene la documentación completa del proyecto, incluyendo el diseño técnico y el proceso de desarrollo.  
+  https://github.com/UPC-SW63-Aplicaciones-moviles-NinjaCode/upc-pre-202402-cc238-sw63-NinjaCode-report-tb2
+
+- **Aplicación Flutter:** Contiene el código fuente principal de la aplicación móvil, desarrollado en Flutter. Este es el núcleo del proyecto.  
+ https://github.com/UPC-SW63-Aplicaciones-moviles-NinjaCode/hormonal-care-frontend
+
+- **Landing Page:** Contiene el código fuente de la página web principal que permite a los usuarios acceder a información del proyecto y descargar la aplicación móvil.  
+  https://github.com/UPC-SW63-Aplicaciones-moviles-NinjaCode/hormonal-landing-page
+
+Se implementó la estrategia **Gitflow** para el control de versiones, asegurando que cada feature se desarrollara en su propia rama antes de integrarse a la rama `develop`.
+
+
 #### 5.1.3. Source Code Style Guide & Conventions
+
+
+Para garantizar un código fuente legible y mantenible, adoptamos las siguientes guías y convenciones:
+
+- **Dart:**  
+  - Uso de la convención de nombres en camelCase para variables y métodos.  
+  - Alineación con la Dart Style Guide.
+  https://dart.dev/guides/language/effective-dart/style  
+  - Se priorizó el uso de const y final cuando aplicaba.  
+
+- **Flutter Widgets:**  
+  - Seguimiento de la jerarquía de widgets según la recomendación de Flutter Documentation. 
+  https://flutter.dev/docs 
+  - Uso adecuado de widgets `StatelessWidget` y `StatefulWidget`.  
+
+- **Arquitectura:**  
+  - Se implementó **Arquitectura Limpia** (Clean Architecture), asegurando una separación clara entre las capas de **Dominio**, **Aplicación** e **Infraestructura**.  
+  - La capa de **Dominio** encapsula la lógica de negocio y las reglas del sistema, manteniéndose independiente de frameworks o tecnologías externas.  
+  - La capa de **Aplicación** gestiona casos de uso específicos y coordina las interacciones entre la UI y el dominio.  
+  - La capa de **Infraestructura** incluye implementaciones concretas como fuentes de datos (APIs, bases de datos) y la integración con bibliotecas externas.  
+  - Este enfoque promueve un código modular, reutilizable y fácil de mantener.
+
+
+
 #### 5.1.4. Software Deployment Configuration
+
+
+**Landing Page Deployment:**  
+
+- La **landing page** del proyecto fue desplegada en **GitHub Pages**. Esta página sirve como punto de acceso para que los usuarios descarguen la aplicación Flutter.  
+
+Pasos para el despliegue:  
+
+1. Verificar que la rama `develop` de la landing page está actualizada.  
+2. Configurar la sección "Pages" dentro de los ajustes del repositorio.  
+3. Seleccionar la rama y confirmar el despliegue.  
+4. Usar el enlace proporcionado por GitHub Pages para acceder a la página.  
+
+**Mobile App Deployment:**  
+
+La aplicación móvil fue empaquetada y puesta a disposición en la landing page del proyecto para su descarga directa.
+
+Pasos para empaquetar y desplegar:  
+
+1. **Empaquetado de la Aplicación:**  
+   - Usamos `flutter build apk` para generar el archivo `.apk` para dispositivos Android.  
+
+
+2. **Subida del APK a la Landing Page:**  
+   - El archivo `.apk` fue almacenado en el repositorio de la landing page.  
+   - Se añadió un enlace directo para descargar el archivo desde la página web.
+
+
+**Resultado:**  
+
+Los usuarios pueden acceder a la landing page para descargar directamente el archivo `.apk`.
+
+
 
 ### 5.2. Landing Page & Mobile Application Implementation
 ##### 5.2.1. Sprint 1
