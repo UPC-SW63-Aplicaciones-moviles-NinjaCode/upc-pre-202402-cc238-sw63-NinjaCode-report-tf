@@ -2176,6 +2176,19 @@ A medida que avanzamos en el desarrollo del backend, aquí se documentan los com
 Para esta entrega se realizaron pruebas unitarias en los servicios de usuarios, autenticación y suscripciones en el backend. Las pruebas verificaron el correcto manejo de datos y la seguridad de las funcionalidades de autenticación.
 
 
+|Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on (Date)|
+| - | - | - | - | - | - |
+|Acceptance-Test| US56.feature |b067c80|Create US56.feature|-|19/10/2024|
+|Acceptance-Test| US57.feature|b61b43b|Create US57.feature |-|19/10/2024|
+|Acceptance-Test| US52.feature |0e9f7b0|Create US52.feature|-|19/10/2024|
+|Acceptance-Test| US55.feature |0dae3bc|Create US55.feature|-|19/10/2024|
+|Acceptance-Test| US58.feature |6d60a64|Create US58.feature|-|19/10/2024|
+|Acceptance-Test| US51.feature |474174b|Create US51.feature|-|19/10/2024|
+|Acceptance-Test| US54.feature|18a6135|Create US54.feature|-|19/10/2024|
+|Acceptance-Test| US53.feature |cc368d1|Create US53.feature|-|19/10/2024|
+
+
+
 ##### 4.2.3.5. Execution Evidence for Sprint Review
 
 Este sprint se centró en consolidar y mejorar el backend de la aplicación “HormonalCare”. Se completaron los endpoints con validaciones en backend y conexión estable a las APIs de autenticación. También se desarrollaron servicios esenciales para el Home del Doctor, permitiendo consultar los pacientes del día y acceder a sus historiales clínicos, así como la Cartera de Pacientes. Este enfoque en el backend asegura una experiencia de usuario coherente y efectiva, alineada con los objetivos funcionales de la aplicación.
