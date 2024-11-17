@@ -3066,6 +3066,7 @@ Durante este sprint, la colaboración se gestionó mediante Git y GitHub, con co
 
 
 
+## Glosario
 
 ## Referencias Bibliográficas
 
@@ -3094,3 +3095,15 @@ Durante este sprint, la colaboración se gestionó mediante Git y GitHub, con co
 * Teede, H. J., Tay, C. T., Laven, J. J. E., Dokras, A., Moran, L. J., Piltonen, T. T., Costello, M. F., Boivin, J., Redman, L. M., Boyle, J. A., Norman, R. J., Mousa, A., & Joham, A. E. (2023). Recommendations from the 2023 International Evidence-based guideline for the assessment and management of polycystic ovary syndrome. The Journal of Clinical Endocrinology and Metabolism, 108(10), 2447–2469. https://doi.org/10.1210/clinem/dgad463
   
 * Zhao, H., Zhang, J., Cheng, X., Nie, X., & He, B. (2023). Insulin resistance in polycystic ovary syndrome across various tissues: an updated review of pathogenesis, evaluation, and treatment. Journal of Ovarian Research, 16(1). https://doi.org/10.1186/s13048-022-01091-0
+
+### Papers
+
+- Chandran, V. P., Balakrishnan, A., Rashid, M., Pai Kulyadi, G., Khan, S., Devi, E. S., Nair, S., & Thunga, G. (2022). Mobile applications in medical education: A systematic review and meta-analysis. PloS One, 17(3), e0265927. https://doi.org/10.1371/journal.pone.0265927
+
+- Ford, A., De Togni, G., & Miller, L. (2021). Hormonal health: Period tracking apps, wellness, and self-management in the era of surveillance capitalism. Engaging Science, Technology, and Society, 7(1), 48–66. https://doi.org/10.17351/ests2021.655
+
+- Teede, H. J., Tay, C. T., Laven, J. J. E., Dokras, A., Moran, L. J., Piltonen, T. T., Costello, M. F., Boivin, J., Redman, L. M., Boyle, J. A., Norman, R. J., Mousa, A., & Joham, A. E. (2023). Recommendations from the 2023 International Evidence-based guideline for the assessment and management of polycystic ovary syndrome. The Journal of Clinical Endocrinology and Metabolism, 108(10), 2447–2469. https://doi.org/10.1210/clinem/dgad463
+
+- Zhao, H., Zhang, J., Cheng, X., Nie, X., & He, B. (2023). Insulin resistance in polycystic ovary syndrome across various tissues: an updated review of pathogenesis, evaluation, and treatment. Journal of Ovarian Research, 16(1). https://doi.org/10.1186/s13048-022-01091-0
+
+## Anexos
