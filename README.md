@@ -2024,7 +2024,7 @@ En este sprint, el enfoque estará en completar las funcionalidades clave relaci
 |Date|09-17-2024|
 |Time|9:00|
 |Location|Reunión realizada mediante Discord|
-|Prepared By|Lostaunau Pereira Estéfano Sebastián|
+|Prepared By|Chinchihualpa Saldarriaga Luis Sebastian|
 |Attendees (to planning meeting)|Astuyauri Calderon Jherson David / Chinchihualpa Saldarriaga Luis Sebastian/Lostaunau Pereira Estéfano Sebastián	/Quispesivana Torres Claudio Sandro|
 |**Sprint Goal & User Stories**||
 |Sprint 2 Goal|Completar la implementación del backend para la gestión de citas, notificaciones y usuarios en el sistema, asegurando que los endpoints sean funcionales y cumplan con las necesidades de la aplicación móvil.|
@@ -2057,13 +2057,27 @@ Durante este sprint, se desarrollaron múltiples endpoints en el backend usando 
 |Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on (Date)|
 | - | - | - | - | - | - |
 |hormonal-care-backend| develop |978e47968e2331eba18e748752823dd9456a6074|fix: patient and doctor new attributes|-|17/09/2024|
-|hormonal-care-backend| develop |f56100e38237c63c116781f8e1e3661899cd3b49|fix(web securityconfiguration): jwt activado|-|17/09/2024|
 |hormonal-care-backend| develop |1d0cc9c8963f227a1cb9b05d785b99431c7b2011|feat: doctor updated information|-|18/09/2024|
 |hormonal-care-backend| develop |d7dee148e031052519554766dbd5f4812ac71de9|feat: patient has update all its information and personal and family history included.|-|18/09/2024|
+|hormonal-care-backend| develop |f56100e38237c63c116781f8e1e3661899cd3b49|fix(web securityconfiguration): jwt activado|-|18/09/2024|
+
 
 ##### 4.2.2.4. Testing Suite Evidence for Sprint Review.
 
 Se realizaron pruebas unitarias e integradas en los servicios desarrollados, validando el correcto funcionamiento de las operaciones CRUD y la autenticación. Las pruebas aseguraron la integridad y seguridad de los datos, especialmente en las funcionalidades de inicio de sesión, registro, y gestión de citas.
+
+|Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on (Date)|
+| - | - | - | - | - | - |
+|Acceptance-Test| US55.feature |0dae3bc|Create US55.feature|-|19/09/2024|
+|Acceptance-Test| US56.feature |b067c80|Create US56.feature|-|19/09/2024|
+|Acceptance-Test| US57.feature|b61b43b|Create US57.feature |-|19/09/2024|
+|Acceptance-Test| US52.feature |0e9f7b0|Create US52.feature|-|19/09/2024|
+|Acceptance-Test| US53.feature |cc368d1|Create US53.feature|-|19/09/2024|
+|Acceptance-Test| US54.feature|18a6135|Create US54.feature|-|19/09/2024|
+|Acceptance-Test| US58.feature |6d60a64|Create US58.feature|-|19/09/2024|
+|Acceptance-Test| US51.feature |474174b|Create US51.feature|-|19/09/2024|
+
+
 
 ##### 4.2.2.5. Execution Evidence for Sprint Review.
 
@@ -2140,15 +2154,11 @@ Para el Sprint 3, el enfoque se centró en completar las funcionalidades clave d
 
 | ID   | User Story                                | Work-Item / Task                            | Description                                                                            | Estimation (Hours) | Assigned To | Status    |
 |------|-------------------------------------------|---------------------------------------------|----------------------------------------------------------------------------------------|--------------------|-------------|-----------|
-| US03 | Login del Usuario                         | T01: Implementación del endpoint de login   | Crear endpoint POST para validar credenciales de usuario                               | 3                  | Jherson     | Done      |
-|      |                                           | T02: Pruebas de autenticación               | Realizar pruebas de autenticación en el servicio de login                              | 2                  | Estefano    | Done      |
-| US04 | Registro de Nuevos Usuarios (Sign Up)     | T01: Implementación del endpoint de registro | Crear endpoint POST para registro de usuarios                                          | 4                  | Sandro      | Done      |
-|      |                                           | T02: Pruebas de registro de usuarios        | Realizar pruebas para verificar el correcto registro de usuarios en backend            | 3                  | Jherson     | Done      |
 | US14 | Creación de Citas por parte del Doctor    | T01: Implementación de endpoint de citas    | Crear endpoint POST para permitir que el doctor cree citas                             | 6                  | Luis        | Done      |
 |      |                                           | T02: Endpoint GET de citas de doctor        | Añadir endpoint GET para consultar citas por doctor                                    | 4                  | Estefano    | Done      |
 | US25 | Cartera de Pacientes                      | T01: Endpoint GET cartera de pacientes      | Crear endpoint para consultar cartera completa de pacientes del doctor                 | 6                  | Sandro      | Done      |
 | US26 | Perfil del Doctor                         | T01: Endpoint de perfil                     | Crear endpoints GET para visualizar y editar perfil del doctor                 | 4                  | Luis        | Done      |
-|      |                                           | T02: Gestión de tratamientos                | Crear endpoint para gestionar tratamientos médicos del paciente                        | 6                  | Luis        | Done      |
+|      |                                           | T02: Gestión de prescriptions                | Crear endpoint para gestionar prescriptions médicos del paciente                        | 6                  | Luis        | Done      |
 | US29 | Perfil del Paciente                       | T01: Endpoint GET perfil del paciente       | Crear endpoint para visualizar el perfil del paciente                                  | 5                  | Jherson     | Done      |
 
 ##### 4.2.3.3. Development Evidence for Sprint Review
@@ -2157,17 +2167,42 @@ A medida que avanzamos en el desarrollo del backend, aquí se documentan los com
 
 | Repository               | Branch     | Commit Id                             | Commit Message                                              | Commit Message Body | Committed on (Date) |
 |--------------------------|------------|---------------------------------------|-------------------------------------------------------------|---------------------|----------------------|
-| hormonal-care-backend    | develop    | 8f2f2e0bb22147e843da194d33e17586898db2ca | feat (authentication): implement user login endpoint       | -                   | 05/10/2024           |
-| hormonal-care-backend    | develop    | 091d20d1c86465da90f40e3dd596076dd5b4f1c7 | feat: Added doctor’s appointments endpoint                | -                   | 10/10/2024           |
-| hormonal-care-backend    | develop    | ab68a199194edbb0e40df66706f2b17810be5d46 | feat (medical record): implement GET method for records    | -                   | 13/10/2024           |
+| hormonal-care-backend    | develop3    | 8f2f2e0bb22147e843da194d33e17586898db2ca | feat (authentication): implement user login endpoint       | -                   | 05/10/2024           |
+| hormonal-care-backend    | develop3    | 091d20d1c86465da90f40e3dd596076dd5b4f1c7 | feat: Added doctor’s appointments endpoint                | -                   | 10/10/2024           |
+| hormonal-care-backend    | develop3    | ab68a199194edbb0e40df66706f2b17810be5d46 | feat (medical record): implement GET method for records    | -                   | 13/10/2024           |
 
 ##### 4.2.3.4. Testing Suite Evidence for Sprint Review
 
 Para esta entrega se realizaron pruebas unitarias en los servicios de usuarios, autenticación y suscripciones en el backend. Las pruebas verificaron el correcto manejo de datos y la seguridad de las funcionalidades de autenticación.
 
+
 ##### 4.2.3.5. Execution Evidence for Sprint Review
 
-Este sprint se centró en consolidar y mejorar el backend de la aplicación “HormonalCare”. Se completaron los endpoints de sign-up y log-in con validaciones en backend y conexión estable a las APIs de autenticación. También se desarrollaron servicios esenciales para el Home del Doctor, permitiendo consultar los pacientes del día y acceder a sus historiales clínicos, así como la Cartera de Pacientes. Este enfoque en el backend asegura una experiencia de usuario coherente y efectiva, alineada con los objetivos funcionales de la aplicación.
+Este sprint se centró en consolidar y mejorar el backend de la aplicación “HormonalCare”. Se completaron los endpoints con validaciones en backend y conexión estable a las APIs de autenticación. También se desarrollaron servicios esenciales para el Home del Doctor, permitiendo consultar los pacientes del día y acceder a sus historiales clínicos, así como la Cartera de Pacientes. Este enfoque en el backend asegura una experiencia de usuario coherente y efectiva, alineada con los objetivos funcionales de la aplicación.
+
+**Capturas de Pantalla**
+
+**Medical Appointment**
+<p></p>
+
+<img src = "images/Hormonalcare Cap4 Sprint3/medical appointment get by doctor id.png">
+<p></p>
+
+<img src = "images/Hormonalcare Cap4 Sprint3/medical appointment post.png">
+<p></p>
+
+**Patients**
+<p></p>
+
+<img src = "images/Hormonalcare Cap4 Sprint3/patient get all patients by doctor id.png">
+<p></p>
+
+**Prescriptions**
+<p></p>
+
+<img src = "images/Hormonalcare Cap4 Sprint3/prescriptions get all prescriptions.png">
+<p></p>
+
 
 ##### 4.2.3.6. Services Documentation Evidence for Sprint Review
 
@@ -2175,11 +2210,9 @@ Para el sprint 3 se crearon algunos endpoints y otros fueron modificados:
 
 | Endpoint                                                 | Detalles                                                                                                           |
 |----------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
-| /api/v1/authentication/sign-up                           | Permite registrar nuevos usuarios en la plataforma, con roles ROLE_PATIENT o ROLE_DOCTOR.                          |
-| /api/v1/authentication/sign-in                           | Permite a los usuarios autenticarse y acceder a la plataforma; ahora el response body incluye el rol del usuario.  |
-| /api/v1/profile/profile                                  | Permite obtener, actualizar y gestionar el perfil del usuario.                                                     |
+| /api/v1/medical-record/patient/doctor/{doctorId}          | Permite obtener todos los pacientes que tengan a un mismo doctor en comun.                                         |
 | /api/v1/medicalAppointment                               | Gestiona las citas médicas (agregar, obtener, actualizar).                                                         |
-| /api/v1/medical-record/treatments                        | Permite gestionar los tratamientos médicos (agregar, obtener, actualizar).                                         |
+| /api/v1/medical-record/medications/prescriptions         | Permite gestionar los prescriptions médicos (agregar y obtener).                                        |
 | /api/v1/medical-record/patient/doctor/{doctorId}         | Devuelve todos los pacientes que comparten el mismo doctorId.                                                      |
 
 ##### 4.2.3.7. Software Deployment Evidence for Sprint Review
@@ -2194,7 +2227,8 @@ Para el despliegue del Back-End, se utilizó Railway, donde se subió el reposit
 
 Durante este sprint, la colaboración se realizó a través de Git y GitHub. Se realizaron commits y revisiones constantes para asegurar que los servicios implementados cumplan con los estándares del equipo. El desarrollo se centró en la implementación de servicios de backend en Spring Boot y la gestión de endpoints para la funcionalidad completa de la aplicación.
 
-
+<img src = "images/insights2.png">
+<img src = "images/Insights2.1.png">
 
 #### 4.2.4. Sprint 4
 
