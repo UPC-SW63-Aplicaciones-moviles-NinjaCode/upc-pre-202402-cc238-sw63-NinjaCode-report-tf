@@ -3053,6 +3053,55 @@ Durante este sprint, la colaboración se gestionó mediante Git y GitHub, con co
 
 ### 5.3. Validation Interviews
 #### 5.3.1.  Diseño de Entrevistas
+
+El diseño de estas entrevistas se centra en validar el trabajo realizado hasta ahora en nuestra aplicación para pacientes y médicos endocrinólogos. Nuestro objetivo es obtener retroalimentación directa sobre el diseño y las funcionalidades desarrolladas, con el propósito de evaluar si satisfacen las necesidades reales de los usuarios. Estas entrevistas están estructuradas para identificar áreas de mejora, confirmar decisiones previas y refinar la experiencia del usuario. Al recopilar opiniones específicas sobre el diseño visual y la facilidad de uso, así como sobre la utilidad de las funciones implementadas, buscamos garantizar que la aplicación sea intuitiva, efectiva y esté alineada con las expectativas del mundo real. Esta validación es clave para consolidar el proyecto y asegurarnos de que estamos creando una herramienta que realmente marque la diferencia.
+
+Para los medicos especialistas:
+
+1.¿Qué le parece la funcionalidad que muestra la lista de sus pacientes del día?
+
+2.¿Cómo evalúa la organización y accesibilidad de la lista de pacientes?
+
+3.¿Qué opina sobre la forma de registrar y visualizar diagnósticos y tratamientos?
+
+4.¿Qué le parece la forma en que se presentan los resultados de pruebas médicas?
+
+5.¿Qué opina sobre la funcionalidad para cargar o visualizar informes externos?
+
+6.¿Qué le parece la funcionalidad de la sección de citas médicas?
+
+7.¿Cómo evalúa la facilidad de uso general del diseño?
+
+8.¿Qué opina de la presentación visual de la aplicación?
+
+9.¿Qué función o sección cree que debería mejorarse más?
+
+10.¿Qué otra funcionalidad considera esencial para la aplicación?
+
+
+
+Para los pacientes: 
+
+1.¿Qué opina del diseño de la pantalla principal?
+
+2.¿Cómo evalúa la forma en que se presentan los recordatorios de medicamentos en cuanto a claridad visual?
+
+3.¿Qué le parece el diseño de la función para unirse a una cita médica?
+
+4.¿Qué opina de la apariencia y claridad de la sección para buscar doctores?
+
+5.¿Qué le parece el diseño de la sección para gestionar sus citas médicas?
+
+6.¿Qué opina del diseño del historial de citas?
+
+7.¿Cómo evalúa el diseño general de la aplicación en términos de colores, organización y estilo visual?
+
+8.¿Le resulta intuitivo moverse entre las pantallas de la aplicación?
+
+9.¿Qué aspecto del diseño le gustaría que se ajustara o mejorara?
+
+10.¿Qué opina del tamaño y estilo de la tipografía utilizada en la aplicación?
+
 #### 5.3.2. Registro de Entrevistas
 #### 5.3.3. Evaluaciones según heurísticas
 
