@@ -3137,6 +3137,31 @@ Para los pacientes:
 
 
 
+| #  | Problema                                                          | Escala de severidad | Heurística/Principio violada(o)                 |
+|----|-------------------------------------------------------------------|---------------------|-------------------------------------------------|
+| 1  | Falta de filtros avanzados en la búsqueda de doctores             | 3                   | Usability: Flexibilidad y eficiencia de uso     |
+| 2  | Dificultad para actualizar información médica en el perfil        | 2                   | Usability: Claridad y simplicidad               |
+| 3  | Interfaz de la sección de elección de doctor necesita más detalles| 2                   | Usability: Feedback y visibilidad               |
+| 4  | Falta de tutorial para guiar al usuario en las características principales | 2                   | Usability: Ayuda y documentación                |
+
+## DESCRIPCIÓN DE PROBLEMAS
+
+**PROBLEMA #1: Falta de filtros avanzados en la búsqueda de doctores**  
+**Severidad:** 3  
+**Heurística violada:** Usability - Flexibilidad y eficiencia de uso  
+**Problema:** La aplicación no ofrece filtros avanzados para buscar doctores, lo que limita la precisión y personalización en la búsqueda de un médico especializado.  
+<img src="images/heurisiticapaciente1.png" width=400>
+
+**Recomendación:** Implementar filtros avanzados por especialidad, ubicación y otros criterios relevantes para mejorar la precisión en la búsqueda de doctores.
+
+**PROBLEMA #2: Dificultad para actualizar información médica en el perfil**  
+**Severidad:** 2  
+**Heurística violada:** Usability - Claridad y simplicidad  
+**Problema:** Los usuarios encuentran confuso el proceso de actualización de la información médica en su perfil, lo que puede llevar a errores o información desactualizada.  
+<img src="images/heurisiticapaciente2.png" width=400>
+
+**Recomendación:** Simplificar el proceso de actualización de información médica y añadir indicaciones claras sobre cómo editar los campos necesarios.
+
 **PROBLEMA #3: Interfaz de la sección de elección de doctor necesita más detalles**  
 **Severidad:** 2  
 **Heurística violada:** Usability - Feedback y visibilidad  
@@ -3153,34 +3178,6 @@ Para los pacientes:
 
 **Recomendación:** Implementar un tutorial interactivo que guíe al usuario por las funcionalidades principales al iniciar la aplicación por primera vez.
 
-
-### 5.4. Video About-the-Product.
-En esta sección, presentamos un video detallado sobre HormonalCare, diseñado para ofrecer una visión completa de sus características, funcionalidades, ventajas y una opinion de un paciente y medico acerca del mismo. 
-
-A continuación, puedes ver el video a través de dos plataformas:
-
-
-
-**Link video en Youtube:** https://youtu.be/rZrRMwphbxY (duracion: 1:37)
-
-**Link video en Microsoft Stream** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215099_upc_edu_pe/EcmkmF5OJHFFjfJWigMGsR8BDIRuh33cZ3w8OLi5H078Aw?e=8tUt4m&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
-(duracion: 1:37)
-
-
-<div align="center">
-<img src="images/imagen video about the product.png" width=400>
-
-</div>
-
-## **CONCLUSIONES Y RECOMENDACIONES**
-
-•	Nuestro equipo de NinjaCode ha logrado desarrollar una solución tecnológica innovadora, HormonalCare, que aborda los desafíos críticos en el seguimiento médico de enfermedades hormonales en el Perú. Hemos colaborado estrechamente para diseñar y desarrollar una aplicación que permita una gestión eficiente de registros médicos, seguimiento remoto de niveles hormonales y una comunicación efectiva entre pacientes y profesionales de la salud.
-
-•	A lo largo de este proyecto, hemos enfrentado desafíos significativos, desde la escasez de recursos tecnológicos hasta la competencia en el mercado de la salud digital. Sin embargo, nuestra determinación y compromiso nos han permitido superar obstáculos y seguir adelante.
-
-•	El proyecto de NinjaCode tiene objetivos claros, incluida la optimización de los seguimientos médicos, la reducción de los tiempos de espera y la mejora de la adherencia al tratamiento. Estos objetivos están respaldados por una profunda comprensión de la problemática actual en el sistema de atención médica peruano y una visión innovadora para implementar soluciones tecnológicas efectivas.
-
-•	La aplicación HormonalCare representa un avance significativo en la integración de tecnología digital en el campo de la salud. Desde la gestión eficiente de registros médicos hasta la facilitación de videoconsultas y la comunicación fluida entre pacientes y profesionales de la salud, esta innovación promete revolucionar la forma en que se realiza el seguimiento médico de enfermedades hormonales.
 
 
 ### 5.4. Video About-the-Product
