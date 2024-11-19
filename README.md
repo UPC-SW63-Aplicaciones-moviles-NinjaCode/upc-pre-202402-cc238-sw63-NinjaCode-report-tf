@@ -3135,8 +3135,45 @@ Para los pacientes:
 
 #### 5.3.3. Evaluaciones según heurísticas
 
+**Doctores**
 
+**CARRERA:** Ingeniería de Software  
+**CURSO:** Aplicaciones para Dispositivos Móviles
+**SECCIÓN:** SW63  
+**PROFESORES:** Todos  
+**AUDITOR:** Grupo NinjaCode  
+**CLIENTE(S):** Dr. Luis Chinchihualpa, Dr. Ernesto Requejo, Dra. Lucía Quispesivana  
+**SITE o APP A EVALUAR:** HormonalCare  
 
+## TAREAS A EVALUAR
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+- Sección principal de los pacientes del día de hoy.
+- Acceder a la reunión desde la lista de pacientes de hoy y asignar una nueva reunión a un paciente.
+- Visualización de la cartera de pacientes completa.
+- Acceso y gestión de la historia clínica de cada paciente (perfil, diagnóstico, tratamiento, consultas, test médicos y reportes externos).
+- Verificar la programación de citas médicas desde la sección del calendario.
+- Gestión del perfil del médico.
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+- Vizualización de notificaciones personalizables.
+- Integración con otros sistemas médicos externos
+- Reportes avanzados de evolución del paciente
+- Manejo de estadísticas detalladas
+
+## ESCALA DE SEVERIDAD
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+| Nivel | Descripción |
+|-------|-------------|
+| 1     | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2     | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja para resolverlo en la próxima versión. |
+| 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante que sea corregido y se le debe asignar una prioridad alta. |
+| 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+## TABLA RESUMEN
+#FALTA modificar despues de las entrevistas 
 | #  | Problema                                                          | Escala de severidad | Heurística/Principio violada(o)                 |
 |----|-------------------------------------------------------------------|---------------------|-------------------------------------------------|
 | 1  | Falta de filtros avanzados en la búsqueda de doctores             | 3                   | Usability: Flexibilidad y eficiencia de uso     |
