@@ -3166,6 +3166,7 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 - Reportes avanzados de evolución del paciente
 - Manejo de estadísticas detalladas
 
+
 ## ESCALA DE SEVERIDAD
 
 Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
@@ -3178,49 +3179,73 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 | 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
 
 ## TABLA RESUMEN
-#FALTA modificar despues de las entrevistas 
+
 | #  | Problema                                                          | Escala de severidad | Heurística/Principio violada(o)                 |
 |----|-------------------------------------------------------------------|---------------------|-------------------------------------------------|
-| 1  | Falta de filtros avanzados en la búsqueda de doctores             | 3                   | Usability: Flexibilidad y eficiencia de uso     |
-| 2  | Dificultad para actualizar información médica en el perfil        | 2                   | Usability: Claridad y simplicidad               |
-| 3  | Interfaz de la sección de elección de doctor necesita más detalles| 2                   | Usability: Feedback y visibilidad               |
-| 4  | Falta de tutorial para guiar al usuario en las características principales | 2                   | Usability: Ayuda y documentación                |
+| 1  | En el calendario de citas médicas, no se puede interactuar con las citas. | 3                   | Usability: Flexibilidad y eficiencia de uso     |
+| 2  | En la pantalla de detalles de la cita médica, hay mucho espacio vacío. | 2                   | Usability: Estética y diseño minimalista        |
+| 3  | No hay conexión entre las notificaciones y las citas médicas.      | 3                   | Usability: Visibilidad del estado               |
+| 4  | Al editar el perfil del médico, no se muestran los datos actuales, sino los campos vacíos. | 2                   | Usability: Claridad y simplicidad               |
+
+---
 
 ## DESCRIPCIÓN DE PROBLEMAS
 
-**PROBLEMA #1: Falta de filtros avanzados en la búsqueda de doctores**  
+**PROBLEMA #1: En el calendario de citas médicas, no se puede interactuar con las citas**  
+
 **Severidad:** 3  
+
 **Heurística violada:** Usability - Flexibilidad y eficiencia de uso  
-**Problema:** La aplicación no ofrece filtros avanzados para buscar doctores, lo que limita la precisión y personalización en la búsqueda de un médico especializado.  
-<img src="images/heurisiticapaciente1.png" width=400>
 
-**Recomendación:** Implementar filtros avanzados por especialidad, ubicación y otros criterios relevantes para mejorar la precisión en la búsqueda de doctores.
+**Problema:** Actualmente, en la vista por mes del calendario, los usuarios pueden ver las citas médicas, pero no pueden interactuar con ellas (como editarlas o hacer clic para obtener más detalles). Esto limita la funcionalidad y la experiencia del usuario.  
 
-**PROBLEMA #2: Dificultad para actualizar información médica en el perfil**  
+<img src="images/retrospectiva1.png" width=400>
+
+**Recomendación:** Habilitar la opción de interactuar con las citas médicas directamente desde el calendario, permitiendo que los usuarios puedan editar o visualizar los detalles de las citas con un clic o gesto.
+
+---
+
+**PROBLEMA #2: En la pantalla de detalles de la cita médica, hay mucho espacio vacío**  
+
 **Severidad:** 2  
+
+**Heurística violada:** Usability - Estética y diseño minimalista  
+
+**Problema:** La pantalla de detalles de las citas médicas tiene una cantidad significativa de espacio vacío en el centro, lo que puede resultar en una interfaz innecesariamente desordenada y poco eficiente.  
+
+<img src="images/retrospectiva2.png" width=400>
+
+**Recomendación:** Optimizar el diseño de la pantalla de detalles de las citas médicas, aprovechando el espacio vacío para agregar más información relevante o mejorar la disposición visual de los elementos.
+
+---
+
+**PROBLEMA #3: No hay conexión entre las notificaciones y las citas médicas**  
+
+**Severidad:** 3  
+
+**Heurística violada:** Usability - Visibilidad del estado  
+
+**Problema:** Las notificaciones no están conectadas con las citas médicas, lo que significa que el usuario no recibe recordatorios o alertas sobre sus citas. Esto puede generar confusión o pérdida de información importante.  
+
+<img src="images/retrospectiva3.png" width=400>
+
+**Recomendación:** Integrar un sistema de notificaciones que esté conectado directamente con las citas médicas, para que los usuarios reciban recordatorios, cambios o actualizaciones sobre sus próximas citas.
+
+---
+
+**PROBLEMA #4: Al editar el perfil del médico, no se muestran los datos actuales, sino los campos vacíos**  
+
+**Severidad:** 2  
+
 **Heurística violada:** Usability - Claridad y simplicidad  
-**Problema:** Los usuarios encuentran confuso el proceso de actualización de la información médica en su perfil, lo que puede llevar a errores o información desactualizada.  
-<img src="images/heurisiticapaciente2.png" width=400>
 
-**Recomendación:** Simplificar el proceso de actualización de información médica y añadir indicaciones claras sobre cómo editar los campos necesarios.
+**Problema:** Al editar el perfil de un médico, la interfaz no muestra los datos actuales del médico, sino que muestra los campos vacíos. Esto puede generar confusión y hacer que los usuarios pierdan confianza en el sistema.  
 
-**PROBLEMA #3: Interfaz de la sección de elección de doctor necesita más detalles**  
-**Severidad:** 2  
-**Heurística violada:** Usability - Feedback y visibilidad  
-**Problema:** La sección de elección de doctor carece de descripciones detalladas, lo que puede confundir a los usuarios sobre las opciones disponibles.  
-<img src="images/heurisiticapaciente3.png" width=400>
+<img src="images/retrospectiva4.png" width=400>
 
-**Recomendación:** Añadir descripciones detalladas de cada doctor, incluyendo especialidades, experiencia y opiniones de otros pacientes para facilitar la elección informada.
+**Recomendación:** Asegurarse de que los campos del perfil del médico se llenen con los datos actuales al momento de la edición, para que los usuarios puedan ver y modificar correctamente la información.
 
-**PROBLEMA #4: Falta de tutorial para guiar al usuario en las características principales**  
-**Severidad:** 2  
-**Heurística violada:** Usability - Ayuda y documentación  
-**Problema:** La aplicación no incluye un tutorial inicial que guíe al usuario a través de las características principales, lo que puede dificultar la comprensión y el uso eficiente de la aplicación.  
-<img src="images/heurisiticapaciente4.png" width=400>
-
-**Recomendación:** Implementar un tutorial interactivo que guíe al usuario por las funcionalidades principales al iniciar la aplicación por primera vez.
-
-
+---
 
 ### 5.4. Video About-the-Product
 
