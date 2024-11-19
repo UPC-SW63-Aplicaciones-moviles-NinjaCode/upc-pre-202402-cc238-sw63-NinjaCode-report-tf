@@ -3247,6 +3247,114 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 
 ---
 
+
+**Pacientes**
+
+**CARRERA:** Ingeniería de Software  
+**CURSO:** Aplicaciones para Dispositivos Móviles  
+**SECCIÓN:** SW63  
+**PROFESORES:** Todos  
+**AUDITOR:** Grupo NinjaCode  
+**CLIENTE(S):**  
+**SITE o APP A EVALUAR:** HormonalCare  
+
+## TAREAS A EVALUAR
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+- Sección principal de los pacientes del día de hoy.
+- Acceder a la reunión desde la lista de pacientes de hoy y asignar una nueva reunión a un paciente.
+- Visualización de la cartera de pacientes completa.
+- Acceso y gestión de la historia clínica de cada paciente (perfil, diagnóstico, tratamiento, consultas, test médicos y reportes externos).
+- Verificar la programación de citas médicas desde la sección del calendario.
+- Gestión del perfil del médico.
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+- Visualización de notificaciones personalizables.
+- Integración con otros sistemas médicos externos.
+- Reportes avanzados de evolución del paciente.
+- Manejo de estadísticas detalladas.
+
+## ESCALA DE SEVERIDAD
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+| Nivel | Descripción |
+|-------|-------------|
+| 1     | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2     | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja para resolverlo en la próxima versión. |
+| 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante que sea corregido y se le debe asignar una prioridad alta. |
+| 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+## TABLA RESUMEN
+
+| #  | Problema                                                          | Escala de severidad | Heurística/Principio violada(o)                 |
+|----|-------------------------------------------------------------------|---------------------|-------------------------------------------------|
+| 1  | El formulario para añadir una próxima reunión es demasiado grande. | 2                   | Usability: Claridad y simplicidad               |
+| 2  | No hay filtros para encontrar rápidamente a los pacientes.        | 3                   | Usability: Flexibilidad y eficiencia de uso     |
+| 3  | No existe un medio de comunicación directo entre médico y paciente (chat o llamada). | 2                   | Usability: Flexibilidad y eficiencia de uso     |
+| 4  | En la pantalla de pacientes de hoy, hay demasiado espacio vacío si hay pocas reuniones. | 2                   | Usability: Estética y diseño minimalista        |
+
+
+## DESCRIPCIÓN DE PROBLEMAS
+
+## **PROBLEMA #1: En la parte de los pacientes de hoy, el formulario para añadir una reunión siguiente a un mismo paciente es muy grande**  
+
+**Severidad:** 2  
+
+**Heurística violada:** Usability - Claridad y simplicidad  
+
+**Problema:** El formulario para añadir una próxima reunión en la sección de pacientes de hoy es demasiado grande, lo que puede dificultar la interacción y hacer que el usuario se sienta abrumado al llenar muchos campos.  
+
+<img src="images/retrospectiva_1.png" width=400>
+
+**Recomendación:** Simplificar y compactar el formulario de manera que los campos más importantes sean visibles sin necesidad de mucho desplazamiento. También se podría considerar un diseño en varias secciones o pestañas para mejorar la usabilidad.
+
+---
+
+## **PROBLEMA #2: En la sección de pacientes, nos hacen falta algunos filtros para que el médico pueda encontrar a un paciente más rápido**  
+
+**Severidad:** 3  
+
+**Heurística violada:** Usability - Flexibilidad y eficiencia de uso  
+
+**Problema:** Actualmente, no hay suficientes filtros para que los médicos encuentren rápidamente a un paciente en la sección de pacientes. Esto puede hacer que la búsqueda sea lenta y poco eficiente.  
+
+<img src="images/retrospectiva_2.png" width=400>
+
+**Recomendación:** Implementar filtros avanzados por nombre, edad, especialidad, y otros criterios relevantes para que los médicos puedan buscar pacientes de manera rápida y eficiente.
+
+---
+
+## **PROBLEMA #3: Se podría agregar otro medio de comunicación entre el médico y el paciente, como un chat o llamada**  
+
+**Severidad:** 2  
+
+**Heurística violada:** Usability - Flexibilidad y eficiencia de uso  
+
+**Problema:** Actualmente, no existe una opción para que el médico y el paciente se comuniquen de manera directa dentro de la aplicación, lo que podría limitar la interacción y la eficiencia de las consultas.  
+
+<img src="images/retrospectiva_3.png" width=400>
+
+**Recomendación:** Integrar un sistema de comunicación directa, como un chat o llamada dentro de la aplicación, para que los médicos y pacientes puedan resolver dudas o coordinar citas de forma más rápida y efectiva.
+
+---
+
+## **PROBLEMA #4: En la pantalla de pacientes de hoy hay espacio en blanco muy grande si es que hay pocas reuniones**  
+
+**Severidad:** 2  
+
+**Heurística violada:** Usability - Estética y diseño minimalista  
+
+**Problema:** En la pantalla de pacientes de hoy, cuando no hay muchas reuniones, se genera un gran espacio en blanco que puede hacer que la interfaz se vea vacía y poco atractiva.  
+
+<img src="images/retrospectiva_4.png" width=400>
+
+**Recomendación:** Optimizar el diseño de la pantalla para que el espacio vacío se utilice de manera eficiente. Por ejemplo, mostrar un mensaje de "No hay reuniones programadas" o aprovechar el espacio con información adicional, como una lista de próximos pacientes o sugerencias.
+
+---
+
 ### 5.4. Video About-the-Product
 
 ## Conclusiones
