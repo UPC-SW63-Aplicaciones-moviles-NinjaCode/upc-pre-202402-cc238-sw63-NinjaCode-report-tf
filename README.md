@@ -3115,7 +3115,7 @@ Para los pacientes:
 ***Paciente 2***
 | Datos del paciente: | Entrevista |
 |---|---|
-|  <p>Nombres: Arnhol Alfredo </p> <p>Apellidos:  Castrejon Calderon </p> <p> Edad: 19 años</p> <p> Localidad: Lima, La Victoria  </p> <p> Duración: 9:42 </p> <p style="max-width: 350px;"> Link: (Enlace)[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218451_upc_edu_pe/EauBgjYbx3dJvfBkzNrPJtMBlcMNEy2m8-Fz_NgAGw36SA?e=n2KYEZ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D]</p>| <img src="images/entrevista_paciente111.png" width=400> |
+|  <p>Nombres: Arnhol Alfredo </p> <p>Apellidos:  Castrejon Calderon </p> <p> Edad: 19 años</p> <p> Localidad: Lima, La Victoria  </p> <p> Duración: 9:42 </p> <p style="max-width: 350px;"> Link: (Enlace)[[https://acortar.link/zeX9be](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218451_upc_edu_pe/EauBgjYbx3dJvfBkzNrPJtMBlcMNEy2m8-Fz_NgAGw36SA?e=n2KYEZ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)]</p>| <img src="images/entrevista_paciente111.png" width=400> |
 | Resumen:<p> El entrevistado de forma general mencioan que la aplicación le paereció buena, le gustó. Sin embargo, algunas criticas constructivas que menciona son los colores, le parecen colores muy apagados y hasta aburridos.También, mencionó que la simplicidad le parece bien pero que cuidemos no dejar muchos espacios vacios o en blanco en la app.</p> | 
 
 ***Paciente 3***
