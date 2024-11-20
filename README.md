@@ -3109,14 +3109,14 @@ Para los pacientes:
 ***Paciente 1***
 | Datos del paciente: | Entrevista |
 |---|---|
-|  <p>Nombres: Jose  </p> <p>Apellidos: Calderon Huaman </p> <p> Edad: 19 años</p> <p> Localidad: Lima, Perú </p> <p> Timing: 0 </p> <p> Duración: 7:12 </p> <p style="max-width: 350px;"> Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211742_upc_edu_pe/EUdvu_kGhglKn68XdIJMGJYBvPQjuqn5YBh4AGOz7-Gysg?e=jCUFlV&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D</p>| <img src="images/EntrevistaJoseCalderonHuaman.png" width=400> |
+|  <p>Nombres: Jose  </p> <p>Apellidos: Calderon Huaman </p> <p> Edad: 19 años</p> <p> Localidad: Lima, Perú </p> <p> Timing: 0 </p> <p> Duración: 7:12 </p> <p style="max-width: 350px;"> Link: (https://acortar.link/qpLNZC)[https://acortar.link/qpLNZC]</p>| <img src="images/EntrevistaJoseCalderonHuaman.png" width=400> |
 | Resumen:<p>En la entrevista con José Calderón, estudiante y paciente de Lima, se evaluó una aplicación médica. José destacó que la interfaz es intuitiva, bien organizada, y agradable visualmente, con colores y tipografía adecuados aunque sugirió ajustar algunos tamaños de letras y botones. Opinó que las funciones como gestionar citas, historial médico, recordatorios de medicamentos y subir archivos son claras y prácticas. También valoró positivamente la estructura por días y semanas en las citas, así como la funcionalidad de eliminar automáticamente las citas pasadas. En general, consideró que la aplicación es fácil de usar y eficiente para navegar entre las diferentes secciones.</p> | 
 
 ***Paciente 2***
 | Datos del paciente: | Entrevista |
 |---|---|
-|  <p>Nombres:  </p> <p>Apellidos: </p> <p> Edad: años</p> <p> Localidad:  </p> <p> Timing: 0 </p> <p> Duración: 4:59 </p> <p style="max-width: 350px;"> Link: []</p>| <img src="images/EntrevistaLuisChinchihualpa.png" width=400> |
-| Resumen:<p> </p> | 
+|  <p>Nombres: Arnhol Alfredo </p> <p>Apellidos:  Castrejon Calderon </p> <p> Edad: 19 años</p> <p> Localidad: Lima, La Victoria  </p> <p> Duración: 9:42 </p> <p style="max-width: 350px;"> Link: (https://acortar.link/qpLNZC)[https://acortar.link/5oHIde]</p>| <img src="images/entrevista_paciente111.png" width=400> |
+| Resumen:<p> El entrevistado de forma general mencioan que la aplicación le paereció buena, le gustó. Sin embargo, algunas criticas constructivas que menciona son los colores, le parecen colores muy apagados y hasta aburridos.También, mencionó que la simplicidad le parece bien pero que cuidemos no dejar muchos espacios vacios o en blanco en la app.</p> | 
 
 ***Paciente 3***
 | Datos del paciente: | Entrevista |
