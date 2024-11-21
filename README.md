@@ -50,7 +50,7 @@
 | TP  | 26/09/2024 | NinjaCode | Se avanzó una parte del frontend de la aplicacióon movil y se integró algunas funcionalidades del frontend con el backend.|
 | TB3  v.1   | 25/10/2024 | NinjaCode | Se desarrollo mejoras en cuanto al funcionamiento de la aplicacion movil la cual se ve reflejada en el sprint 3|
 | TB4  v.1   | 06/11/2024 | NinjaCode | Se desarrollo mejoras y nuevas secciones en cuanto al funcionamiento de la aplicacion movil la cual se ve reflejada en el sprint 4|
-
+| TF   | 21/11/2024 | NinjaCode | En esta última entrega se presenta la versión final de la aplicación móvil de HormonalCare, junto a todos los capítulos completos. |
 </div>
 
 
@@ -3103,7 +3103,257 @@ Para los pacientes:
 10.¿Qué opina del tamaño y estilo de la tipografía utilizada en la aplicación?
 
 #### 5.3.2. Registro de Entrevistas
+
+>Segmento de usuario – Pacientes con enfermedades hormonales.
+
+***Paciente 1***
+| Datos del paciente: | Entrevista |
+|---|---|
+|  <p>Nombres: Jose  </p> <p>Apellidos: Calderon Huaman </p> <p> Edad: 19 años</p> <p> Localidad: Lima, Perú </p> <p> Timing: 0 </p> <p> Duración: 7:12 </p> <p style="max-width: 350px;"> Link: (Enlace)[[https://acortar.link/qpLNZC](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211742_upc_edu_pe/EUdvu_kGhglKn68XdIJMGJYBvPQjuqn5YBh4AGOz7-Gysg?e=jCUFlV&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)]</p>| <img src="images/EntrevistaJoseCalderonHuaman.png" width=400> |
+| Resumen:<p>En la entrevista con José Calderón, estudiante y paciente de Lima, se evaluó una aplicación médica. José destacó que la interfaz es intuitiva, bien organizada, y agradable visualmente, con colores y tipografía adecuados aunque sugirió ajustar algunos tamaños de letras y botones. Opinó que las funciones como gestionar citas, historial médico, recordatorios de medicamentos y subir archivos son claras y prácticas. También valoró positivamente la estructura por días y semanas en las citas, así como la funcionalidad de eliminar automáticamente las citas pasadas. En general, consideró que la aplicación es fácil de usar y eficiente para navegar entre las diferentes secciones.</p> | 
+
+***Paciente 2***
+| Datos del paciente: | Entrevista |
+|---|---|
+|  <p>Nombres: Arnhol Alfredo </p> <p>Apellidos:  Castrejon Calderon </p> <p> Edad: 19 años</p> <p> Localidad: Lima, La Victoria  </p> <p> Duración: 9:42 </p> <p style="max-width: 350px;"> Link: (Enlace)[[https://acortar.link/zeX9be](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218451_upc_edu_pe/EauBgjYbx3dJvfBkzNrPJtMBlcMNEy2m8-Fz_NgAGw36SA?e=n2KYEZ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)]</p>| <img src="images/entrevista_paciente111.png" width=400> |
+| Resumen:<p> El entrevistado de forma general mencioan que la aplicación le paereció buena, le gustó. Sin embargo, algunas criticas constructivas que menciona son los colores, le parecen colores muy apagados y hasta aburridos.También, mencionó que la simplicidad le parece bien pero que cuidemos no dejar muchos espacios vacios o en blanco en la app.</p> | 
+
+***Paciente 3***
+| Datos del paciente: | Entrevista |
+|---|---|
+|  <p>Nombres:  </p> <p>Apellidos: </p> <p> Edad: años</p> <p> Localidad:  </p> <p> Timing: 0 </p> <p> Duración: 4:59 </p> <p style="max-width: 350px;"> Link: []</p>| <img src="images/EntrevistaLuisChinchihualpa.png" width=400> |
+| Resumen:<p> </p> | 
+
+>Segmento de usuario – Médicos endocrinólogos.
+
+***Doctor 1***
+| Datos del médico: | Entrevista |
+|---|---|
+|  <p>Nombres:  </p> <p>Apellidos: </p> <p> Edad: años</p> <p> Localidad:  </p> <p> Timing: 0 </p> <p> Duración: 4:59 </p> <p style="max-width: 350px;"> Link: []</p>| <img src="images/EntrevistaLuisChinchihualpa.png" width=400> |
+| Resumen:<p> </p> | 
+
+***Doctor 2***
+| Datos del médico: | Entrevista |
+|---|---|
+|  <p>Nombres:  </p> <p>Apellidos: </p> <p> Edad: años</p> <p> Localidad:  </p> <p> Timing: 0 </p> <p> Duración: 4:59 </p> <p style="max-width: 350px;"> Link: []</p>| <img src="images/EntrevistaLuisChinchihualpa.png" width=400> |
+| Resumen:<p> </p> | 
+
 #### 5.3.3. Evaluaciones según heurísticas
+
+**Doctores**
+
+**CARRERA:** Ingeniería de Software  
+**CURSO:** Aplicaciones para Dispositivos Móviles
+**SECCIÓN:** SW63  
+**PROFESORES:** Todos  
+**AUDITOR:** Grupo NinjaCode  
+**CLIENTE(S):** Dr. Luis Chinchihualpa, Dr. Ernesto Requejo, Dra. Lucía Quispesivana  
+**SITE o APP A EVALUAR:** HormonalCare  
+
+## TAREAS A EVALUAR
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+- Sección principal de los pacientes del día de hoy.
+- Acceder a la reunión desde la lista de pacientes de hoy y asignar una nueva reunión a un paciente.
+- Visualización de la cartera de pacientes completa.
+- Acceso y gestión de la historia clínica de cada paciente (perfil, diagnóstico, tratamiento, consultas, test médicos y reportes externos).
+- Verificar la programación de citas médicas desde la sección del calendario.
+- Gestión del perfil del médico.
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+- Vizualización de notificaciones personalizables.
+- Integración con otros sistemas médicos externos
+- Reportes avanzados de evolución del paciente
+- Manejo de estadísticas detalladas
+
+
+## ESCALA DE SEVERIDAD
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+| Nivel | Descripción |
+|-------|-------------|
+| 1     | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2     | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja para resolverlo en la próxima versión. |
+| 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante que sea corregido y se le debe asignar una prioridad alta. |
+| 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+## TABLA RESUMEN
+
+| #  | Problema                                                          | Escala de severidad | Heurística/Principio violada(o)                 |
+|----|-------------------------------------------------------------------|---------------------|-------------------------------------------------|
+| 1  | En el calendario de citas médicas, no se puede interactuar con las citas. | 3                   | Usability: Flexibilidad y eficiencia de uso     |
+| 2  | En la pantalla de detalles de la cita médica, hay mucho espacio vacío. | 2                   | Usability: Estética y diseño minimalista        |
+| 3  | No hay conexión entre las notificaciones y las citas médicas.      | 3                   | Usability: Visibilidad del estado               |
+| 4  | Al editar el perfil del médico, no se muestran los datos actuales, sino los campos vacíos. | 2                   | Usability: Claridad y simplicidad               |
+
+---
+
+## DESCRIPCIÓN DE PROBLEMAS
+
+**PROBLEMA #1: En el calendario de citas médicas, no se puede interactuar con las citas**  
+
+**Severidad:** 3  
+
+**Heurística violada:** Usability - Flexibilidad y eficiencia de uso  
+
+**Problema:** Actualmente, en la vista por mes del calendario, los usuarios pueden ver las citas médicas, pero no pueden interactuar con ellas (como editarlas o hacer clic para obtener más detalles). Esto limita la funcionalidad y la experiencia del usuario.  
+
+<img src="images/retrospectiva1.png" width=400>
+
+**Recomendación:** Habilitar la opción de interactuar con las citas médicas directamente desde el calendario, permitiendo que los usuarios puedan editar o visualizar los detalles de las citas con un clic o gesto.
+
+---
+
+**PROBLEMA #2: En la pantalla de detalles de la cita médica, hay mucho espacio vacío**  
+
+**Severidad:** 2  
+
+**Heurística violada:** Usability - Estética y diseño minimalista  
+
+**Problema:** La pantalla de detalles de las citas médicas tiene una cantidad significativa de espacio vacío en el centro, lo que puede resultar en una interfaz innecesariamente desordenada y poco eficiente.  
+
+<img src="images/retrospectiva2.png" width=400>
+
+**Recomendación:** Optimizar el diseño de la pantalla de detalles de las citas médicas, aprovechando el espacio vacío para agregar más información relevante o mejorar la disposición visual de los elementos.
+
+---
+
+**PROBLEMA #3: No hay conexión entre las notificaciones y las citas médicas**  
+
+**Severidad:** 3  
+
+**Heurística violada:** Usability - Visibilidad del estado  
+
+**Problema:** Las notificaciones no están conectadas con las citas médicas, lo que significa que el usuario no recibe recordatorios o alertas sobre sus citas. Esto puede generar confusión o pérdida de información importante.  
+
+<img src="images/retrospectiva3.png" width=400>
+
+**Recomendación:** Integrar un sistema de notificaciones que esté conectado directamente con las citas médicas, para que los usuarios reciban recordatorios, cambios o actualizaciones sobre sus próximas citas.
+
+---
+
+**PROBLEMA #4: Al editar el perfil del médico, no se muestran los datos actuales, sino los campos vacíos**  
+
+**Severidad:** 2  
+
+**Heurística violada:** Usability - Claridad y simplicidad  
+
+**Problema:** Al editar el perfil de un médico, la interfaz no muestra los datos actuales del médico, sino que muestra los campos vacíos. Esto puede generar confusión y hacer que los usuarios pierdan confianza en el sistema.  
+
+<img src="images/retrospectiva4.png" width=400>
+
+**Recomendación:** Asegurarse de que los campos del perfil del médico se llenen con los datos actuales al momento de la edición, para que los usuarios puedan ver y modificar correctamente la información.
+
+---
+
+
+**Pacientes**
+
+**CARRERA:** Ingeniería de Software  
+**CURSO:** Aplicaciones para Dispositivos Móviles  
+**SECCIÓN:** SW63  
+**PROFESORES:** Todos  
+**AUDITOR:** Grupo NinjaCode  
+**CLIENTE(S):**  Pacientes entrevistados
+**SITE o APP A EVALUAR:** HormonalCare  
+
+## TAREAS A EVALUAR
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+- Sección principal de los pacientes del día de hoy.
+- Acceder a la reunión desde la lista de pacientes de hoy y asignar una nueva reunión a un paciente.
+- Visualización de la cartera de pacientes completa.
+- Acceso y gestión de la historia clínica de cada paciente (perfil, diagnóstico, tratamiento, consultas, test médicos y reportes externos).
+- Verificar la programación de citas médicas desde la sección del calendario.
+- Gestión del perfil del médico.
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+- Visualización de notificaciones personalizables.
+- Integración con otros sistemas médicos externos.
+- Reportes avanzados de evolución del paciente.
+- Manejo de estadísticas detalladas.
+
+## ESCALA DE SEVERIDAD
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+| Nivel | Descripción |
+|-------|-------------|
+| 1     | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2     | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja para resolverlo en la próxima versión. |
+| 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante que sea corregido y se le debe asignar una prioridad alta. |
+| 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+## TABLA RESUMEN
+
+| #  | Problema                                                          | Escala de severidad | Heurística/Principio violada(o)                 |
+|----|-------------------------------------------------------------------|---------------------|-------------------------------------------------|
+| 1  | El formulario para añadir una próxima reunión es demasiado grande. | 2                   | Usability: Claridad y simplicidad               |
+| 2  | No hay filtros para encontrar rápidamente a los pacientes.        | 3                   | Usability: Flexibilidad y eficiencia de uso     |
+| 3  | No existe un medio de comunicación directo entre médico y paciente (chat o llamada). | 2                   | Usability: Flexibilidad y eficiencia de uso     |
+| 4  | En la pantalla de pacientes de hoy, hay demasiado espacio vacío si hay pocas reuniones. | 2                   | Usability: Estética y diseño minimalista        |
+
+
+## DESCRIPCIÓN DE PROBLEMAS
+
+## **PROBLEMA #1: En la parte de los pacientes de hoy, el formulario para añadir una reunión siguiente a un mismo paciente es muy grande**  
+
+**Severidad:** 2  
+
+**Heurística violada:** Usability - Claridad y simplicidad  
+
+**Problema:** El formulario para añadir una próxima reunión en la sección de pacientes de hoy es demasiado grande, lo que puede dificultar la interacción y hacer que el usuario se sienta abrumado al llenar muchos campos.  
+
+<img src="images/retrospectiva_1.png" width=400>
+
+**Recomendación:** Simplificar y compactar el formulario de manera que los campos más importantes sean visibles sin necesidad de mucho desplazamiento. También se podría considerar un diseño en varias secciones o pestañas para mejorar la usabilidad.
+
+---
+
+## **PROBLEMA #2: En la sección de pacientes, nos hacen falta algunos filtros para que el médico pueda encontrar a un paciente más rápido**  
+
+**Severidad:** 3  
+
+**Heurística violada:** Usability - Flexibilidad y eficiencia de uso  
+
+**Problema:** Actualmente, no hay suficientes filtros para que los médicos encuentren rápidamente a un paciente en la sección de pacientes. Esto puede hacer que la búsqueda sea lenta y poco eficiente.  
+
+<img src="images/retrospectiva_2.png" width=400>
+
+**Recomendación:** Implementar filtros avanzados por nombre, edad, especialidad, y otros criterios relevantes para que los médicos puedan buscar pacientes de manera rápida y eficiente.
+
+---
+
+## **PROBLEMA #3: Se podría agregar otro medio de comunicación entre el médico y el paciente, como un chat o llamada**  
+
+**Severidad:** 2  
+
+**Heurística violada:** Usability - Flexibilidad y eficiencia de uso  
+
+**Problema:** Actualmente, no existe una opción para que el médico y el paciente se comuniquen de manera directa dentro de la aplicación, lo que podría limitar la interacción y la eficiencia de las consultas.  
+
+<img src="images/retrospectiva_3.png" width=400>
+
+**Recomendación:** Integrar un sistema de comunicación directa, como un chat o llamada dentro de la aplicación, para que los médicos y pacientes puedan resolver dudas o coordinar citas de forma más rápida y efectiva.
+
+---
+
+## **PROBLEMA #4: En la pantalla de pacientes de hoy hay espacio en blanco muy grande si es que hay pocas reuniones**  
+
+**Severidad:** 2  
+
+**Heurística violada:** Usability - Estética y diseño minimalista  
+
+**Problema:** En la pantalla de pacientes de hoy, cuando no hay muchas reuniones, se genera un gran espacio en blanco que puede hacer que la interfaz se vea vacía y poco atractiva.  
+
+<img src="images/retrospectiva_4.png" width=400>
+
+**Recomendación:** Optimizar el diseño de la pantalla para que el espacio vacío se utilice de manera eficiente. Por ejemplo, mostrar un mensaje de "No hay reuniones programadas" o aprovechar el espacio con información adicional, como una lista de próximos pacientes o sugerencias.
+
+---
 
 ### 5.4. Video About-the-Product
 
