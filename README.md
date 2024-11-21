@@ -3147,6 +3147,15 @@ Para los pacientes:
 
 ### Video App Validation
 ### Video About the product
+
+En esta sección, presentamos un video detallado sobre HormonalCare, diseñado para ofrecer una visión completa de sus características, funcionalidades, ventajas y una opinion de un paciente y medico acerca del mismo.
+
+A continuación, puedes ver el video a través de dos plataformas:
+
+Youtube: https://youtu.be/Eg2EyFeUo_g (2:15)
+
+Microsoft Stream: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215099_upc_edu_pe/EUnXAb-_IgBGltDMrTT5a4IBaxp5cDvUIVLnlD5pxFfCiQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=tgmmRe
+
 ### Video About the team
 
 
@@ -3192,3 +3201,4 @@ Para los pacientes:
 - Zhao, H., Zhang, J., Cheng, X., Nie, X., & He, B. (2023). Insulin resistance in polycystic ovary syndrome across various tissues: an updated review of pathogenesis, evaluation, and treatment. Journal of Ovarian Research, 16(1). https://doi.org/10.1186/s13048-022-01091-0
 
 ## Anexos
+
