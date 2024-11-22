@@ -3223,8 +3223,8 @@ Para los pacientes:
 ***Doctor 1***
 | Datos del médico: | Entrevista |
 |---|---|
-|  <p>Nombres:  </p> <p>Apellidos: </p> <p> Edad: años</p> <p> Localidad:  </p> <p> Timing: 0 </p> <p> Duración: 4:59 </p> <p style="max-width: 350px;"> Link: []</p>| <img src="images/EntrevistaLuisChinchihualpa.png" width=400> |
-| Resumen:<p> </p> | 
+|  <p>Nombres: Lucia </p> <p>Apellidos: Quispesivana </p> <p> Edad: 33 años</p> <p> Localidad: San Juan de Lurigancho  </p> <p> Timing: 0:00 </p> <p> Duración: 4:51 </p> <p style="max-width: 350px;"> Link: [https://acortar.link/doc1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215099_upc_edu_pe/EWO-aXVepqRCqG5aFsUsv0oBoePp5pQnFGfqDtSRcSpWpw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=hQEEJh)</p>| <img src="images/foton2.png" width=400> |
+| Resumen:<p> Lucia encontró la herramienta muy útil y cree que facilitaría su trabajo. Le llamó la atención la colorimetría y el diseño de los botones. Considera que el uso es fácil y accesible para cualquier médico. Especialmente le gustó el botón de historia clínica por su intuitividad en la razón, diagnóstico y exámenes. Aprecia la distribución de la información. Sugiere que los médicos puedan manipular los exámenes médicos, no solo los pacientes, y que se incluyan más detalles en el tratamiento, como fotos para un mejor seguimiento. Valora la didáctica y minimalista aplicación, la cual cumplió sus expectativas. Sugiere agregar estadísticas de la evolución a lo largo del tiempo como posible mejora. </p> | 
 
 ***Doctor 2***
 | Datos del médico: | Entrevista |
