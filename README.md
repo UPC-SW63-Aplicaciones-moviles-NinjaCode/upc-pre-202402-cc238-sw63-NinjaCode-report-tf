@@ -3215,7 +3215,7 @@ Para los pacientes:
 ***Paciente 3***
 | Datos del paciente: | Entrevista |
 |---|---|
-|  <p>Nombres:  </p> <p>Apellidos: </p> <p> Edad: años</p> <p> Localidad:  </p> <p> Timing: 0 </p> <p> Duración: 4:59 </p> <p style="max-width: 350px;"> Link: []</p>| <img src="images/EntrevistaLuisChinchihualpa.png" width=400> |
+|  <p>Nombres:  </p> <p>Apellidos: </p> <p> Edad: años</p> <p> Localidad:  </p> <p> Timing: 0 </p> <p> Duración: 4:59 </p> <p style="max-width: 350px;"> Link: [https://acortar.link/papu](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215099_upc_edu_pe/EbJzeVCJ2oxEgaHbiaIVPFEBWCjhMLBuhKeESBAZzMlBAg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=hj7zKj)</p>| <img src="images.png" width=400> |
 | Resumen:<p> </p> | 
 
 >Segmento de usuario – Médicos endocrinólogos.
