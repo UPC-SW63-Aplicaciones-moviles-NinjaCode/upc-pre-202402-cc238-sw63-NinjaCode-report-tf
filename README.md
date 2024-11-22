@@ -3229,8 +3229,16 @@ Para los pacientes:
 ***Doctor 2***
 | Datos del médico: | Entrevista |
 |---|---|
-|  <p>Nombres:  </p> <p>Apellidos: </p> <p> Edad: años</p> <p> Localidad:  </p> <p> Timing: 0 </p> <p> Duración: 4:59 </p> <p style="max-width: 350px;"> Link: []</p>| <img src="images/EntrevistaLuisChinchihualpa.png" width=400> |
+|  <p>Nombres: Roberto </p> <p>Apellidos: Eustaquio</p> <p> Edad: 26</p> <p> Localidad: Ate</p> <p> Timing: 0 </p> <p> Duración: 3:38 </p> <p style="max-width: 350px;"> Link: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212112_upc_edu_pe/EQuf-Gos7_BLqBx9q92u29UBzTJU22ND3OVP5pHrnBhbJQ?e=AgmiSQ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212112_upc_edu_pe/EQuf-Gos7_BLqBx9q92u29UBzTJU22ND3OVP5pHrnBhbJQ?e=AgmiSQ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)</p>| <img src="images/EntrevistaLuisChinchihualpa.png" width=400> |
 | Resumen:<p> </p> | 
+
+
+***Doctor 3***
+| Datos del médico: | Entrevista |
+|---|---|
+|  <p>Nombres: Adrián </p> <p>Apellidos: Sotelo</p> <p> Edad: 26</p> <p> Localidad: Ate</p> <p> Timing: 0 </p> <p> Duración: 6:46 </p> <p style="max-width: 350px;"> Link: [[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212112_upc_edu_pe/EQuf-Gos7_BLqBx9q92u29UBzTJU22ND3OVP5pHrnBhbJQ?e=AgmiSQ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212112_upc_edu_pe/EVvevrfI7mNDh3iGCJGI4CoB_ZUiNRGaJdGbu_03r93rIw?e=Dnx9Y7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)]</p>| <img src="images/EntrevistaLuisChinchihualpa.png" width=400> |
+| Resumen:<p> </p> | 
+
 
 #### 5.3.3. Evaluaciones según heurísticas
 
