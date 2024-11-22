@@ -3230,14 +3230,14 @@ Para los pacientes:
 | Datos del médico: | Entrevista |
 |---|---|
 |  <p>Nombres: Roberto </p> <p>Apellidos: Eustaquio</p> <p> Edad: 26</p> <p> Localidad: Ate</p> <p> Timing: 0 </p> <p> Duración: 3:38 </p> <p style="max-width: 350px;"> Link: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212112_upc_edu_pe/EQuf-Gos7_BLqBx9q92u29UBzTJU22ND3OVP5pHrnBhbJQ?e=AgmiSQ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212112_upc_edu_pe/EQuf-Gos7_BLqBx9q92u29UBzTJU22ND3OVP5pHrnBhbJQ?e=AgmiSQ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)</p>| <img src="images/EntrevistaLuisChinchihualpa.png" width=400> |
-| Resumen:<p> </p> | 
+| Resumen:<p> El doctor Roberto Eustaquio, residente en Ate, participó en la evaluación de una aplicación médica diseñada para facilitar la gestión de pacientes y optimizar el tiempo en consulta. Durante su revisión, destacó la eficiencia de la herramienta para acceder rápidamente a la lista de pacientes diarios, registrar diagnósticos, tratamientos y gestionar citas, valorando especialmente la claridad en la presentación de los datos y la organización del historial clínico. Sin embargo, sugirió incluir mejoras en la interfaz, como el uso de colores más vivos y opciones de personalización, especialmente en la sección de exámenes médicos, para hacerla más intuitiva y adaptable a las necesidades específicas de los profesionales de la salud. </p> | 
 
 
 ***Doctor 3***
 | Datos del médico: | Entrevista |
 |---|---|
 |  <p>Nombres: Adrián </p> <p>Apellidos: Sotelo</p> <p> Edad: 26</p> <p> Localidad: Ate</p> <p> Timing: 0 </p> <p> Duración: 6:46 </p> <p style="max-width: 350px;"> Link: [[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212112_upc_edu_pe/EQuf-Gos7_BLqBx9q92u29UBzTJU22ND3OVP5pHrnBhbJQ?e=AgmiSQ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212112_upc_edu_pe/EVvevrfI7mNDh3iGCJGI4CoB_ZUiNRGaJdGbu_03r93rIw?e=Dnx9Y7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)]</p>| <img src="images/EntrevistaLuisChinchihualpa.png" width=400> |
-| Resumen:<p> </p> | 
+| Resumen:<p> En la reunión con el médico endocrinólogo Adrián Marcelo Sotelo, se analizaron aspectos fundamentales del proyecto, como la gestión eficiente de la lista de pacientes y las funcionalidades que permiten a los médicos organizar consultas, acceder rápidamente a historiales médicos y programar citas. Además, se discutieron mejoras en la experiencia del usuario para garantizar que la plataforma facilite el seguimiento médico de manera efectiva y personalizada, integrando herramientas que optimicen los tiempos y promuevan una interacción más fluida entre pacientes y profesionales de la salud. </p> | 
 
 
 #### 5.3.3. Evaluaciones según heurísticas
