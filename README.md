@@ -3215,8 +3215,8 @@ Para los pacientes:
 ***Paciente 3***
 | Datos del paciente: | Entrevista |
 |---|---|
-|  <p>Nombres:  </p> <p>Apellidos: </p> <p> Edad: años</p> <p> Localidad:  </p> <p> Timing: 0 </p> <p> Duración: 4:59 </p> <p style="max-width: 350px;"> Link: [https://acortar.link/papu](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215099_upc_edu_pe/EbJzeVCJ2oxEgaHbiaIVPFEBWCjhMLBuhKeESBAZzMlBAg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=hj7zKj)</p>| <img src="images.png" width=400> |
-| Resumen:<p> </p> | 
+|  <p>Nombres:  Sebastian  </p> <p>Apellidos: Lobato </p> <p> Edad: 19 años</p> <p> Localidad: La Molina  </p> <p> Timing: 0:00 </p> <p> Duración: 3:43 </p> <p style="max-width: 350px;"> Link: [https://acortar.link/papu](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215099_upc_edu_pe/EbJzeVCJ2oxEgaHbiaIVPFEBWCjhMLBuhKeESBAZzMlBAg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=hj7zKj)</p>| <img src="images/foton.png" width=400> |
+| Resumen:<p> El entrevistado expresó, en términos generales, que la aplicación le pareció buena y le gustó. No obstante, compartió algunas críticas constructivas, señalando que los colores utilizados le resultan demasiado apagados e incluso aburridos. Además, destacó que aprecia la simplicidad del diseño, pero sugirió prestar atención para evitar que queden demasiados espacios vacíos o en blanco en la aplicación.</p> | 
 
 >Segmento de usuario – Médicos endocrinólogos.
 
