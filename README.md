@@ -2564,12 +2564,22 @@ Para esta entrega se realizaron pruebas unitarias en la landing page.
 
 A continuación se presentan capturas de pantalla de las principales vistas implementadas:
 
+<img src = "images/landing/landingSprint1.png">
+
+<img src = "images/landing/landingSprint2.png">
+
+<img src = "images/landing/landingSprint3.png">
+
+<img src = "images/landing/landingSprint4.png">
+
+<img src = "images/landing/landingSprint5.png">
+
 
 ##### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
-En este primer Sprint tenemos los siguientes servicios:
+En este primer Sprint tenemos los siguientes servicios de github pages.
 
-
+<img src = "images/landing/deploy.png">
 
 ##### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
@@ -2577,13 +2587,14 @@ Para seguir con la implementación del despliegue automático de nuestra aplicac
 
 ##### A continuación se muestran las evidencias: 
 
+<img src = "images/landing/deploy.png">
 
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
 
 Durante este sprint, la colaboración se realizó a través de Git y GitHub. 
 
-<img src = "images/insights2.png">
-<img src = "images/Insights2.1.png">
+<img src = "images/landing/insight.png">
+
 
 
 #### 5.2.2. Sprint 2
