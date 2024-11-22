@@ -3137,13 +3137,170 @@ Durante este sprint, la colaboración se gestionó mediante Git y GitHub, con co
 
 ##### 5.2.5. Sprint 5
 ##### 5.2.5.1. Sprint Planning 5
+
+En este sprint, el enfoque se puso en terminar las funcionalidades clave del sprint 4, principal mente de front end, relacionadas con la gestión de citas, calendario, perfil, historia clínica, sign in y sign up de la parte del doctor en la aplicación móvil “HormonalCare”. Se implementarán mejoras en la interfaz de la aplicación mejorando así la interacción del usuario, asegurando que el sistema sea funcional y escalable, manteniendo las mejores prácticas de desarrollo para garantizar un rendimiento óptimo.
+
+|Sprint #|Sprint 4|
+| - | - |
+|**Sprint Planning Background**||
+|Date|10-20-2024|
+|Time|9:00|
+|Location|Reunión realizada mediante Discord|
+|Prepared By|Lostaunau Pereira Estéfano Sebastián|
+|Attendees (to planning meeting)|Astuyauri Calderon Jherson David / Chinchihualpa Saldarriaga Luis Sebastian/Lostaunau Pereira Estéfano Sebastián	/Quispesivana Torres Claudio Sandro|
+|**Sprint Goal & User Stories**||
+|Sprint 4 Goal|Completar la implementación de las funcionalidades relacionadas con la gestión de citas, calendario, perfil, historia clínica, sign in y sign up de la parte del doctor para mejorar la experiencia del usuario en la aplicación.|
+|Sprint 4 Velocity|16|
+|Sum of Story Points|16|
+
 ##### 5.2.5.2. Sprint Backlog 5
+
+En este sprint, el objetivo principal es implementar y mejorar funcionalidades que faciliten la planificación y registro de información médica en la aplicación. Esto incluye mejorar las secciones anteriores, gestionar el registro y seguimiento de pacientes por parte de los médicos, y asegurar que se puedan añadir y visualizar diagnósticos, tratamientos, y recordatorios. 
+He actualizado el sprint para reflejar los cambios solicitados. Aquí está el nuevo desglose con la eliminación de US06 y la adición de US40:
+
+| ID   | User Story                                 | Work-Item / Task                                   | Description                                                                                  | Estimation (Hours) | Assigned To | Status       |
+|------|--------------------------------------------|----------------------------------------------------|----------------------------------------------------------------------------------------------|-------------------|-------------|--------------|
+| US08 | Integración de Google Calendar             | T01: Configuración de Google Calendar en backend   | Integrar Google Calendar para visualizar citas y horarios de medicación en la app            | 5                 | Estefano    | Pending      |
+|      |                                            | T02: Implementación de la API de Google Calendar   | Crear la API para sincronizar citas médicas y horarios de medicación con Google Calendar     | 6                 | Jherson     | Pending      |
+|      |                                            | T03: Pruebas de integración de Google Calendar     | Verificar que los eventos en Google Calendar se reflejan correctamente en la aplicación      | 4                 | Luis        | Pending      |
+| US16 | Registro con código de médico              | T01: Implementación del campo de código            | Crear el campo para ingresar el código de registro proporcionado por el médico               | 3                 | Sandro      | In Progress         |
+|      |                                            | T02: Validación del código de registro             | Verificar que el código ingresado sea válido y esté asociado a un médico registrado          | 5                 | Estefano    | In Progress         |
+|      |                                            | T03: Pruebas de registro con código                | Realizar pruebas para confirmar que el registro con código funciona correctamente            | 3                 | Jherson     | Pending         |
+| US29 | Ver historial médico                       | T01: Creación de la vista de historial             | Diseñar la vista donde el doctor pueda ver el historial médico del paciente                  | 4                 | Luis        | Done         |
+|      |                                            | T02: Implementación de la API de historial médico  | Crear la API que permita al doctor acceder al historial completo del paciente                | 6                 | Estefano    | Done         |
+|      |                                            | T03: Pruebas del historial médico                  | Verificar que el historial médico se muestra y actualiza correctamente                       | 3                 | Sandro      | Pending      |
+| US44 | Enlace de videoconferencias                | T01: Integración de enlace de videollamada         | Configurar el enlace de videollamada para que el doctor pueda acceder en el momento adecuado | 5                 | Sandro      | Pending      |
+|      |                                            | T02: Implementación del botón de videollamada      | Añadir un botón en la interfaz para acceder a la videollamada directamente                   | 4                 | Jherson     | Pending      |
+|      |                                            | T03: Pruebas del enlace de videollamada            | Realizar pruebas para asegurar que el enlace de videollamada funciona correctamente          | 3                 | Luis        | Pending      |
+| US50 | Añadir medicación                          | T01: Diseño de la vista de receta médica           | Crear una vista donde el doctor pueda añadir y especificar la receta médica del paciente     | 3                 | Estefano    | Done         |
+|      |                                            | T02: Implementación de la funcionalidad de receta  | Permitir al doctor añadir y editar medicación en el perfil del paciente                      | 4                 | Sandro      | Done         |
+|      |                                            | T03: Pruebas de la funcionalidad de receta         | Verificar que la receta médica se añade y se muestra correctamente                           | 2                 | Jherson     | Pending      |
+| US42 | Ver recordatorios de hoy                   | T01: Diseño de la vista de recordatorios           | Diseñar la interfaz para que el paciente pueda ver sus recordatorios de hoy                  | 3                 | Luis        | In Progress  |
+|      |                                            | T02: Implementación de recordatorios               | Desarrollar la funcionalidad para mostrar los recordatorios programados del día             | 4                 | Estefano    | In Progress  |
+|      |                                            | T03: Pruebas de recordatorios                      | Realizar pruebas para asegurar que los recordatorios del día se muestran correctamente       | 2                 | Sandro      | Pending      |
+| US49 | Diagnóstico y tratamiento                  | T01: Diseño de la vista de diagnóstico             | Crear una vista para que el doctor pueda añadir y ver diagnósticos y tratamientos            | 3                 | Jherson     | Done         |
+|      |                                            | T02: Implementación de diagnóstico y tratamiento   | Desarrollar la funcionalidad para agregar diagnósticos y tratamientos en el perfil del paciente | 5              | Luis        | Done         |
+|      |                                            | T03: Pruebas de diagnóstico y tratamiento          | Verificar que el diagnóstico y tratamiento se añade y se muestra correctamente               | 3                 | Estefano    | Done         |
+| US40 | Paciente accede a su perfil de usuario     | T01: Creación de la vista de perfil                | Diseñar la vista para que el paciente pueda ver y editar su información médica               | 4                 | Jherson     | Done      |
+|      |                                            | T02: Implementación de funcionalidad de perfil     | Permitir que el paciente edite su perfil médico de manera segura                             | 5                 | Sandro      | Done      |
+|      |                                            | T03: Pruebas de perfil de usuario                  | Realizar pruebas para confirmar que el perfil de usuario se visualiza y edita correctamente  | 3                 | Estefano    | Done      |
+
+
 ##### 5.2.5.3. Development Evidence for Sprint Review
+
+A medida que avanzamos en el desarrollo del backend y frontend, aquí se documentan los commits relacionados con los servicios y funcionalidades implementadas. Los commits muestran avances en el desarrollo de la interfaz de usuario y el consumo de los servicios de nuestra aplicación.
+
+
+|Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on (Date)|
+| - | - | - | - | - | - |
+|hormonal-care-frontend| develop |586e26880a80235373cedb65cf0c005913b122f0|feat: patient list created|-|24/10/2024|
+|hormonal-care-frontend| develop |da200d57fb18784bec5e84a74798f3304f50ecc3|feat(profile screen): added put methods for patient and doctor profiles|-|01/11/2024|
+|hormonal-care-frontend| develop |3dcd9e31f0ba8864616a9eedd48c78f38b92f07a|feat: add POST methods for treatment, prescription, and medication|-|01/11/2024|
+|hormonal-care-frontend| develop |c8677c342efcc6510d7c68fe0036dc57c9152197|feat: added detailed appointment info dialog|-|01/11/2024|
+|hormonal-care-frontend| develop |ca2fb89b81310880bc0dd0184b97e7de8e48a7bc|feat(sign-up): added select user type screen, patient and doctor sign up screen and functionality|-|03/11/2024|
+
+
 ##### 5.2.5.4. Testing Suite Evidence for Sprint Review
+
+Para esta entrega se realizaron pruebas unitarias en , autenticación y suscripciones. Las pruebas verificaron el correcto manejo de datos y la seguridad de las funcionalidades de autenticación.
+
+|Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on (Date)|
+| - | - | - | - | - | - |
+|hormonal-care-frontend| develop |9472526377ac7937c6a2c4c45232c44d9c256b37|fix: _HomePatientsScreenState fixed|-|07/11/2024|
+|hormonal-care-frontend| develop |f9f97e75e7b9cf18f4a040a9595ff08263d9457b|feat: update and delete added|-|07/11/2024|
+|hormonal-care-frontend| develop |2ec93481510e4326ecf7fc3a5eb1358cb70d386a|feat: put appointment service|-|07/11/2024|
+|hormonal-care-frontend| develop |c8677c342efcc6510d7c68fe0036dc57c9152197|feat: added detailed appointment info dialog|-|01/11/2024|
+|hormonal-care-frontend| develop |3dcd9e31f0ba8864616a9eedd48c78f38b92f07a|feat: add POST methods for treatment, prescription, and medication|-|01/11/2024|
+|hormonal-care-frontend| develop |da200d57fb18784bec5e84a74798f3304f50ecc3|feat(profile screen): added put methods for patient and doctor profiles|-|01/11/2024|
+|hormonal-care-frontend| develop |586e26880a80235373cedb65cf0c005913b122f0|feat: tamanio del calendario|-|24/10/2024|
+
+
 ##### 5.2.5.5. Execution Evidence for Sprint Review
+
+En este Sprint, el equipo se enfocó en mejorar el frontend y las conexiones con el backedn de la aplicacion móvil "HormonalCare". A continuación se detallan los logros clave de este Sprint:
+
+Pantalla de perfil: Se mejoró la pantalla de perfil de usuario en el modo de doctor.
+
+Interfaz de Calendario: Se realizaron mejoras en la interfaz del calendario, que permite añadir color, editar y eliminar un evento.
+
+Mejoras en la sección de "Pacientes del Día": En la sección "Pacientes del Día", se añadió información adicional para cada cita médica, permitiendo a los doctores una mejor preparación previa a cada consulta.
+
+
+Capturas de Pantalla
+
+A continuación se presentan capturas de pantalla de las principales pantallas implementadas en este Sprint:
+
+
+
+<img src="images/home_execution_4_1.png" >
+
+<img src="images/inf_execution_4_1.png" >
+
+
+
+
 ##### 5.2.5.6. Services Documentation Evidence for Sprint Review
+
+Para el sprint 4 se crearon algunos endpoints y otros fueron modificados:
+
+| EndPoint                                                | Detalles                                                                                                             |
+|---------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+| /api/v1/authentication/sign-up                          | Permite registrar nuevos usuarios en la plataforma, con roles ROLE_PATIENT o ROLE_DOCTOR.                           |
+| /api/v1/authentication/sign-in                          | Permite a los usuarios autenticarse y acceder a la plataforma; ahora el response body incluye el rol del usuario.    |
+| /api/v1/profile/profile                                 | Permite obtener, actualizar y gestionar el perfil del usuario.                                                      |
+| /api/v1/profile/profile/{profileId}/full-update         | Endpoint para la edición completa de perfiles de usuario.                                                           |
+| /api/v1/profile/profile/userId/{userId}                 | Devuelve el perfil del usuario con el userId especificado.                                                          |
+| /api/v1/medicalAppointment                              | Gestiona las citas médicas (agregar, obtener, actualizar).                                                          |
+| /api/v1/medicalAppointment/{id}                         | Obtiene o actualiza una cita médica específica.                                                                     |
+| /api/v1/medicalAppointment/medicalAppointments/doctor/{doctorId} | Devuelve todas las citas médicas ordenadas asociadas a un doctor específico por doctorId.                           |
+| /api/v1/medical-record/treatments                       | Permite gestionar los tratamientos médicos (agregar, obtener, actualizar).                                          |
+| /api/v1/medical-record/treatments/{id}                  | Obtiene o actualiza un tratamiento médico específico.                                                               |
+| /api/v1/medical-record/patient                          | Gestiona los datos del paciente (obtener, actualizar).                                                              |
+| /api/v1/medical-record/patient/{id}                     | Obtiene o actualiza la información médica específica de un paciente.                                                |
+| /api/v1/medical-record/patient/doctor/{doctorId}        | Devuelve todos los pacientes que comparten el mismo doctorId.                                                       |
+| /api/v1/doctor/doctor                                   | Gestiona los datos de los doctores (obtener, actualizar).                                                           |
+| /api/v1/doctor/doctor/{id}                              | Obtiene o actualiza los datos de un doctor específico.                                                              |
+| /api/v1/medical-record/medications                      | Gestiona los registros de medicación (agregar, obtener, actualizar).                                                |
+| /api/v1/medical-record/medications/{id}                 | Obtiene o actualiza un registro de medicación específico.                                                           |
+| /api/v1/medical-record/appointments                     | Permite gestionar el historial de citas del paciente (agregar, obtener, actualizar).                                |
+| /api/v1/medical-record/appointments/{id}                | Obtiene o actualiza una cita específica en el historial de un paciente.                                             |
+| /api/v1/medical-record/consultations                    | Gestiona las consultas del historial médico de un paciente (agregar, obtener, actualizar).                          |
+| /api/v1/medical-record/consultations/{id}               | Obtiene o actualiza una consulta específica en el historial médico del paciente.                                    |
+
+Además, con respecto a los métodos HTTP permitidos, algunos endpoints podrían no tener todos los métodos debido a la lógica del negocio.
+- **GET**: Utilizado para obtener información. Todos los endpoints deben admitir este método.
+- **POST**: Utilizado para agregar nuevos registros.
+- **PUT/PATCH**: Utilizado para actualizar información existente. Algunos endpoints podrían no admitir PUT, pero sí admitir PATCH si solo necesitan actualizaciones parciales.
+- **DELETE**: Utilizado para eliminar registros existentes. Algunos endpoints podrían no admitir este método por razones de seguridad o integridad de los datos.
+
+
 ##### 5.2.5.7. Software Deployment Evidence for Sprint Review
+
+Para asegurar la continuidad en la implementación del despliegue automático de nuestra aplicación "HormonalCare", seguimos utilizando las mismas herramientas. En este Sprint, se continuó con el despliegue del backend utilizando Railway.
+
+**Despliegue del Backend en Railway**
+
+- **Railway**: Subimos el repositorio del backend a Railway, donde se configuró la base de datos MySQL necesaria para la aplicación. Este despliegue permite que la aplicación esté disponible para pruebas y evaluaciones continuas, optimizando el flujo de trabajo y la velocidad de implementación de nuevas funcionalidades.
+
+A continuación, se presentan capturas de pantalla del proceso de despliegue:
+
+<img src="images/deploy4_1.png">
+  
+<img src="images/deploy4_2.png" >
+  
+<img src="images/deploy4_3.png" >
+  
+<img src="images/deploy4_4.png" >
+  
+<img src="images/deploy4_5.png" >
+
+
 ##### 5.2.5.8. Team Collaboration Insights during Sprint
+
+Durante este sprint, la colaboración se gestionó mediante Git y GitHub, con commits y revisiones continuas para garantizar que los servicios implementados cumplieran con los estándares establecidos por el equipo. En esta entrega, se avanzó en el desarrollo del frontend de la aplicación móvil utilizando Visual Studio Code. Al igual que en entregas anteriores, el trabajo se organizó dividiendo el bounded context de Medical Record y Medical Appointment entre los miembros del equipo. Se continuó trabajando en el repositorio de la organización NinjaCode, donde cada miembro creó su propia rama para desarrollar la funcionalidad asignada. Una vez que las implementaciones fueron completadas y validadas, cada participante integró sus cambios desde su rama a la rama Develop.
+
+<img src="images/teamcollaborationinsight4.png" >
+
 
 ### 5.3. Validation Interviews
 #### 5.3.1.  Diseño de Entrevistas
