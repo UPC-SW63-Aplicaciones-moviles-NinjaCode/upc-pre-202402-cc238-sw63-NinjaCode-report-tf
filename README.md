@@ -2494,14 +2494,97 @@ Los usuarios pueden acceder a la landing page para descargar directamente el arc
 
 ### 5.2. Landing Page & Mobile Application Implementation
 ##### 5.2.1. Sprint 1
+
 ##### 5.2.1.1. Sprint Planning 1
+
+En este sprint, el enfoque estará en completar las funcionalidades clave relacionadas con la gestión de citas, notificaciones y la comunicación entre pacientes y médicos en la aplicación móvil “HormonalCare”. Se implementarán mejoras en la interacción del usuario con el calendario y la visualización de su medicación, asegurando que el sistema sea funcional y escalable, manteniendo las mejores prácticas de desarrollo para garantizar un rendimiento óptimo.
+
+|Sprint #|Sprint 1|
+| - | - |
+|**Sprint Planning Background**||
+|Date|09-17-2024|
+|Time|9:00|
+|Location|Reunión realizada mediante Discord|
+|Prepared By|Claudio Sandro Quispesivana Torres|
+|Attendees (to planning meeting)|Quispesivana Torres Claudio Sandro|
+|**Sprint Goal & User Stories**||
+|Sprint 1 Goal|Completar la implementación de las funcionalidades de citas, notificaciones y gestión de pacientes para mejorar la experiencia del usuario en la aplicación.|
+|Sprint 1 Velocity|15|
+|Sum of Story Points|15|
+
+
 ##### 5.2.1.2. Sprint Backlog 1
+
+En este sprint, el enfoque principal es la implementación de funcionalidades críticas relacionadas con la gestión de usuarios, citas médicas y la interacción entre doctores y pacientes en la aplicación. Esto incluye el desarrollo de endpoints clave para el manejo de autenticación, perfiles, citas médicas, historiales de pacientes, y tratamientos, asegurando que cada uno de estos módulos permita las operaciones esenciales de creación, consulta y actualización de datos. Además, se prioriza la mejora de la interfaz para facilitar una experiencia de usuario fluida, particularmente para doctores, con el objetivo de optimizar la navegación entre los perfiles de pacientes y la programación de citas.
+| **ID** | **User Story**                              | **Work-Item / Task**                           | **Description**                                                                          | **Estimation (Hours)** | **Assigned To** | **Status**    |
+|--------|---------------------------------------------|------------------------------------------------|------------------------------------------------------------------------------------------|-------------------------|-----------------|---------------|
+| US01   | Visualización del Header                   | T01: Diseño del header                         | Diseñar el encabezado principal visible en todas las páginas de la aplicación             | 3                       | Jherson         | Done          |
+|        |                                             | T02: Implementación del header                 | Implementar el diseño del encabezado en la aplicación                                    | 6                       | Luis            | Done          |
+|        |                                             | T03: Pruebas del header                        | Realizar pruebas para verificar la correcta visualización y funcionalidad del header      | 4                       | Estefano        | Done          |
+| US02   | Información sobre Planes o Suscripciones   | T01: Diseño de la sección de planes            | Diseñar la sección donde los usuarios puedan visualizar los diferentes planes o servicios | 4                       | Sandro          | Done          |
+|        |                                             | T02: Implementación de la sección de planes    | Implementar el diseño y contenido de la sección de planes                                | 7                       | Luis            | Done          |
+|        |                                             | T03: Pruebas de la sección de planes           | Realizar pruebas para garantizar el correcto despliegue de los planes                    | 4                       | Estefano        | Done          |
+| US03   | Visualización del footer en la landing page| T01: Diseño del footer                         | Diseñar el pie de página para la landing page, incluyendo enlaces y datos necesarios      | 4                       | Estefano        | Pending       |
+|        |                                             | T02: Implementación del footer                 | Implementar el diseño del footer en la landing page                                      | 8                       | Luis            | Pending       |
+|        |                                             | T03: Pruebas del footer                        | Realizar pruebas para verificar la correcta visualización y enlaces del footer           | 4                       | Jherson         | Pending       |
+| US04   | Conocer la misión y visión de la aplicación| T01: Diseño de la sección de misión y visión   | Diseñar la sección donde se muestre la misión y visión de la aplicación                  | 4                       | Luis            | Done          |
+|        |                                             | T02: Implementación de la sección de misión y visión | Implementar la sección que muestre la misión y visión de la app                       | 7                       | Estefano        | Done          |
+|        |                                             | T03: Pruebas de misión y visión                | Realizar pruebas para asegurar el despliegue correcto de la misión y visión              | 3                       | Sandro          | In Progress   |
+| US05   | Comunicación directa con el equipo de soporte| T01: Diseño del sistema de soporte             | Diseñar el sistema de comunicación directa para usuarios con el equipo de soporte         | 4                       | Estefano        | Pending       |
+|        |                                             | T02: Implementación del sistema de soporte     | Implementar la funcionalidad que permita comunicación directa con el equipo de soporte   | 6                       | Jherson         | Pending       |
+|        |                                             | T03: Pruebas del sistema de soporte            | Realizar pruebas para verificar el correcto funcionamiento del sistema de soporte        | 4                       | Sandro          | Pending       |
+
 ##### 5.2.1.3. Development Evidence for Sprint Review
+
+A medida que avanzamos en el desarrollo la landingpage, aquí se documentan los commits relacionados con los servicios y funcionalidades implementadas. 
+
+
+|Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on (Date)|
+| - | - | - | - | - | - |
+|hormonal-landing-page| main |c888e8d0d5ae430326b6680f0a70611dcca7db8a|Initial commit|-|14/09/2024|
+|hormonal-landing-page| main |1eb23700124a55011fbad90013b890c8ec82e153|fit: colors updated|-|15/09/2024|
+|hormonal-landing-page| main |be9c74e42cbf1f71db34cf3e3010bcda9f87a993|feat: link para video about the product|-|21/11/2024|
+|hormonal-landing-page| main |44ec541ad5050965a984920dc9bb0bd0e3b55e2c|fix: link|-|21/11/2024|
+
+
 ##### 5.2.1.4. Testing Suite Evidence for Sprint Review
+
+Para esta entrega se realizaron pruebas unitarias en la landing page. 
+
+|Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on (Date)|
+| - | - | - | - | - | - |
+|hormonal-landing-page| main |c888e8d0d5ae430326b6680f0a70611dcca7db8a|Initial commit|-|14/09/2024|
+|hormonal-landing-page| main |1eb23700124a55011fbad90013b890c8ec82e153|fit: colors updated|-|15/09/2024|
+|hormonal-landing-page| main |be9c74e42cbf1f71db34cf3e3010bcda9f87a993|feat: link para video about the product|-|21/11/2024|
+|hormonal-landing-page| main |44ec541ad5050965a984920dc9bb0bd0e3b55e2c|fix: link|-|21/11/2024|
+
 ##### 5.2.1.5. Execution Evidence for Sprint Review
+
+**Capturas de Pantalla**
+
+A continuación se presentan capturas de pantalla de las principales vistas implementadas:
+
+
 ##### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+En este primer Sprint tenemos los siguientes servicios:
+
+
+
 ##### 5.2.1.7. Software Deployment Evidence for Sprint Review
+
+Para seguir con la implementación del despliegue automático de nuestra aplicación HormonalCare, seguimos urilizando las mismas herramientas del primer sprint:
+
+##### A continuación se muestran las evidencias: 
+
+
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
+
+Durante este sprint, la colaboración se realizó a través de Git y GitHub. 
+
+<img src = "images/insights2.png">
+<img src = "images/Insights2.1.png">
+
 
 #### 5.2.2. Sprint 2
 
