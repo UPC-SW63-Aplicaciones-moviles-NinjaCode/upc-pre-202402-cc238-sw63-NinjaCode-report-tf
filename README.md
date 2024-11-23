@@ -3212,9 +3212,9 @@ En este Sprint, el equipo se enfocó en terminar el frontend y las conexiones co
 
 Pantalla de perfil: Se mejoró la pantalla de perfil de usuario en el modo de doctor.
 
-Interfaz de Calendario: Se realizaron mejoras en la interfaz del calendario, que permite añadir color, editar y eliminar un evento.
+Pantalla de Sign Up: Se terminó de implementar el sign up de doctor y patient y se corrigió el log in.
 
-Mejoras en la sección de "Pacientes del Día": En la sección "Pacientes del Día", se añadió información adicional para cada cita médica, permitiendo a los doctores una mejor preparación previa a cada consulta.
+Reportes externos: Se implementó la funciónalidad de descargar reportes externos o archivos pdf o png.
 
 Pantalla de notificaciones: se implementó notificación para 30 minutos antes de una cita médica
 
@@ -3226,9 +3226,14 @@ A continuación se presentan capturas de pantalla de las principales pantallas i
 
 
 
-<img src="images/home_execution_4_1.png" >
+<img src="images/evicenceProfile.png" >
 
-<img src="images/inf_execution_4_1.png" >
+<img src="images/evicenceExternalReports.png" >
+
+<img src="images/evidenceNotifications.png" >
+
+<img src="images/evidenceSignUp.png" >
+
 
 
 
