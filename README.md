@@ -3674,6 +3674,24 @@ API (Interfaz de Programación de Aplicaciones): Un conjunto de reglas y definic
 
 Backend: Parte del sistema que se encarga de gestionar la lógica de negocio, almacenamiento de datos, autenticación de usuarios, y seguridad. En HormonalCare, gestiona datos médicos y autentica usuarios.
 
+Cita Médica: Es una programación de una consulta entre un paciente y un profesional de la salud, en la que se especifica la fecha, hora y detalles de la consulta. En HormonalCare, los usuarios (pacientes y médicos) gestionan y visualizan sus citas a través del calendario de la aplicación.
+
+Reportes Externos: Documentos o archivos médicos generados fuera del sistema de HormonalCare, como exámenes o informes de laboratorios, que pueden ser cargados y visualizados dentro de la aplicación por los médicos para complementar el historial del paciente.
+
+Exámenes Médicos: Procedimientos realizados para evaluar el estado de salud de un paciente, como análisis de sangre, radiografías, ecografías, entre otros. Estos exámenes son parte de los datos almacenados en el medical record y pueden ser consultados y gestionados por los profesionales de la salud en HormonalCare.
+
+Tratamiento Médico: Plan de acción diseñado por un profesional de la salud para abordar la condición o enfermedad de un paciente. Incluye medicamentos, terapias, intervenciones quirúrgicas, entre otros, y se gestiona dentro del medical record del paciente.
+
+Historial Médico: Conjunto de registros médicos del paciente que incluye diagnósticos previos, tratamientos realizados, resultados de exámenes, alergias, antecedentes familiares y otros datos relevantes. Este historial es accesible por los profesionales de la salud dentro de HormonalCare.
+
+Medical Record (Expediente Médico): Es un sistema digital que almacena toda la información médica de un paciente, incluyendo diagnósticos, tratamientos, exámenes y reportes, disponible para los médicos y otros profesionales de la salud. En HormonalCare, este registro es accesible tanto para pacientes como para médicos.
+
+Railway: Concepto utilizado en el desarrollo de sistemas informáticos y de salud que hace referencia a la estructura organizada y secuencial de los procesos, donde cada tarea se sigue de manera lógica y fluida. En el contexto de HormonalCare, podría aplicarse a la gestión eficiente de los datos y flujos de trabajo dentro de la plataforma.
+
+Videoconferencia: Comunicación en tiempo real mediante video entre un paciente y un profesional de la salud. En HormonalCare, se utiliza para consultas médicas virtuales, permitiendo la atención a distancia de pacientes y médicos a través de la plataforma.
+
+Meeting (Reunión): Un encuentro virtual o presencial entre los miembros del equipo de desarrollo o entre profesionales de la salud y pacientes. En el contexto de HormonalCare, las reuniones pueden incluir discusiones sobre el tratamiento de pacientes o revisiones de progreso dentro del desarrollo del proyecto.
+
 Frontend: La parte de la aplicación visible para el usuario, encargada de la interfaz y experiencia del usuario. En HormonalCare, el frontend se desarrolla utilizando Flutter para crear interfaces móviles.
 
 JWT (JSON Web Token): Estándar abierto para la autenticación segura, utilizado para verificar la identidad de los usuarios y permitir el intercambio de información de manera segura en las aplicaciones.
