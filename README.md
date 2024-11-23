@@ -3670,6 +3670,49 @@ Microsoft Stream: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215099_u
 
 ## Glosario
 
+API (Interfaz de Programación de Aplicaciones): Un conjunto de reglas y definiciones que permite que diferentes aplicaciones se comuniquen entre sí, permitiendo la interacción entre el frontend y el backend de la aplicación.
+
+Backend: Parte del sistema que se encarga de gestionar la lógica de negocio, almacenamiento de datos, autenticación de usuarios, y seguridad. En HormonalCare, gestiona datos médicos y autentica usuarios.
+
+Frontend: La parte de la aplicación visible para el usuario, encargada de la interfaz y experiencia del usuario. En HormonalCare, el frontend se desarrolla utilizando Flutter para crear interfaces móviles.
+
+JWT (JSON Web Token): Estándar abierto para la autenticación segura, utilizado para verificar la identidad de los usuarios y permitir el intercambio de información de manera segura en las aplicaciones.
+
+Figma: Herramienta de diseño de interfaces que se utilizó en HormonalCare para crear prototipos interactivos y asegurar una experiencia de usuario intuitiva.
+
+Vertabelo: Herramienta para modelar bases de datos que fue utilizada en HormonalCare para diseñar y gestionar la estructura de las bases de datos, asegurando una correcta integración con el backend.
+
+Docker: Plataforma que permite la creación, despliegue y ejecución de aplicaciones en contenedores, facilitando la implementación de HormonalCare de forma más eficiente y escalable.
+
+Swagger: Herramienta de documentación de APIs que ayuda a visualizar y probar las APIs de manera sencilla, utilizada para asegurar que las comunicaciones entre el frontend y el backend en HormonalCare fueran claras y eficientes.
+
+Postman: Herramienta para probar y depurar APIs, utilizada para garantizar que las solicitudes y respuestas entre el frontend y el backend de HormonalCare funcionaran correctamente.
+
+Lean UX: Metodología centrada en el usuario que se utilizó en HormonalCare para diseñar y optimizar la experiencia del usuario mediante el aprendizaje constante y la colaboración en equipo.
+
+Spring Boot: Framework de desarrollo en Java utilizado en HormonalCare para implementar el backend de la aplicación, facilitando la creación de servicios web robustos y escalables.
+
+Flutter: Framework de desarrollo de aplicaciones móviles que se utilizó para crear el frontend de HormonalCare, permitiendo la creación de aplicaciones nativas de alto rendimiento para Android e iOS.
+
+Firebase: Plataforma en la nube utilizada en HormonalCare para el almacenamiento de datos en tiempo real, manejo de archivos y gestión de autenticación de usuarios.
+
+Swagger UI: Interfaz gráfica generada automáticamente por Swagger que permite probar las APIs, facilitando el desarrollo y asegurando la correcta integración entre sistemas en HormonalCare.
+
+User Stories: Descripciones simples y concisas de funcionalidades desde la perspectiva del usuario, utilizadas en HormonalCare para garantizar que las necesidades del usuario final fueran cumplidas durante el desarrollo.
+
+Medical Record (Expediente Médico): Conjunto de datos médicos de un paciente almacenados en HormonalCare, que incluye información sobre diagnósticos, tratamientos, y resultados médicos, accesibles por los profesionales de la salud.
+
+User Flow: Diagrama visual que representa el recorrido de un usuario a través de la aplicación, utilizado en HormonalCare para optimizar la navegación y garantizar una experiencia de usuario fluida.
+
+Lean UX Canvas: Herramienta visual que se utilizó para mapear las hipótesis de diseño y asegurar que las decisiones tomadas durante el desarrollo de HormonalCare estuvieran alineadas con las necesidades del usuario.
+
+Notificaciones Push: Mensajes enviados a los dispositivos móviles de los usuarios para mantenerlos informados sobre citas médicas y recordatorios, implementadas en HormonalCare para mejorar la interacción con los pacientes.
+
+Calendario de Citas: Funcionalidad dentro de HormonalCare que permite a los doctores y pacientes ver y gestionar las citas médicas, permitiendo una gestión eficiente de los tiempos y mejorando la organización.
+
+API RESTful: Conjunto de principios para el diseño de APIs basadas en HTTP que se utilizan en HormonalCare para asegurar una comunicación eficiente y escalable entre el frontend y el backend.
+
+
 ## Referencias Bibliográficas
 
 * Abramo, L., Cecchini, S., & Ullmann, H.. (2020). Enfrentar las desigualdades en salud en América Latina: el rol de la protección 	social. Ciência & Saúde Coletiva, 25(5), 1587–1598. https://doi.org/10.1590/1413-81232020255.32802019
