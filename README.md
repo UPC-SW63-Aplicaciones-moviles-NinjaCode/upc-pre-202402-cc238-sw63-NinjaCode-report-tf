@@ -3138,53 +3138,44 @@ Durante este sprint, la colaboración se gestionó mediante Git y GitHub, con co
 ##### 5.2.5. Sprint 5
 ##### 5.2.5.1. Sprint Planning 5
 
-En este sprint, el enfoque se puso en terminar las funcionalidades clave del sprint 4, principal mente de front end, relacionadas con la gestión de citas, calendario, perfil, historia clínica, sign in y sign up de la parte del doctor en la aplicación móvil “HormonalCare”. Se implementarán mejoras en la interfaz de la aplicación mejorando así la interacción del usuario, asegurando que el sistema sea funcional y escalable, manteniendo las mejores prácticas de desarrollo para garantizar un rendimiento óptimo.
+En este sprint, el enfoque se puso en terminar las funcionalidades clave del sprint 4, principal mente de front end, relacionadas con la gestión de citas, calendario, perfil, historia clínica, sign in y sign up de la parte del doctor en la aplicación móvil “HormonalCare”. Se implementarán mejoras en la interfaz de la aplicación mejorando así la interacción del usuario doctor, asegurando que el sistema sea funcional y escalable, manteniendo las mejores prácticas de desarrollo para garantizar un rendimiento óptimo.
 
 |Sprint #|Sprint 4|
 | - | - |
 |**Sprint Planning Background**||
-|Date|10-20-2024|
+|Date|11-17-2024|
 |Time|9:00|
 |Location|Reunión realizada mediante Discord|
 |Prepared By|Lostaunau Pereira Estéfano Sebastián|
 |Attendees (to planning meeting)|Astuyauri Calderon Jherson David / Chinchihualpa Saldarriaga Luis Sebastian/Lostaunau Pereira Estéfano Sebastián	/Quispesivana Torres Claudio Sandro|
 |**Sprint Goal & User Stories**||
-|Sprint 4 Goal|Completar la implementación de las funcionalidades relacionadas con la gestión de citas, calendario, perfil, historia clínica, sign in y sign up de la parte del doctor para mejorar la experiencia del usuario en la aplicación.|
+|Sprint 5 Goal|Finiquitar la implementación de las funcionalidades relacionadas con la gestión de citas, calendario, perfil, historia clínica, sign in y sign up de la parte del doctor para mejorar la experiencia del usuario en la aplicación.|
 |Sprint 4 Velocity|16|
-|Sum of Story Points|16|
+|Sum of Story Points|18|
 
 ##### 5.2.5.2. Sprint Backlog 5
 
-En este sprint, el objetivo principal es implementar y mejorar funcionalidades que faciliten la planificación y registro de información médica en la aplicación. Esto incluye mejorar las secciones anteriores, gestionar el registro y seguimiento de pacientes por parte de los médicos, y asegurar que se puedan añadir y visualizar diagnósticos, tratamientos, y recordatorios. 
+En este sprint, el objetivo principal es finiquitar todas las  funcionalidades de la aplicación. Esto incluye mejorar las secciones anteriores, gestionar el registro y seguimiento de pacientes por parte de los médicos, y asegurar que se puedan añadir y visualizar diagnósticos, tratamientos, y recordatorios. 
 He actualizado el sprint para reflejar los cambios solicitados. Aquí está el nuevo desglose con la eliminación de US06 y la adición de US40:
 
 | ID   | User Story                                 | Work-Item / Task                                   | Description                                                                                  | Estimation (Hours) | Assigned To | Status       |
-|------|--------------------------------------------|----------------------------------------------------|----------------------------------------------------------------------------------------------|-------------------|-------------|--------------|
-| US08 | Integración de Google Calendar             | T01: Configuración de Google Calendar en backend   | Integrar Google Calendar para visualizar citas y horarios de medicación en la app            | 5                 | Estefano    | Pending      |
-|      |                                            | T02: Implementación de la API de Google Calendar   | Crear la API para sincronizar citas médicas y horarios de medicación con Google Calendar     | 6                 | Jherson     | Pending      |
-|      |                                            | T03: Pruebas de integración de Google Calendar     | Verificar que los eventos en Google Calendar se reflejan correctamente en la aplicación      | 4                 | Luis        | Pending      |
-| US16 | Registro con código de médico              | T01: Implementación del campo de código            | Crear el campo para ingresar el código de registro proporcionado por el médico               | 3                 | Sandro      | In Progress         |
-|      |                                            | T02: Validación del código de registro             | Verificar que el código ingresado sea válido y esté asociado a un médico registrado          | 5                 | Estefano    | In Progress         |
-|      |                                            | T03: Pruebas de registro con código                | Realizar pruebas para confirmar que el registro con código funciona correctamente            | 3                 | Jherson     | Pending         |
-| US29 | Ver historial médico                       | T01: Creación de la vista de historial             | Diseñar la vista donde el doctor pueda ver el historial médico del paciente                  | 4                 | Luis        | Done         |
-|      |                                            | T02: Implementación de la API de historial médico  | Crear la API que permita al doctor acceder al historial completo del paciente                | 6                 | Estefano    | Done         |
-|      |                                            | T03: Pruebas del historial médico                  | Verificar que el historial médico se muestra y actualiza correctamente                       | 3                 | Sandro      | Pending      |
-| US44 | Enlace de videoconferencias                | T01: Integración de enlace de videollamada         | Configurar el enlace de videollamada para que el doctor pueda acceder en el momento adecuado | 5                 | Sandro      | Pending      |
-|      |                                            | T02: Implementación del botón de videollamada      | Añadir un botón en la interfaz para acceder a la videollamada directamente                   | 4                 | Jherson     | Pending      |
-|      |                                            | T03: Pruebas del enlace de videollamada            | Realizar pruebas para asegurar que el enlace de videollamada funciona correctamente          | 3                 | Luis        | Pending      |
-| US50 | Añadir medicación                          | T01: Diseño de la vista de receta médica           | Crear una vista donde el doctor pueda añadir y especificar la receta médica del paciente     | 3                 | Estefano    | Done         |
-|      |                                            | T02: Implementación de la funcionalidad de receta  | Permitir al doctor añadir y editar medicación en el perfil del paciente                      | 4                 | Sandro      | Done         |
-|      |                                            | T03: Pruebas de la funcionalidad de receta         | Verificar que la receta médica se añade y se muestra correctamente                           | 2                 | Jherson     | Pending      |
-| US42 | Ver recordatorios de hoy                   | T01: Diseño de la vista de recordatorios           | Diseñar la interfaz para que el paciente pueda ver sus recordatorios de hoy                  | 3                 | Luis        | In Progress  |
-|      |                                            | T02: Implementación de recordatorios               | Desarrollar la funcionalidad para mostrar los recordatorios programados del día             | 4                 | Estefano    | In Progress  |
-|      |                                            | T03: Pruebas de recordatorios                      | Realizar pruebas para asegurar que los recordatorios del día se muestran correctamente       | 2                 | Sandro      | Pending      |
-| US49 | Diagnóstico y tratamiento                  | T01: Diseño de la vista de diagnóstico             | Crear una vista para que el doctor pueda añadir y ver diagnósticos y tratamientos            | 3                 | Jherson     | Done         |
-|      |                                            | T02: Implementación de diagnóstico y tratamiento   | Desarrollar la funcionalidad para agregar diagnósticos y tratamientos en el perfil del paciente | 5              | Luis        | Done         |
-|      |                                            | T03: Pruebas de diagnóstico y tratamiento          | Verificar que el diagnóstico y tratamiento se añade y se muestra correctamente               | 3                 | Estefano    | Done         |
-| US40 | Paciente accede a su perfil de usuario     | T01: Creación de la vista de perfil                | Diseñar la vista para que el paciente pueda ver y editar su información médica               | 4                 | Jherson     | Done      |
-|      |                                            | T02: Implementación de funcionalidad de perfil     | Permitir que el paciente edite su perfil médico de manera segura                             | 5                 | Sandro      | Done      |
-|      |                                            | T03: Pruebas de perfil de usuario                  | Realizar pruebas para confirmar que el perfil de usuario se visualiza y edita correctamente  | 3                 | Estefano    | Done      |
-
+|------|--------------------------------------------|----------------------------------------------------|----------------------------------------------------------------------------------------------|--------------------|-------------|--------------|
+| US08 | Sign Up y Log In                           | T01: Implementación de la pantalla de Sign Up      | Finalizar la pantalla de registro de usuarios para pacientes y doctores                      | 4                  | Sandro      | Done          |
+|      |                                            | T02: Implementación de la pantalla de Log In       | Completar la implementación de la pantalla de inicio de sesión para pacientes y doctores      | 4                  | Jherson     | Done          |
+|      |                                            | T03: Pruebas del sistema de Sign Up y Log In       | Realizar pruebas para verificar el funcionamiento correcto de la autenticación de usuarios    | 3                  | Estefano    | Done          |
+| US10 | Subida de Archivos (Exámenes y Reportes)   | T01: Implementación de la subida de archivos médicos | Desarrollar la funcionalidad para permitir a los doctores y pacientes subir exámenes médicos  | 6                  | Luis        | Done          |
+|      |                                            | T02: Visualización de archivos subidos             | Mostrar los archivos subidos en el historial del paciente para que el doctor pueda verlos     | 5                  | Estefano    | Done          |
+|      |                                            | T03: Pruebas de subida de archivos                 | Verificar que los archivos subidos se almacenan correctamente y se muestran en el frontend   | 4                  | Sandro      | Done          |
+| US24 | Home del Doctor                            | T01: Implementación de la vista de pacientes de hoy | Mostrar la lista de pacientes que tienen cita hoy en la página de inicio del doctor           | 5                  | Sandro      | Done          |
+|      |                                            | T02: Botón para acceder a la historia clínica      | Crear un botón para que el doctor pueda ver el expediente médico de cada paciente             | 4                  | Jherson     | Done          |
+|      |                                            | T03: Redirección a perfil del paciente             | Implementar la redirección al perfil completo del paciente al hacer clic en su nombre o foto  | 3                  | Luis        | Done          |
+| US25 | Cartera de Pacientes                       | T01: Implementación de la vista de la cartera de pacientes | Mostrar a los pacientes en formato de tarjeta con botones para ver consultas e historial     | 6                  | Estefano    | Done          |
+|      |                                            | T02: Implementación de filtros y búsqueda           | Agregar funcionalidad de búsqueda y filtros para que el doctor pueda encontrar pacientes fácilmente | 5             | Sandro      | Done          |
+|      |                                            | T03: Pruebas de la funcionalidad de la cartera     | Realizar pruebas para verificar el correcto funcionamiento de la grilla de pacientes         | 4                  | Jherson     | Done          |
+| US28 | Calendario de Citas                        | T01: Implementación del calendario de citas        | Desarrollar la funcionalidad para que el doctor vea y agende citas directamente en el calendario | 6                | Luis        | Done          |
+|      |                                            | T02: Pruebas del calendario                        | Verificar que el calendario se actualice correctamente y permita programar nuevas citas     | 4                  | Estefano    | Done          |
+| US40 | Perfil del Paciente                        | T01: Implementación de la vista de perfil del paciente | Crear la vista para que los pacientes vean sus datos médicos de manera fácil y accesible     | 5                  | Jherson     | Done          |
+|      |                                            | T02: Pruebas de la visualización del perfil        | Realizar pruebas para asegurar que la visualización del perfil médico sea correcta          | 3                  | Luis        | Done          |
 
 ##### 5.2.5.3. Development Evidence for Sprint Review
 
