@@ -3184,11 +3184,11 @@ A medida que avanzamos en el desarrollo del backend y frontend, aquí se documen
 
 |Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commited on (Date)|
 | - | - | - | - | - | - |
-|hormonal-care-frontend| develop |586e26880a80235373cedb65cf0c005913b122f0|feat: patient list created|-|24/10/2024|
-|hormonal-care-frontend| develop |da200d57fb18784bec5e84a74798f3304f50ecc3|feat(profile screen): added put methods for patient and doctor profiles|-|01/11/2024|
-|hormonal-care-frontend| develop |3dcd9e31f0ba8864616a9eedd48c78f38b92f07a|feat: add POST methods for treatment, prescription, and medication|-|01/11/2024|
-|hormonal-care-frontend| develop |c8677c342efcc6510d7c68fe0036dc57c9152197|feat: added detailed appointment info dialog|-|01/11/2024|
-|hormonal-care-frontend| develop |ca2fb89b81310880bc0dd0184b97e7de8e48a7bc|feat(sign-up): added select user type screen, patient and doctor sign up screen and functionality|-|03/11/2024|
+|hormonal-care-frontend| develop |586e26880a80235373cedb65cf0c005913b122f0|feat: patient list created|-|11/11/2024|
+|hormonal-care-frontend| develop |ff5d84f1d7c60f470199813c7a649b62b236c2ee|fix: fixed patient list appointment.|-|12/11/2024|
+|hormonal-care-frontend| develop |3b72164d64a6ca82568c8a263a598991df821b86|feat: conexion with back end deployed|-|14/11/2024|
+|hormonal-care-frontend| develop |ca2fb89b81310880bc0dd0184b97e7de8e48a7bc|ffeat(sign-up): added select user type screen, patient and doctor sign up screen and functionality|-|05/11/2024|
+|hormonal-care-frontend| develop |6bf657953682946c8ae877d29f746c72352d53fc|feat (notifications): add notifications for appointments coming in 30 minutes|-|20/11/2024|
 
 
 ##### 5.2.5.4. Testing Suite Evidence for Sprint Review
@@ -3208,13 +3208,16 @@ Para esta entrega se realizaron pruebas unitarias en , autenticación y suscripc
 
 ##### 5.2.5.5. Execution Evidence for Sprint Review
 
-En este Sprint, el equipo se enfocó en mejorar el frontend y las conexiones con el backedn de la aplicacion móvil "HormonalCare". A continuación se detallan los logros clave de este Sprint:
+En este Sprint, el equipo se enfocó en terminar el frontend y las conexiones con el backend la aplicacion móvil "HormonalCare". A continuación se detallan los logros clave de este Sprint:
 
 Pantalla de perfil: Se mejoró la pantalla de perfil de usuario en el modo de doctor.
 
 Interfaz de Calendario: Se realizaron mejoras en la interfaz del calendario, que permite añadir color, editar y eliminar un evento.
 
 Mejoras en la sección de "Pacientes del Día": En la sección "Pacientes del Día", se añadió información adicional para cada cita médica, permitiendo a los doctores una mejor preparación previa a cada consulta.
+
+Pantalla de notificaciones: se implementó notificación para 30 minutos antes de una cita médica
+
 
 
 Capturas de Pantalla
