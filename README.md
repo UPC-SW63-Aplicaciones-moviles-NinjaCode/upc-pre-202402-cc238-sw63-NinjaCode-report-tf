@@ -3615,6 +3615,15 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 
 ### 5.4. Video About-the-Product
 
+
+En esta sección, presentamos un video detallado sobre HormonalCare, diseñado para ofrecer una visión completa de sus características, funcionalidades, ventajas y una opinion de un paciente y medico acerca del mismo.
+
+A continuación, puedes ver el video a través de dos plataformas:
+
+Youtube: https://youtu.be/Eg2EyFeUo_g (2:15)
+
+Microsoft Stream: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215099_upc_edu_pe/EUnXAb-_IgBGltDMrTT5a4IBaxp5cDvUIVLnlD5pxFfCiQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=tgmmRe
+
 ## Conclusiones
 
 
@@ -3654,6 +3663,12 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 
 
 ### Video App Validation
+
+Aquí se presenta el video de validación de la aplicación en el cual se muestran los flujos de interacción de los usuarios y las funcionalidades implementadas y toda la aplicación en funciónamiento:
+
+Youtube: https://youtu.be/Eg2EyFeUo_g (3:34)
+
+
 ### Video About the product
 
 En esta sección, presentamos un video detallado sobre HormonalCare, diseñado para ofrecer una visión completa de sus características, funcionalidades, ventajas y una opinion de un paciente y medico acerca del mismo.
@@ -3666,6 +3681,13 @@ Microsoft Stream: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215099_u
 
 ### Video About the team
 
+En esta sección, presentamos el video sobre About the team, en el que cada uno menciona en retrospectiva las partes desarolladas en particular para el proyecto y lo que ha aprendido con el desarollo del mismo.
+
+A continuación, puedes ver el video a través de dos plataformas:
+
+Youtube: https://youtu.be/7tG8KmxpN6c (6:40)
+
+Microsoft Stream: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215099_upc_edu_pe/EYkZt4VfJ55Ou2sDBE28EqoBWABS6r18GKdLR1cCnDQsuQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=PTGcG4
 
 
 ## Glosario
